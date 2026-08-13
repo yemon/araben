@@ -1,0 +1,397 @@
+{
+  "categories": [
+    {
+      "slug": "pronouns",
+      "title": "Pronouns",
+      "wordSlugs": [
+        "ana",
+        "anta",
+        "anti",
+        "huwa",
+        "hiya",
+        "nahnu",
+        "antum-pronouns",
+        "hum",
+        "hadha-pronouns",
+        "hadhihi",
+        "dhalika-pronouns"
+      ]
+    },
+    {
+      "slug": "question-words",
+      "title": "Question words",
+      "wordSlugs": [
+        "ma",
+        "madha",
+        "man",
+        "ayna-question-words",
+        "mata",
+        "kayfa",
+        "limadha",
+        "kam",
+        "hal"
+      ]
+    },
+    {
+      "slug": "greetings",
+      "title": "Greetings & politeness",
+      "wordSlugs": [
+        "as-salamu-alaykum",
+        "wa-alaykumus-salam",
+        "ahlan-wa-sahlan",
+        "marhaban",
+        "sabahul-khayr",
+        "masa-ul-khayr",
+        "kayfa-haluk",
+        "bikhayr",
+        "shukran",
+        "afwan",
+        "min-fadlik",
+        "naam",
+        "la",
+        "tayyib",
+        "maas-salama",
+        "alhamdulillah"
+      ]
+    },
+    {
+      "slug": "verbs",
+      "title": "Essential verbs",
+      "wordSlugs": [
+        "uridu",
+        "arifu",
+        "afhamu",
+        "atakallamu",
+        "adhhabu",
+        "amalu",
+        "askunu",
+        "uhibbu",
+        "akulu",
+        "ashrabu",
+        "indi",
+        "yumkin",
+        "taal",
+        "unzur",
+        "qul"
+      ]
+    },
+    {
+      "slug": "nouns",
+      "title": "Common nouns",
+      "wordSlugs": [
+        "ism",
+        "bayt",
+        "ma-nouns",
+        "taam",
+        "qahwa",
+        "shay",
+        "kitab",
+        "amal",
+        "yawm",
+        "layla",
+        "shahr-nouns",
+        "waqt",
+        "sadiq",
+        "rajul",
+        "imra-a",
+        "walad",
+        "nas",
+        "madina",
+        "balad",
+        "lugha",
+        "suq",
+        "sayyara",
+        "hatif",
+        "mal"
+      ]
+    },
+    {
+      "slug": "adjectives",
+      "title": "Adjectives",
+      "wordSlugs": [
+        "kabir",
+        "saghir",
+        "jadid",
+        "qadim",
+        "jayyid",
+        "khayr",
+        "jamil",
+        "said",
+        "kathir",
+        "qalil",
+        "sahl",
+        "sab",
+        "harr",
+        "barid"
+      ]
+    },
+    {
+      "slug": "particles",
+      "title": "Particles, prepositions, time words",
+      "wordSlugs": [
+        "fi",
+        "min-al-bayyinah",
+        "ila",
+        "ala-al-humazah",
+        "maa",
+        "an-particles",
+        "bi",
+        "li",
+        "wa",
+        "aw",
+        "lakin",
+        "kull",
+        "idha",
+        "hatta-particles",
+        "huna",
+        "hunaka",
+        "al-an",
+        "al-yawm",
+        "ghadan",
+        "amsi",
+        "jiddan",
+        "aydan"
+      ]
+    },
+    {
+      "slug": "numbers",
+      "title": "Numbers",
+      "wordSlugs": [
+        "wahid",
+        "ithnan",
+        "thalatha",
+        "arbaa",
+        "khamsa",
+        "sitta",
+        "saba",
+        "thamaniya",
+        "tisa",
+        "ashara",
+        "mi-a",
+        "alf"
+      ]
+    },
+    {
+      "slug": "patterns",
+      "title": "Sentence patterns",
+      "wordSlugs": [
+        "ayna-as-suq",
+        "uridu-qahwa-min-fadlik",
+        "uhibbu-hadhihil-madina-jiddan",
+        "amalu-fi-bangladesh",
+        "hadha-sahl-dhalika-sab"
+      ]
+    },
+    {
+      "slug": "survival",
+      "title": "Survival phrases",
+      "wordSlugs": [
+        "la-afham",
+        "la-arif",
+        "aid-min-fadlik",
+        "bibut-min-fadlik",
+        "ma-mana",
+        "kayfa-aqul",
+        "aynal-hammam",
+        "kamis-saa",
+        "mumkin",
+        "la-mushkila"
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "slug": "conversation-1",
+      "title": "পরিচয় (Introductions)",
+      "turns": [
+        {
+          "speaker": "A",
+          "arabic": "السَّلَامُ عَلَيْكُمْ",
+          "transliteration": "As-salamu 'alaykum",
+          "english": "Peace be upon you",
+          "bangla": "আসসালামু আলাইকুম"
+        },
+        {
+          "speaker": "B",
+          "arabic": "وَعَلَيْكُمُ السَّلَامُ",
+          "transliteration": "Wa 'alaykumus-salam",
+          "english": "And upon you peace",
+          "bangla": "ওয়া আলাইকুমুস সালাম"
+        },
+        {
+          "speaker": "A",
+          "arabic": "كَيْفَ حَالُكَ؟",
+          "transliteration": "Kayfa haluk?",
+          "english": "How are you?",
+          "bangla": "কেমন আছ?"
+        },
+        {
+          "speaker": "B",
+          "arabic": "بِخَيْرٍ، الْحَمْدُ لِلَّهِ. وَأَنْتَ؟",
+          "transliteration": "Bikhayr, alhamdulillah. Wa anta?",
+          "english": "Fine, alhamdulillah. And you?",
+          "bangla": "ভালো, আলহামদুলিল্লাহ। তুমি?"
+        },
+        {
+          "speaker": "A",
+          "arabic": "أَنَا بِخَيْرٍ. مَا اسْمُكَ؟",
+          "transliteration": "Ana bikhayr. Masmuk?",
+          "english": "I am fine. What is your name?",
+          "bangla": "আমি ভালো। তোমার নাম কী?"
+        },
+        {
+          "speaker": "B",
+          "arabic": "اِسْمِي يَمُون. وَأَنْتَ؟",
+          "transliteration": "Ismi Yemon. Wa anta?",
+          "english": "My name is Yemon. And you?",
+          "bangla": "আমার নাম ইয়েমন। আর তুমি?"
+        },
+        {
+          "speaker": "A",
+          "arabic": "أَنَا أَحْمَد. مِنْ أَيْنَ أَنْتَ؟",
+          "transliteration": "Ana Ahmad. Min ayna anta?",
+          "english": "I am Ahmad. Where are you from?",
+          "bangla": "আমি আহমদ। তুমি কোন দেশের?"
+        },
+        {
+          "speaker": "B",
+          "arabic": "أَنَا مِنْ بَنْغْلَادِيش",
+          "transliteration": "Ana min Bangladesh",
+          "english": "I am from Bangladesh",
+          "bangla": "আমি বাংলাদেশের"
+        },
+        {
+          "speaker": "A",
+          "arabic": "أَهْلًا وَسَهْلًا!",
+          "transliteration": "Ahlan wa sahlan!",
+          "english": "Welcome!",
+          "bangla": "স্বাগতম!"
+        },
+        {
+          "speaker": "B",
+          "arabic": "شُكْرًا!",
+          "transliteration": "Shukran!",
+          "english": "Thank you!",
+          "bangla": "ধন্যবাদ!"
+        }
+      ]
+    },
+    {
+      "slug": "conversation-2",
+      "title": "দোকানে (At a shop)",
+      "turns": [
+        {
+          "speaker": "দোকানদার",
+          "arabic": "مَرْحَبًا، مَاذَا تُرِيدُ؟",
+          "transliteration": "Marhaban, madha turid?",
+          "english": "Hello, what do you want?",
+          "bangla": "হ্যালো, কী চান?"
+        },
+        {
+          "speaker": "তুমি",
+          "arabic": "أُرِيدُ مَاء وَشَاي، مِنْ فَضْلِكَ",
+          "transliteration": "Uridu ma' wa shay, min fadlik",
+          "english": "I want water and tea, please",
+          "bangla": "পানি আর চা চাই, দয়া করে"
+        },
+        {
+          "speaker": "দোকানদার",
+          "arabic": "طَيِّب، تَفَضَّلْ",
+          "transliteration": "Tayyib, tafaddal",
+          "english": "Okay, here you go",
+          "bangla": "আচ্ছা, এই নিন"
+        },
+        {
+          "speaker": "তুমি",
+          "arabic": "كَمْ هَذَا؟",
+          "transliteration": "Kam hadha?",
+          "english": "How much is this?",
+          "bangla": "এটা কত?"
+        },
+        {
+          "speaker": "দোকানদার",
+          "arabic": "عَشَرَة",
+          "transliteration": "'Ashara",
+          "english": "Ten",
+          "bangla": "দশ"
+        },
+        {
+          "speaker": "তুমি",
+          "arabic": "تَفَضَّلْ. شُكْرًا",
+          "transliteration": "Tafaddal. Shukran",
+          "english": "Here you are. Thanks",
+          "bangla": "এই নিন। ধন্যবাদ"
+        },
+        {
+          "speaker": "দোকানদার",
+          "arabic": "عَفْوًا. مَعَ السَّلَامَةِ",
+          "transliteration": "'Afwan. Ma'as-salama",
+          "english": "You're welcome. Goodbye",
+          "bangla": "স্বাগত। বিদায়"
+        }
+      ]
+    },
+    {
+      "slug": "conversation-3",
+      "title": "ভাষা শেখা নিয়ে (Language small talk)",
+      "turns": [
+        {
+          "speaker": "A",
+          "arabic": "هَلْ تَتَكَلَّمُ الْعَرَبِيَّة؟",
+          "transliteration": "Hal tatakallamul-'arabiyya?",
+          "english": "Do you speak Arabic?",
+          "bangla": "তুমি কি আরবি বলতে পার?"
+        },
+        {
+          "speaker": "B",
+          "arabic": "قَلِيلًا. أَنَا أَتَعَلَّمُ الْآنَ",
+          "transliteration": "Qalilan. Ana ata'allamul-an",
+          "english": "A little. I am learning now",
+          "bangla": "অল্প। আমি এখন শিখছি"
+        },
+        {
+          "speaker": "A",
+          "arabic": "جَيِّد جِدًّا!",
+          "transliteration": "Jayyid jiddan!",
+          "english": "Very good!",
+          "bangla": "খুব ভালো!"
+        },
+        {
+          "speaker": "B",
+          "arabic": "تَكَلَّمْ بِبُطْءٍ مِنْ فَضْلِكَ",
+          "transliteration": "Takallam bibut' min fadlik",
+          "english": "Speak slowly, please",
+          "bangla": "দয়া করে ধীরে বলো"
+        },
+        {
+          "speaker": "A",
+          "arabic": "طَيِّب. هَلْ تَفْهَمُ؟",
+          "transliteration": "Tayyib. Hal tafham?",
+          "english": "Okay. Do you understand?",
+          "bangla": "আচ্ছা। বুঝতে পারছ?"
+        },
+        {
+          "speaker": "B",
+          "arabic": "نَعَمْ، أَفْهَمُ قَلِيلًا",
+          "transliteration": "Na'am, afhamu qalilan",
+          "english": "Yes, I understand a little",
+          "bangla": "হ্যাঁ, একটু বুঝি"
+        },
+        {
+          "speaker": "B",
+          "arabic": "مَا مَعْنَى هَذَا؟",
+          "transliteration": "Ma ma'na hadha?",
+          "english": "What does this mean?",
+          "bangla": "এটার মানে কী?"
+        },
+        {
+          "speaker": "A",
+          "arabic": "مَعْنَاهُ \"بَيْت\"",
+          "transliteration": "Ma'nahu \"bayt\"",
+          "english": "It means \"house\"",
+          "bangla": "এর মানে \"বাড়ি\""
+        }
+      ]
+    }
+  ]
+}

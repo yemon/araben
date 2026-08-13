@@ -1,0 +1,4381 @@
+[
+  {
+    "slug": "al-fatiha",
+    "banglaName": "আল-ফাতিহা",
+    "arabicName": "الفاتحة",
+    "englishName": "The Opening",
+    "mushafNumber": 1,
+    "verses": [
+      {
+        "ayah": 1,
+        "wordSlug": "bismi",
+        "arabic": "بِسْمِ",
+        "transliteration": "bismi",
+        "english": "In the name",
+        "bangla": "নামে"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "allahi",
+        "arabic": "اللَّهِ",
+        "transliteration": "allahi",
+        "english": "of Allah",
+        "bangla": "আল্লাহর"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "ar-rahmani",
+        "arabic": "الرَّحْمَٰنِ",
+        "transliteration": "ar-Rahmani",
+        "english": "the Most Gracious",
+        "bangla": "পরম করুণাময়"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "ar-rahim",
+        "arabic": "الرَّحِيمِ",
+        "transliteration": "ar-Rahim",
+        "english": "the Most Merciful",
+        "bangla": "পরম দয়ালু"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "alhamdu",
+        "arabic": "الْحَمْدُ",
+        "transliteration": "alhamdu",
+        "english": "All praise",
+        "bangla": "সকল প্রশংসা"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "lillahi",
+        "arabic": "لِلَّهِ",
+        "transliteration": "lillahi",
+        "english": "belongs to Allah",
+        "bangla": "আল্লাহরই জন্য"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "rabbi",
+        "arabic": "رَبِّ",
+        "transliteration": "rabbi",
+        "english": "Lord",
+        "bangla": "প্রতিপালক (রব)"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "al-alamin",
+        "arabic": "الْعَالَمِينَ",
+        "transliteration": "al-'alamin",
+        "english": "of all the worlds",
+        "bangla": "সকল জগতের"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "ar-rahmani",
+        "arabic": "الرَّحْمَٰنِ",
+        "transliteration": "ar-Rahmani",
+        "english": "the Most Gracious",
+        "bangla": "পরম করুণাময়"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "ar-rahim",
+        "arabic": "الرَّحِيمِ",
+        "transliteration": "ar-Rahim",
+        "english": "the Most Merciful",
+        "bangla": "পরম দয়ালু"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "maliki",
+        "arabic": "مَالِكِ",
+        "transliteration": "maliki",
+        "english": "Master, Owner",
+        "bangla": "মালিক"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "yawmi",
+        "arabic": "يَوْمِ",
+        "transliteration": "yawmi",
+        "english": "of the Day",
+        "bangla": "দিনের"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "ad-din",
+        "arabic": "الدِّينِ",
+        "transliteration": "ad-din",
+        "english": "of Judgment",
+        "bangla": "বিচারের (প্রতিদানের)"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "iyyaka",
+        "arabic": "إِيَّاكَ",
+        "transliteration": "iyyaka",
+        "english": "You alone",
+        "bangla": "শুধু তোমারই"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "nabudu",
+        "arabic": "نَعْبُدُ",
+        "transliteration": "na'budu",
+        "english": "we worship",
+        "bangla": "আমরা ইবাদত করি"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "wa-iyyaka",
+        "arabic": "وَإِيَّاكَ",
+        "transliteration": "wa iyyaka",
+        "english": "and You alone",
+        "bangla": "এবং শুধু তোমার কাছেই"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "nastain",
+        "arabic": "نَسْتَعِينُ",
+        "transliteration": "nasta'in",
+        "english": "we ask for help",
+        "bangla": "আমরা সাহায্য চাই"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "ihdina",
+        "arabic": "اهْدِنَا",
+        "transliteration": "ihdina",
+        "english": "Guide us",
+        "bangla": "আমাদের চালাও"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "as-sirata",
+        "arabic": "الصِّرَاطَ",
+        "transliteration": "as-sirata",
+        "english": "(to) the path",
+        "bangla": "পথে"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "al-mustaqim",
+        "arabic": "الْمُسْتَقِيمَ",
+        "transliteration": "al-mustaqim",
+        "english": "the straight",
+        "bangla": "সরল, সঠিক"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "sirata",
+        "arabic": "صِرَاطَ",
+        "transliteration": "sirata",
+        "english": "(the) path",
+        "bangla": "পথ"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "alladhina",
+        "arabic": "الَّذِينَ",
+        "transliteration": "alladhina",
+        "english": "of those whom",
+        "bangla": "তাদের, যাদের"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "anamta",
+        "arabic": "أَنْعَمْتَ",
+        "transliteration": "an'amta",
+        "english": "You have favored",
+        "bangla": "তুমি অনুগ্রহ (নিয়ামত) দিয়েছ"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "alayhim",
+        "arabic": "عَلَيْهِمْ",
+        "transliteration": "'alayhim",
+        "english": "upon them",
+        "bangla": "তাদের উপর"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "ghayri",
+        "arabic": "غَيْرِ",
+        "transliteration": "ghayri",
+        "english": "not (of)",
+        "bangla": "নয়"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "al-maghdubi",
+        "arabic": "الْمَغْضُوبِ",
+        "transliteration": "al-maghdubi",
+        "english": "those who earned anger",
+        "bangla": "যাদের উপর গযব পড়েছে"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "alayhim",
+        "arabic": "عَلَيْهِمْ",
+        "transliteration": "'alayhim",
+        "english": "upon them",
+        "bangla": "তাদের উপর"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "wa-la",
+        "arabic": "وَلَا",
+        "transliteration": "wa la",
+        "english": "and not",
+        "bangla": "এবং নয়"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "ad-dallin",
+        "arabic": "الضَّالِّينَ",
+        "transliteration": "ad-dallin",
+        "english": "(of) those astray",
+        "bangla": "পথভ্রষ্টদের"
+      }
+    ]
+  },
+  {
+    "slug": "al-masad",
+    "banglaName": "আল-মাসাদ",
+    "arabicName": "المسد",
+    "englishName": "The Palm Fiber",
+    "mushafNumber": 111,
+    "verses": [
+      {
+        "ayah": 1,
+        "wordSlug": "tabbat",
+        "arabic": "تَبَّتْ",
+        "transliteration": "tabbat",
+        "english": "Perished, ruined",
+        "bangla": "ধ্বংস হোক"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "yada",
+        "arabic": "يَدَا",
+        "transliteration": "yada",
+        "english": "the two hands",
+        "bangla": "দুই হাত"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "abi",
+        "arabic": "أَبِي",
+        "transliteration": "abi",
+        "english": "of Abu (father of)",
+        "bangla": "আবুর (পিতা)"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "lahab",
+        "arabic": "لَهَبٍ",
+        "transliteration": "lahab",
+        "english": "Lahab (flame)",
+        "bangla": "লাহাব (অগ্নিশিখা)"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "wa-tabb",
+        "arabic": "وَتَبَّ",
+        "transliteration": "wa tabb",
+        "english": "and he (himself) perished",
+        "bangla": "আর সে নিজেও ধ্বংস হলো"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "ma",
+        "arabic": "مَا",
+        "transliteration": "ma",
+        "english": "Not",
+        "bangla": "না"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "aghna",
+        "arabic": "أَغْنَىٰ",
+        "transliteration": "aghna",
+        "english": "availed",
+        "bangla": "কাজে এলো"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "anhu",
+        "arabic": "عَنْهُ",
+        "transliteration": "'anhu",
+        "english": "him",
+        "bangla": "তার"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "maluhu",
+        "arabic": "مَالُهُ",
+        "transliteration": "maluhu",
+        "english": "his wealth",
+        "bangla": "তার ধনসম্পদ"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "wa-ma",
+        "arabic": "وَمَا",
+        "transliteration": "wa ma",
+        "english": "and what",
+        "bangla": "আর যা"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "kasab",
+        "arabic": "كَسَبَ",
+        "transliteration": "kasab",
+        "english": "he earned",
+        "bangla": "সে অর্জন করেছে"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "sayasla",
+        "arabic": "سَيَصْلَىٰ",
+        "transliteration": "sayasla",
+        "english": "Soon he will enter (burn in)",
+        "bangla": "শীঘ্রই সে প্রবেশ করবে (জ্বলবে)"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "naran",
+        "arabic": "نَارًا",
+        "transliteration": "naran",
+        "english": "a Fire",
+        "bangla": "আগুনে"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "dhata",
+        "arabic": "ذَاتَ",
+        "transliteration": "dhata",
+        "english": "full of, possessing",
+        "bangla": "পূর্ণ"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "lahab",
+        "arabic": "لَهَبٍ",
+        "transliteration": "lahab",
+        "english": "flame",
+        "bangla": "লেলিহান শিখায়"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "wamra-atuhu",
+        "arabic": "وَامْرَأَتُهُ",
+        "transliteration": "wamra-atuhu",
+        "english": "And his wife",
+        "bangla": "আর তার স্ত্রীও"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "hammalata",
+        "arabic": "حَمَّالَةَ",
+        "transliteration": "hammalata",
+        "english": "(the) carrier",
+        "bangla": "বহনকারিণী"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "al-hatab",
+        "arabic": "الْحَطَبِ",
+        "transliteration": "al-hatab",
+        "english": "of firewood",
+        "bangla": "জ্বালানি কাঠের"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "fi",
+        "arabic": "فِي",
+        "transliteration": "fi",
+        "english": "In",
+        "bangla": "মধ্যে"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "jidiha",
+        "arabic": "جِيدِهَا",
+        "transliteration": "jidiha",
+        "english": "her neck",
+        "bangla": "তার গলার"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "hablun",
+        "arabic": "حَبْلٌ",
+        "transliteration": "hablun",
+        "english": "(is) a rope",
+        "bangla": "রশি"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "min",
+        "arabic": "مِّن",
+        "transliteration": "min",
+        "english": "of",
+        "bangla": "তৈরি (থেকে)"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "masad",
+        "arabic": "مَّسَدٍ",
+        "transliteration": "masad",
+        "english": "palm fiber",
+        "bangla": "খেজুরের আঁশের"
+      }
+    ]
+  },
+  {
+    "slug": "al-asr",
+    "banglaName": "আল-আসর",
+    "arabicName": "العصر",
+    "englishName": "The Time",
+    "mushafNumber": 103,
+    "verses": [
+      {
+        "ayah": 1,
+        "wordSlug": "wal-asr",
+        "arabic": "وَالْعَصْرِ",
+        "transliteration": "wal-'asr",
+        "english": "By the time",
+        "bangla": "সময়ের শপথ"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "inna",
+        "arabic": "إِنَّ",
+        "transliteration": "inna",
+        "english": "Indeed",
+        "bangla": "নিশ্চয়ই"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "al-insana",
+        "arabic": "الْإِنسَانَ",
+        "transliteration": "al-insana",
+        "english": "mankind",
+        "bangla": "মানুষ"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "lafi",
+        "arabic": "لَفِي",
+        "transliteration": "lafi",
+        "english": "(is) surely in",
+        "bangla": "অবশ্যই (আছে) মধ্যে"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "khusr",
+        "arabic": "خُسْرٍ",
+        "transliteration": "khusr",
+        "english": "loss",
+        "bangla": "ক্ষতির"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "illa",
+        "arabic": "إِلَّا",
+        "transliteration": "illa",
+        "english": "Except",
+        "bangla": "তবে, ছাড়া"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "alladhina",
+        "arabic": "الَّذِينَ",
+        "transliteration": "alladhina",
+        "english": "those who",
+        "bangla": "যারা"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "amanu",
+        "arabic": "آمَنُوا",
+        "transliteration": "amanu",
+        "english": "believed",
+        "bangla": "ঈমান এনেছে"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "wa-amilu",
+        "arabic": "وَعَمِلُوا",
+        "transliteration": "wa 'amilu",
+        "english": "and did",
+        "bangla": "এবং করেছে"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "as-salihati",
+        "arabic": "الصَّالِحَاتِ",
+        "transliteration": "as-salihati",
+        "english": "righteous deeds",
+        "bangla": "সৎকর্ম"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "wa-tawasaw",
+        "arabic": "وَتَوَاصَوْا",
+        "transliteration": "wa tawasaw",
+        "english": "and advised one another",
+        "bangla": "এবং পরস্পরকে উপদেশ দিয়েছে"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "bil-haqqi",
+        "arabic": "بِالْحَقِّ",
+        "transliteration": "bil-haqqi",
+        "english": "to the truth",
+        "bangla": "সত্যের"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "wa-tawasaw",
+        "arabic": "وَتَوَاصَوْا",
+        "transliteration": "wa tawasaw",
+        "english": "and advised one another",
+        "bangla": "এবং পরস্পরকে উপদেশ দিয়েছে"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "bis-sabr",
+        "arabic": "بِالصَّبْرِ",
+        "transliteration": "bis-sabr",
+        "english": "to patience",
+        "bangla": "ধৈর্যের"
+      }
+    ]
+  },
+  {
+    "slug": "al-qadr",
+    "banglaName": "আল-কদর",
+    "arabicName": "القدر",
+    "englishName": "The Decree",
+    "mushafNumber": 97,
+    "verses": [
+      {
+        "ayah": 1,
+        "wordSlug": "inna-al-qadr",
+        "arabic": "إِنَّا",
+        "transliteration": "inna",
+        "english": "Indeed We",
+        "bangla": "নিশ্চয়ই আমরা"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "anzalnahu",
+        "arabic": "أَنزَلْنَاهُ",
+        "transliteration": "anzalnahu",
+        "english": "sent it down",
+        "bangla": "এটি নাযিল করেছি"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "fi",
+        "arabic": "فِي",
+        "transliteration": "fi",
+        "english": "in",
+        "bangla": "-তে"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "laylati",
+        "arabic": "لَيْلَةِ",
+        "transliteration": "laylati",
+        "english": "(the) Night",
+        "bangla": "রাত"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "al-qadr",
+        "arabic": "الْقَدْرِ",
+        "transliteration": "al-qadr",
+        "english": "of Decree",
+        "bangla": "কদরের"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "wa-ma",
+        "arabic": "وَمَا",
+        "transliteration": "wa ma",
+        "english": "And what",
+        "bangla": "আর কিসে"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "adraka",
+        "arabic": "أَدْرَاكَ",
+        "transliteration": "adraka",
+        "english": "will make you know",
+        "bangla": "তোমাকে জানাবে"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "ma",
+        "arabic": "مَا",
+        "transliteration": "ma",
+        "english": "what (is)",
+        "bangla": "কী"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "laylatu",
+        "arabic": "لَيْلَةُ",
+        "transliteration": "laylatu",
+        "english": "(the) Night",
+        "bangla": "রাত"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "al-qadr",
+        "arabic": "الْقَدْرِ",
+        "transliteration": "al-qadr",
+        "english": "of Decree",
+        "bangla": "কদরের"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "laylatu",
+        "arabic": "لَيْلَةُ",
+        "transliteration": "laylatu",
+        "english": "(The) Night",
+        "bangla": "রাত"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "al-qadri",
+        "arabic": "الْقَدْرِ",
+        "transliteration": "al-qadri",
+        "english": "of Decree",
+        "bangla": "কদরের"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "khayrun",
+        "arabic": "خَيْرٌ",
+        "transliteration": "khayrun",
+        "english": "(is) better",
+        "bangla": "উত্তম"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "min-al-qadr",
+        "arabic": "مِّنْ",
+        "transliteration": "min",
+        "english": "than",
+        "bangla": "চেয়ে"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "alfi",
+        "arabic": "أَلْفِ",
+        "transliteration": "alfi",
+        "english": "a thousand",
+        "bangla": "হাজার"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "shahr",
+        "arabic": "شَهْرٍ",
+        "transliteration": "shahr",
+        "english": "months",
+        "bangla": "মাসের"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "tanazzalu",
+        "arabic": "تَنَزَّلُ",
+        "transliteration": "tanazzalu",
+        "english": "Descend",
+        "bangla": "অবতরণ করে"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "al-mala-ikatu",
+        "arabic": "الْمَلَائِكَةُ",
+        "transliteration": "al-mala-ikatu",
+        "english": "the angels",
+        "bangla": "ফেরেশতারা"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "war-ruhu",
+        "arabic": "وَالرُّوحُ",
+        "transliteration": "war-ruhu",
+        "english": "and the Spirit (Jibril)",
+        "bangla": "এবং রূহ (জিবরাইল আ.)"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "fiha",
+        "arabic": "فِيهَا",
+        "transliteration": "fiha",
+        "english": "in it",
+        "bangla": "তাতে (সে রাতে)"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "bi-idhni",
+        "arabic": "بِإِذْنِ",
+        "transliteration": "bi-idhni",
+        "english": "by (the) permission",
+        "bangla": "অনুমতিতে"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "rabbihim",
+        "arabic": "رَبِّهِم",
+        "transliteration": "rabbihim",
+        "english": "of their Lord",
+        "bangla": "তাদের রবের"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "min",
+        "arabic": "مِّن",
+        "transliteration": "min",
+        "english": "for (with)",
+        "bangla": "নিয়ে"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "kulli",
+        "arabic": "كُلِّ",
+        "transliteration": "kulli",
+        "english": "every",
+        "bangla": "প্রত্যেক"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "amr",
+        "arabic": "أَمْرٍ",
+        "transliteration": "amr",
+        "english": "matter",
+        "bangla": "বিষয় (নির্দেশ)"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "salamun",
+        "arabic": "سَلَامٌ",
+        "transliteration": "salamun",
+        "english": "Peace",
+        "bangla": "শান্তি"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "hiya",
+        "arabic": "هِيَ",
+        "transliteration": "hiya",
+        "english": "it (is)",
+        "bangla": "তা"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "hatta",
+        "arabic": "حَتَّىٰ",
+        "transliteration": "hatta",
+        "english": "until",
+        "bangla": "পর্যন্ত"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "matlai",
+        "arabic": "مَطْلَعِ",
+        "transliteration": "matla'i",
+        "english": "(the) rising",
+        "bangla": "উদয়"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "al-fajr",
+        "arabic": "الْفَجْرِ",
+        "transliteration": "al-fajr",
+        "english": "of the dawn",
+        "bangla": "ফজরের (ভোরের)"
+      }
+    ]
+  },
+  {
+    "slug": "al-fil",
+    "banglaName": "আল-ফিল",
+    "arabicName": "الفيل",
+    "englishName": "The Elephant",
+    "mushafNumber": 105,
+    "verses": [
+      {
+        "ayah": 1,
+        "wordSlug": "alam",
+        "arabic": "أَلَمْ",
+        "transliteration": "alam",
+        "english": "Did not?",
+        "bangla": "কি নি?"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "tara",
+        "arabic": "تَرَ",
+        "transliteration": "tara",
+        "english": "you see",
+        "bangla": "তুমি দেখ"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "kayfa",
+        "arabic": "كَيْفَ",
+        "transliteration": "kayfa",
+        "english": "how",
+        "bangla": "কীভাবে"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "faala",
+        "arabic": "فَعَلَ",
+        "transliteration": "fa'ala",
+        "english": "dealt",
+        "bangla": "করেছিলেন (আচরণ)"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "rabbuka",
+        "arabic": "رَبُّكَ",
+        "transliteration": "rabbuka",
+        "english": "your Lord",
+        "bangla": "তোমার রব"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "bi-ashabi",
+        "arabic": "بِأَصْحَابِ",
+        "transliteration": "bi-ashabi",
+        "english": "with (the) companions (army)",
+        "bangla": "বাহিনীর সাথে"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "al-fil",
+        "arabic": "الْفِيلِ",
+        "transliteration": "al-fil",
+        "english": "of the elephant",
+        "bangla": "হাতির"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "alam",
+        "arabic": "أَلَمْ",
+        "transliteration": "alam",
+        "english": "Did not?",
+        "bangla": "কি নি?"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "yajal",
+        "arabic": "يَجْعَلْ",
+        "transliteration": "yaj'al",
+        "english": "He make",
+        "bangla": "তিনি করে দেন"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "kaydahum",
+        "arabic": "كَيْدَهُمْ",
+        "transliteration": "kaydahum",
+        "english": "their plot",
+        "bangla": "তাদের ষড়যন্ত্র"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "fi",
+        "arabic": "فِي",
+        "transliteration": "fi",
+        "english": "in",
+        "bangla": "মধ্যে"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "tadlil",
+        "arabic": "تَضْلِيلٍ",
+        "transliteration": "tadlil",
+        "english": "vain (ruin)",
+        "bangla": "ব্যর্থতার"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "wa-arsala",
+        "arabic": "وَأَرْسَلَ",
+        "transliteration": "wa arsala",
+        "english": "And He sent",
+        "bangla": "এবং তিনি পাঠালেন"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "alayhim",
+        "arabic": "عَلَيْهِمْ",
+        "transliteration": "'alayhim",
+        "english": "against them",
+        "bangla": "তাদের উপর"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "tayran",
+        "arabic": "طَيْرًا",
+        "transliteration": "tayran",
+        "english": "birds",
+        "bangla": "পাখি"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "ababil",
+        "arabic": "أَبَابِيلَ",
+        "transliteration": "ababil",
+        "english": "in flocks",
+        "bangla": "ঝাঁকে ঝাঁকে"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "tarmihim",
+        "arabic": "تَرْمِيهِم",
+        "transliteration": "tarmihim",
+        "english": "Striking (pelting) them",
+        "bangla": "তাদের উপর নিক্ষেপ করছিল"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "bihijaratin",
+        "arabic": "بِحِجَارَةٍ",
+        "transliteration": "bihijaratin",
+        "english": "with stones",
+        "bangla": "পাথর"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "min",
+        "arabic": "مِّن",
+        "transliteration": "min",
+        "english": "of",
+        "bangla": "তৈরি (থেকে)"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "sijjil",
+        "arabic": "سِجِّيلٍ",
+        "transliteration": "sijjil",
+        "english": "baked clay",
+        "bangla": "পোড়ামাটির"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "fajaalahum",
+        "arabic": "فَجَعَلَهُمْ",
+        "transliteration": "faja'alahum",
+        "english": "Then He made them",
+        "bangla": "ফলে তিনি তাদের করে দিলেন"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "kaasfin",
+        "arabic": "كَعَصْفٍ",
+        "transliteration": "ka'asfin",
+        "english": "like straw (husks)",
+        "bangla": "খড়কুটার মতো"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "ma-kul",
+        "arabic": "مَّأْكُولٍ",
+        "transliteration": "ma-kul",
+        "english": "eaten up (chewed)",
+        "bangla": "ভক্ষিত (চিবানো)"
+      }
+    ]
+  },
+  {
+    "slug": "al-maun",
+    "banglaName": "আল-মাউন",
+    "arabicName": "الماعون",
+    "englishName": "Small Kindnesses",
+    "mushafNumber": 107,
+    "verses": [
+      {
+        "ayah": 1,
+        "wordSlug": "ara-ayta",
+        "arabic": "أَرَأَيْتَ",
+        "transliteration": "ara-ayta",
+        "english": "Have you seen",
+        "bangla": "তুমি কি দেখেছ"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "alladhi",
+        "arabic": "الَّذِي",
+        "transliteration": "alladhi",
+        "english": "the one who",
+        "bangla": "তাকে, যে"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "yukadhdhibu",
+        "arabic": "يُكَذِّبُ",
+        "transliteration": "yukadhdhibu",
+        "english": "denies",
+        "bangla": "অস্বীকার করে"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "bid-din",
+        "arabic": "بِالدِّينِ",
+        "transliteration": "bid-din",
+        "english": "the Judgment",
+        "bangla": "বিচার দিবসকে"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "fadhalika",
+        "arabic": "فَذَٰلِكَ",
+        "transliteration": "fadhalika",
+        "english": "Then that is",
+        "bangla": "সে তো সেই ব্যক্তি"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "alladhi",
+        "arabic": "الَّذِي",
+        "transliteration": "alladhi",
+        "english": "the one who",
+        "bangla": "যে"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "yaduu",
+        "arabic": "يَدُعُّ",
+        "transliteration": "yadu''u",
+        "english": "pushes away",
+        "bangla": "ধাক্কা দিয়ে সরায়"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "al-yatim",
+        "arabic": "الْيَتِيمَ",
+        "transliteration": "al-yatim",
+        "english": "the orphan",
+        "bangla": "এতিমকে"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "wa-la",
+        "arabic": "وَلَا",
+        "transliteration": "wa la",
+        "english": "And (does) not",
+        "bangla": "এবং না"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "yahuddu",
+        "arabic": "يَحُضُّ",
+        "transliteration": "yahuddu",
+        "english": "encourage",
+        "bangla": "উৎসাহ দেয়"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "ala",
+        "arabic": "عَلَىٰ",
+        "transliteration": "'ala",
+        "english": "to (upon)",
+        "bangla": "প্রতি"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "taami",
+        "arabic": "طَعَامِ",
+        "transliteration": "ta'ami",
+        "english": "(the) feeding",
+        "bangla": "খাদ্যদানের"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "al-miskin",
+        "arabic": "الْمِسْكِينِ",
+        "transliteration": "al-miskin",
+        "english": "of the needy",
+        "bangla": "মিসকিনকে (অভাবীকে)"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "fawaylun",
+        "arabic": "فَوَيْلٌ",
+        "transliteration": "fawaylun",
+        "english": "So woe",
+        "bangla": "তাই দুর্ভোগ"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "lil-musallin",
+        "arabic": "لِّلْمُصَلِّينَ",
+        "transliteration": "lil-musallin",
+        "english": "to those who pray",
+        "bangla": "সেই নামাযীদের জন্য"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "alladhina",
+        "arabic": "الَّذِينَ",
+        "transliteration": "alladhina",
+        "english": "those who",
+        "bangla": "যারা"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "hum",
+        "arabic": "هُمْ",
+        "transliteration": "hum",
+        "english": "they",
+        "bangla": "তারা"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "an",
+        "arabic": "عَن",
+        "transliteration": "'an",
+        "english": "about (from)",
+        "bangla": "সম্পর্কে"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "salatihim",
+        "arabic": "صَلَاتِهِمْ",
+        "transliteration": "salatihim",
+        "english": "their prayer",
+        "bangla": "তাদের নামায"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "sahun",
+        "arabic": "سَاهُونَ",
+        "transliteration": "sahun",
+        "english": "(are) heedless",
+        "bangla": "উদাসীন"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "alladhina",
+        "arabic": "الَّذِينَ",
+        "transliteration": "alladhina",
+        "english": "Those who",
+        "bangla": "যারা"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "hum",
+        "arabic": "هُمْ",
+        "transliteration": "hum",
+        "english": "they",
+        "bangla": "তারা"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "yura-un",
+        "arabic": "يُرَاءُونَ",
+        "transliteration": "yura-un",
+        "english": "show off",
+        "bangla": "লোক দেখানোর জন্য করে"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "wa-yamnaun",
+        "arabic": "وَيَمْنَعُونَ",
+        "transliteration": "wa yamna'un",
+        "english": "And they withhold",
+        "bangla": "এবং তারা আটকে রাখে (দেয় না)"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "al-maun",
+        "arabic": "الْمَاعُونَ",
+        "transliteration": "al-ma'un",
+        "english": "small kindnesses",
+        "bangla": "নিত্যপ্রয়োজনীয় জিনিস"
+      }
+    ]
+  },
+  {
+    "slug": "al-kawthar",
+    "banglaName": "আল-কাউসার",
+    "arabicName": "الكوثر",
+    "englishName": "The Abundance",
+    "mushafNumber": 108,
+    "verses": [
+      {
+        "ayah": 1,
+        "wordSlug": "inna-al-qadr",
+        "arabic": "إِنَّا",
+        "transliteration": "inna",
+        "english": "Indeed We",
+        "bangla": "নিশ্চয়ই আমরা"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "ataynaka",
+        "arabic": "أَعْطَيْنَاكَ",
+        "transliteration": "a'taynaka",
+        "english": "have given you",
+        "bangla": "তোমাকে দিয়েছি"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "al-kawthar",
+        "arabic": "الْكَوْثَرَ",
+        "transliteration": "al-kawthar",
+        "english": "Al-Kawthar (abundance)",
+        "bangla": "কাউসার (প্রাচুর্য)"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "fasalli",
+        "arabic": "فَصَلِّ",
+        "transliteration": "fasalli",
+        "english": "So pray",
+        "bangla": "তাই নামায পড়ো"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "lirabbika",
+        "arabic": "لِرَبِّكَ",
+        "transliteration": "lirabbika",
+        "english": "to (for) your Lord",
+        "bangla": "তোমার রবের উদ্দেশে"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "wanhar",
+        "arabic": "وَانْحَرْ",
+        "transliteration": "wanhar",
+        "english": "and sacrifice",
+        "bangla": "এবং কোরবানি করো"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "inna",
+        "arabic": "إِنَّ",
+        "transliteration": "inna",
+        "english": "Indeed",
+        "bangla": "নিশ্চয়ই"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "shani-aka",
+        "arabic": "شَانِئَكَ",
+        "transliteration": "shani-aka",
+        "english": "your enemy (hater)",
+        "bangla": "তোমার শত্রু (বিদ্বেষী)"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "huwa",
+        "arabic": "هُوَ",
+        "transliteration": "huwa",
+        "english": "he (is)",
+        "bangla": "সে-ই"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "al-abtar",
+        "arabic": "الْأَبْتَرُ",
+        "transliteration": "al-abtar",
+        "english": "the one cut off",
+        "bangla": "নির্বংশ (শিকড়কাটা)"
+      }
+    ]
+  },
+  {
+    "slug": "an-nasr",
+    "banglaName": "আন-নাসর",
+    "arabicName": "النصر",
+    "englishName": "The Help",
+    "mushafNumber": 110,
+    "verses": [
+      {
+        "ayah": 1,
+        "wordSlug": "idha",
+        "arabic": "إِذَا",
+        "transliteration": "idha",
+        "english": "When",
+        "bangla": "যখন"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "ja-a",
+        "arabic": "جَاءَ",
+        "transliteration": "ja-a",
+        "english": "comes",
+        "bangla": "আসবে"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "nasru",
+        "arabic": "نَصْرُ",
+        "transliteration": "nasru",
+        "english": "(the) help",
+        "bangla": "সাহায্য"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "allahi",
+        "arabic": "اللَّهِ",
+        "transliteration": "allahi",
+        "english": "of Allah",
+        "bangla": "আল্লাহর"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "wal-fath",
+        "arabic": "وَالْفَتْحُ",
+        "transliteration": "wal-fath",
+        "english": "and the victory",
+        "bangla": "এবং বিজয়"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "wa-ra-ayta",
+        "arabic": "وَرَأَيْتَ",
+        "transliteration": "wa ra-ayta",
+        "english": "And you see",
+        "bangla": "আর তুমি দেখবে"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "an-nasa",
+        "arabic": "النَّاسَ",
+        "transliteration": "an-nasa",
+        "english": "the people",
+        "bangla": "মানুষকে"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "yadkhuluna",
+        "arabic": "يَدْخُلُونَ",
+        "transliteration": "yadkhuluna",
+        "english": "entering",
+        "bangla": "প্রবেশ করছে"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "fi",
+        "arabic": "فِي",
+        "transliteration": "fi",
+        "english": "into",
+        "bangla": "মধ্যে"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "dini",
+        "arabic": "دِينِ",
+        "transliteration": "dini",
+        "english": "(the) religion",
+        "bangla": "দ্বীনের"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "allahi",
+        "arabic": "اللَّهِ",
+        "transliteration": "allahi",
+        "english": "of Allah",
+        "bangla": "আল্লাহর"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "afwaja",
+        "arabic": "أَفْوَاجًا",
+        "transliteration": "afwaja",
+        "english": "in crowds",
+        "bangla": "দলে দলে"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "fasabbih",
+        "arabic": "فَسَبِّحْ",
+        "transliteration": "fasabbih",
+        "english": "Then glorify",
+        "bangla": "তখন তাসবিহ পড়ো (পবিত্রতা ঘোষণা করো)"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "bihamdi",
+        "arabic": "بِحَمْدِ",
+        "transliteration": "bihamdi",
+        "english": "with (the) praise",
+        "bangla": "প্রশংসাসহ"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "rabbika",
+        "arabic": "رَبِّكَ",
+        "transliteration": "rabbika",
+        "english": "of your Lord",
+        "bangla": "তোমার রবের"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "wastaghfirhu",
+        "arabic": "وَاسْتَغْفِرْهُ",
+        "transliteration": "wastaghfirhu",
+        "english": "and seek His forgiveness",
+        "bangla": "এবং তাঁর কাছে ক্ষমা চাও"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "innahu",
+        "arabic": "إِنَّهُ",
+        "transliteration": "innahu",
+        "english": "Indeed He",
+        "bangla": "নিশ্চয়ই তিনি"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "kana",
+        "arabic": "كَانَ",
+        "transliteration": "kana",
+        "english": "is ever",
+        "bangla": "সর্বদাই"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "tawwaba",
+        "arabic": "تَوَّابًا",
+        "transliteration": "tawwaba",
+        "english": "Accepting of repentance",
+        "bangla": "তওবা কবুলকারী"
+      }
+    ]
+  },
+  {
+    "slug": "al-ikhlas",
+    "banglaName": "আল-ইখলাস",
+    "arabicName": "الإخلاص",
+    "englishName": "The Sincerity",
+    "mushafNumber": 112,
+    "verses": [
+      {
+        "ayah": 1,
+        "wordSlug": "qul",
+        "arabic": "قُلْ",
+        "transliteration": "qul",
+        "english": "Say",
+        "bangla": "বলো"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "huwa",
+        "arabic": "هُوَ",
+        "transliteration": "huwa",
+        "english": "He (is)",
+        "bangla": "তিনি"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "allahu",
+        "arabic": "اللَّهُ",
+        "transliteration": "allahu",
+        "english": "Allah",
+        "bangla": "আল্লাহ"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "ahad",
+        "arabic": "أَحَدٌ",
+        "transliteration": "ahad",
+        "english": "One",
+        "bangla": "এক, অদ্বিতীয়"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "allahu",
+        "arabic": "اللَّهُ",
+        "transliteration": "allahu",
+        "english": "Allah",
+        "bangla": "আল্লাহ"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "as-samad",
+        "arabic": "الصَّمَدُ",
+        "transliteration": "as-samad",
+        "english": "the Self-Sufficient",
+        "bangla": "অমুখাপেক্ষী (সবাই তাঁর মুখাপেক্ষী)"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "lam",
+        "arabic": "لَمْ",
+        "transliteration": "lam",
+        "english": "Not",
+        "bangla": "না"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "yalid",
+        "arabic": "يَلِدْ",
+        "transliteration": "yalid",
+        "english": "He begets",
+        "bangla": "তিনি (কাউকে) জন্ম দেন"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "wa-lam",
+        "arabic": "وَلَمْ",
+        "transliteration": "wa lam",
+        "english": "and not",
+        "bangla": "এবং না"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "yulad",
+        "arabic": "يُولَدْ",
+        "transliteration": "yulad",
+        "english": "He was born",
+        "bangla": "তিনি জন্ম নিয়েছেন"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "wa-lam",
+        "arabic": "وَلَمْ",
+        "transliteration": "wa lam",
+        "english": "And not",
+        "bangla": "এবং না"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "yakun",
+        "arabic": "يَكُن",
+        "transliteration": "yakun",
+        "english": "is (there)",
+        "bangla": "আছে"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "lahu",
+        "arabic": "لَّهُ",
+        "transliteration": "lahu",
+        "english": "for Him",
+        "bangla": "তাঁর"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "kufuwan",
+        "arabic": "كُفُوًا",
+        "transliteration": "kufuwan",
+        "english": "equal (comparable)",
+        "bangla": "সমকক্ষ"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "ahad",
+        "arabic": "أَحَدٌ",
+        "transliteration": "ahad",
+        "english": "anyone",
+        "bangla": "কেউ"
+      }
+    ]
+  },
+  {
+    "slug": "al-falaq",
+    "banglaName": "আল-ফালাক",
+    "arabicName": "الفلق",
+    "englishName": "The Daybreak",
+    "mushafNumber": 113,
+    "verses": [
+      {
+        "ayah": 1,
+        "wordSlug": "qul",
+        "arabic": "قُلْ",
+        "transliteration": "qul",
+        "english": "Say",
+        "bangla": "বলো"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "audhu",
+        "arabic": "أَعُوذُ",
+        "transliteration": "a'udhu",
+        "english": "I seek refuge",
+        "bangla": "আমি আশ্রয় চাই"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "birabbi",
+        "arabic": "بِرَبِّ",
+        "transliteration": "birabbi",
+        "english": "in (the) Lord",
+        "bangla": "রবের কাছে"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "al-falaq",
+        "arabic": "الْفَلَقِ",
+        "transliteration": "al-falaq",
+        "english": "of the daybreak",
+        "bangla": "ভোরের"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "min-al-falaq",
+        "arabic": "مِن",
+        "transliteration": "min",
+        "english": "From",
+        "bangla": "থেকে"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "sharri",
+        "arabic": "شَرِّ",
+        "transliteration": "sharri",
+        "english": "(the) evil",
+        "bangla": "অনিষ্ট"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "ma",
+        "arabic": "مَا",
+        "transliteration": "ma",
+        "english": "of what",
+        "bangla": "যা"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "khalaq",
+        "arabic": "خَلَقَ",
+        "transliteration": "khalaq",
+        "english": "He created",
+        "bangla": "তিনি সৃষ্টি করেছেন"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "wa-min",
+        "arabic": "وَمِن",
+        "transliteration": "wa min",
+        "english": "And from",
+        "bangla": "এবং থেকে"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "sharri",
+        "arabic": "شَرِّ",
+        "transliteration": "sharri",
+        "english": "(the) evil",
+        "bangla": "অনিষ্ট"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "ghasiqin",
+        "arabic": "غَاسِقٍ",
+        "transliteration": "ghasiqin",
+        "english": "of darkness (night)",
+        "bangla": "অন্ধকার রাতের"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "idha",
+        "arabic": "إِذَا",
+        "transliteration": "idha",
+        "english": "when",
+        "bangla": "যখন"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "waqab",
+        "arabic": "وَقَبَ",
+        "transliteration": "waqab",
+        "english": "it settles (deepens)",
+        "bangla": "তা গভীর হয়"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "wa-min",
+        "arabic": "وَمِن",
+        "transliteration": "wa min",
+        "english": "And from",
+        "bangla": "এবং থেকে"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "sharri",
+        "arabic": "شَرِّ",
+        "transliteration": "sharri",
+        "english": "(the) evil",
+        "bangla": "অনিষ্ট"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "an-naffathati",
+        "arabic": "النَّفَّاثَاتِ",
+        "transliteration": "an-naffathati",
+        "english": "of the blowers",
+        "bangla": "ফুঁ-দানকারিণীদের (জাদুকারিণী)"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "fi",
+        "arabic": "فِي",
+        "transliteration": "fi",
+        "english": "in (on)",
+        "bangla": "-তে"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "al-uqad",
+        "arabic": "الْعُقَدِ",
+        "transliteration": "al-'uqad",
+        "english": "the knots",
+        "bangla": "গিঁটে"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "wa-min",
+        "arabic": "وَمِن",
+        "transliteration": "wa min",
+        "english": "And from",
+        "bangla": "এবং থেকে"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "sharri",
+        "arabic": "شَرِّ",
+        "transliteration": "sharri",
+        "english": "(the) evil",
+        "bangla": "অনিষ্ট"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "hasidin",
+        "arabic": "حَاسِدٍ",
+        "transliteration": "hasidin",
+        "english": "of an envier",
+        "bangla": "হিংসুকের"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "idha",
+        "arabic": "إِذَا",
+        "transliteration": "idha",
+        "english": "when",
+        "bangla": "যখন"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "hasad",
+        "arabic": "حَسَدَ",
+        "transliteration": "hasad",
+        "english": "he envies",
+        "bangla": "সে হিংসা করে"
+      }
+    ]
+  },
+  {
+    "slug": "an-nas",
+    "banglaName": "আন-নাস",
+    "arabicName": "الناس",
+    "englishName": "Mankind",
+    "mushafNumber": 114,
+    "verses": [
+      {
+        "ayah": 1,
+        "wordSlug": "qul",
+        "arabic": "قُلْ",
+        "transliteration": "qul",
+        "english": "Say",
+        "bangla": "বলো"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "audhu",
+        "arabic": "أَعُوذُ",
+        "transliteration": "a'udhu",
+        "english": "I seek refuge",
+        "bangla": "আমি আশ্রয় চাই"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "birabbi",
+        "arabic": "بِرَبِّ",
+        "transliteration": "birabbi",
+        "english": "in (the) Lord",
+        "bangla": "রবের কাছে"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "an-nas",
+        "arabic": "النَّاسِ",
+        "transliteration": "an-nas",
+        "english": "of mankind",
+        "bangla": "মানুষের"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "maliki-an-nas",
+        "arabic": "مَلِكِ",
+        "transliteration": "maliki",
+        "english": "(the) King",
+        "bangla": "অধিপতির (বাদশাহ)"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "an-nas",
+        "arabic": "النَّاسِ",
+        "transliteration": "an-nas",
+        "english": "of mankind",
+        "bangla": "মানুষের"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "ilahi",
+        "arabic": "إِلَٰهِ",
+        "transliteration": "ilahi",
+        "english": "(the) God",
+        "bangla": "ইলাহর (উপাস্য)"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "an-nas",
+        "arabic": "النَّاسِ",
+        "transliteration": "an-nas",
+        "english": "of mankind",
+        "bangla": "মানুষের"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "min-al-falaq",
+        "arabic": "مِن",
+        "transliteration": "min",
+        "english": "From",
+        "bangla": "থেকে"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "sharri",
+        "arabic": "شَرِّ",
+        "transliteration": "sharri",
+        "english": "(the) evil",
+        "bangla": "অনিষ্ট"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "al-waswasi",
+        "arabic": "الْوَسْوَاسِ",
+        "transliteration": "al-waswasi",
+        "english": "of the whisperer",
+        "bangla": "কুমন্ত্রণাদাতার"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "al-khannas",
+        "arabic": "الْخَنَّاسِ",
+        "transliteration": "al-khannas",
+        "english": "the one who withdraws (retreats)",
+        "bangla": "আত্মগোপনকারী (সরে পড়ে)"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "alladhi",
+        "arabic": "الَّذِي",
+        "transliteration": "alladhi",
+        "english": "who",
+        "bangla": "যে"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "yuwaswisu",
+        "arabic": "يُوَسْوِسُ",
+        "transliteration": "yuwaswisu",
+        "english": "whispers",
+        "bangla": "কুমন্ত্রণা দেয়"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "fi",
+        "arabic": "فِي",
+        "transliteration": "fi",
+        "english": "in",
+        "bangla": "মধ্যে"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "suduri",
+        "arabic": "صُدُورِ",
+        "transliteration": "suduri",
+        "english": "(the) breasts (hearts)",
+        "bangla": "অন্তরের (বুকের)"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "an-nas",
+        "arabic": "النَّاسِ",
+        "transliteration": "an-nas",
+        "english": "of mankind",
+        "bangla": "মানুষের"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "mina",
+        "arabic": "مِنَ",
+        "transliteration": "mina",
+        "english": "From among",
+        "bangla": "মধ্য থেকে"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "al-jinnati",
+        "arabic": "الْجِنَّةِ",
+        "transliteration": "al-jinnati",
+        "english": "the jinn",
+        "bangla": "জিনদের"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "wan-nas",
+        "arabic": "وَالنَّاسِ",
+        "transliteration": "wan-nas",
+        "english": "and mankind",
+        "bangla": "এবং মানুষের"
+      }
+    ]
+  },
+  {
+    "slug": "quraysh",
+    "banglaName": "কুরাইশ",
+    "arabicName": "قريش",
+    "englishName": "Quraysh",
+    "mushafNumber": 106,
+    "verses": [
+      {
+        "ayah": 1,
+        "wordSlug": "li-ilafi",
+        "arabic": "لِإِيلَافِ",
+        "transliteration": "li-ilafi",
+        "english": "For the accustomed habit",
+        "bangla": "অভ্যস্ততার জন্য"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "quraysh",
+        "arabic": "قُرَيْشٍ",
+        "transliteration": "quraysh",
+        "english": "of Quraysh",
+        "bangla": "কুরাইশদের"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "ilafihim",
+        "arabic": "إِيلَافِهِمْ",
+        "transliteration": "ilafihim",
+        "english": "their accustomed habit",
+        "bangla": "তাদের অভ্যস্ততা"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "rihlata",
+        "arabic": "رِحْلَةَ",
+        "transliteration": "rihlata",
+        "english": "(in the) journey",
+        "bangla": "সফরে"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "ash-shita-i",
+        "arabic": "الشِّتَاءِ",
+        "transliteration": "ash-shita-i",
+        "english": "of winter",
+        "bangla": "শীতের"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "was-sayf",
+        "arabic": "وَالصَّيْفِ",
+        "transliteration": "was-sayf",
+        "english": "and summer",
+        "bangla": "ও গ্রীষ্মের"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "falyabudu",
+        "arabic": "فَلْيَعْبُدُوا",
+        "transliteration": "falya'budu",
+        "english": "So let them worship",
+        "bangla": "সুতরাং তারা ইবাদত করুক"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "rabba",
+        "arabic": "رَبَّ",
+        "transliteration": "rabba",
+        "english": "(the) Lord",
+        "bangla": "রবের"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "hadha",
+        "arabic": "هَٰذَا",
+        "transliteration": "hadha",
+        "english": "of this",
+        "bangla": "এই"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "al-bayt",
+        "arabic": "الْبَيْتِ",
+        "transliteration": "al-bayt",
+        "english": "House (the Ka'bah)",
+        "bangla": "ঘরের (কাবা)"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "alladhi",
+        "arabic": "الَّذِي",
+        "transliteration": "alladhi",
+        "english": "who",
+        "bangla": "যিনি"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "atamahum",
+        "arabic": "أَطْعَمَهُم",
+        "transliteration": "at'amahum",
+        "english": "fed them",
+        "bangla": "তাদের খাইয়েছেন"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "min",
+        "arabic": "مِّن",
+        "transliteration": "min",
+        "english": "against",
+        "bangla": "থেকে (বাঁচিয়ে)"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "ju",
+        "arabic": "جُوعٍ",
+        "transliteration": "ju'",
+        "english": "hunger",
+        "bangla": "ক্ষুধা"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "wa-amanahum",
+        "arabic": "وَآمَنَهُم",
+        "transliteration": "wa amanahum",
+        "english": "and made them safe",
+        "bangla": "এবং নিরাপদ রেখেছেন"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "min-al-qadr",
+        "arabic": "مِّنْ",
+        "transliteration": "min",
+        "english": "from",
+        "bangla": "থেকে"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "khawf",
+        "arabic": "خَوْفٍ",
+        "transliteration": "khawf",
+        "english": "fear",
+        "bangla": "ভয়"
+      }
+    ]
+  },
+  {
+    "slug": "al-kafirun",
+    "banglaName": "আল-কাফিরুন",
+    "arabicName": "الكافرون",
+    "englishName": "The Disbelievers",
+    "mushafNumber": 109,
+    "verses": [
+      {
+        "ayah": 1,
+        "wordSlug": "qul",
+        "arabic": "قُلْ",
+        "transliteration": "qul",
+        "english": "Say",
+        "bangla": "বলো"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "ya-ayyuha",
+        "arabic": "يَا أَيُّهَا",
+        "transliteration": "ya ayyuha",
+        "english": "O",
+        "bangla": "হে"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "al-kafirun",
+        "arabic": "الْكَافِرُونَ",
+        "transliteration": "al-kafirun",
+        "english": "disbelievers",
+        "bangla": "কাফেররা"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "la",
+        "arabic": "لَا",
+        "transliteration": "la",
+        "english": "Not",
+        "bangla": "না"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "abudu",
+        "arabic": "أَعْبُدُ",
+        "transliteration": "a'budu",
+        "english": "I worship",
+        "bangla": "আমি ইবাদত করি"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "ma",
+        "arabic": "مَا",
+        "transliteration": "ma",
+        "english": "what",
+        "bangla": "যার"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "tabudun",
+        "arabic": "تَعْبُدُونَ",
+        "transliteration": "ta'budun",
+        "english": "you worship",
+        "bangla": "তোমরা ইবাদত কর"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "wa-la",
+        "arabic": "وَلَا",
+        "transliteration": "wa la",
+        "english": "And not",
+        "bangla": "এবং না"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "antum",
+        "arabic": "أَنتُمْ",
+        "transliteration": "antum",
+        "english": "you (are)",
+        "bangla": "তোমরা"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "abiduna",
+        "arabic": "عَابِدُونَ",
+        "transliteration": "'abiduna",
+        "english": "worshippers",
+        "bangla": "ইবাদতকারী"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "ma",
+        "arabic": "مَا",
+        "transliteration": "ma",
+        "english": "of what",
+        "bangla": "যার"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "abudu",
+        "arabic": "أَعْبُدُ",
+        "transliteration": "a'budu",
+        "english": "I worship",
+        "bangla": "আমি ইবাদত করি"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "wa-la",
+        "arabic": "وَلَا",
+        "transliteration": "wa la",
+        "english": "And not",
+        "bangla": "এবং না"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "ana",
+        "arabic": "أَنَا",
+        "transliteration": "ana",
+        "english": "I (am)",
+        "bangla": "আমি"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "abidun",
+        "arabic": "عَابِدٌ",
+        "transliteration": "'abidun",
+        "english": "a worshipper",
+        "bangla": "ইবাদতকারী"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "ma-al-kafirun",
+        "arabic": "مَّا",
+        "transliteration": "ma",
+        "english": "of what",
+        "bangla": "যার"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "abadtum",
+        "arabic": "عَبَدتُّمْ",
+        "transliteration": "'abadtum",
+        "english": "you have worshipped",
+        "bangla": "তোমরা ইবাদত করেছ"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "wa-la",
+        "arabic": "وَلَا",
+        "transliteration": "wa la",
+        "english": "And not",
+        "bangla": "এবং না"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "antum",
+        "arabic": "أَنتُمْ",
+        "transliteration": "antum",
+        "english": "you (are)",
+        "bangla": "তোমরা"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "abiduna",
+        "arabic": "عَابِدُونَ",
+        "transliteration": "'abiduna",
+        "english": "worshippers",
+        "bangla": "ইবাদতকারী"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "ma",
+        "arabic": "مَا",
+        "transliteration": "ma",
+        "english": "of what",
+        "bangla": "যার"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "abudu",
+        "arabic": "أَعْبُدُ",
+        "transliteration": "a'budu",
+        "english": "I worship",
+        "bangla": "আমি ইবাদত করি"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "lakum",
+        "arabic": "لَكُمْ",
+        "transliteration": "lakum",
+        "english": "For you",
+        "bangla": "তোমাদের জন্য"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "dinukum",
+        "arabic": "دِينُكُمْ",
+        "transliteration": "dinukum",
+        "english": "your religion",
+        "bangla": "তোমাদের দ্বীন"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "wa-liya",
+        "arabic": "وَلِيَ",
+        "transliteration": "wa liya",
+        "english": "and for me",
+        "bangla": "আর আমার জন্য"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "din",
+        "arabic": "دِينِ",
+        "transliteration": "din",
+        "english": "my religion",
+        "bangla": "আমার দ্বীন"
+      }
+    ]
+  },
+  {
+    "slug": "al-bayyinah",
+    "banglaName": "আল-বাইয়্যিনাহ",
+    "arabicName": "البيّنة",
+    "englishName": "The Clear Proof",
+    "mushafNumber": 98,
+    "verses": [
+      {
+        "ayah": 1,
+        "wordSlug": "lam",
+        "arabic": "لَمْ",
+        "transliteration": "lam",
+        "english": "Not",
+        "bangla": "না"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "yakuni",
+        "arabic": "يَكُنِ",
+        "transliteration": "yakuni",
+        "english": "were",
+        "bangla": "ছিল"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "alladhina",
+        "arabic": "الَّذِينَ",
+        "transliteration": "alladhina",
+        "english": "those who",
+        "bangla": "যারা"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "kafaru",
+        "arabic": "كَفَرُوا",
+        "transliteration": "kafaru",
+        "english": "disbelieved",
+        "bangla": "কুফর করেছে"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "min-al-bayyinah",
+        "arabic": "مِنْ",
+        "transliteration": "min",
+        "english": "from",
+        "bangla": "মধ্য থেকে"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "ahli",
+        "arabic": "أَهْلِ",
+        "transliteration": "ahli",
+        "english": "(the) people",
+        "bangla": "অধিকারীদের"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "al-kitabi",
+        "arabic": "الْكِتَابِ",
+        "transliteration": "al-kitabi",
+        "english": "of the Book",
+        "bangla": "কিতাবের"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "wal-mushrikina",
+        "arabic": "وَالْمُشْرِكِينَ",
+        "transliteration": "wal-mushrikina",
+        "english": "and the polytheists",
+        "bangla": "ও মুশরিকরা"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "munfakkina",
+        "arabic": "مُنفَكِّينَ",
+        "transliteration": "munfakkina",
+        "english": "to desist",
+        "bangla": "(নিজ অবস্থান) ছাড়ার"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "hatta",
+        "arabic": "حَتَّىٰ",
+        "transliteration": "hatta",
+        "english": "until",
+        "bangla": "যতক্ষণ না"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "ta-tiyahumu",
+        "arabic": "تَأْتِيَهُمُ",
+        "transliteration": "ta-tiyahumu",
+        "english": "comes to them",
+        "bangla": "তাদের কাছে আসে"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "al-bayyinah",
+        "arabic": "الْبَيِّنَةُ",
+        "transliteration": "al-bayyinah",
+        "english": "the clear evidence",
+        "bangla": "সুস্পষ্ট প্রমাণ"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "rasulun",
+        "arabic": "رَسُولٌ",
+        "transliteration": "rasulun",
+        "english": "A Messenger",
+        "bangla": "একজন রাসুল"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "mina-al-bayyinah",
+        "arabic": "مِّنَ",
+        "transliteration": "mina",
+        "english": "from",
+        "bangla": "পক্ষ থেকে"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "allahi",
+        "arabic": "اللَّهِ",
+        "transliteration": "allahi",
+        "english": "Allah",
+        "bangla": "আল্লাহর"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "yatlu",
+        "arabic": "يَتْلُو",
+        "transliteration": "yatlu",
+        "english": "reciting",
+        "bangla": "তিলাওয়াত করেন"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "suhufan",
+        "arabic": "صُحُفًا",
+        "transliteration": "suhufan",
+        "english": "pages (scriptures)",
+        "bangla": "সহিফাসমূহ"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "mutahharah",
+        "arabic": "مُّطَهَّرَةً",
+        "transliteration": "mutahharah",
+        "english": "purified",
+        "bangla": "পবিত্র"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "fiha",
+        "arabic": "فِيهَا",
+        "transliteration": "fiha",
+        "english": "In them (are)",
+        "bangla": "তাতে আছে"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "kutubun",
+        "arabic": "كُتُبٌ",
+        "transliteration": "kutubun",
+        "english": "writings",
+        "bangla": "লিখিত বিধানসমূহ"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "qayyimah",
+        "arabic": "قَيِّمَةٌ",
+        "transliteration": "qayyimah",
+        "english": "correct, upright",
+        "bangla": "সঠিক"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "wa-ma",
+        "arabic": "وَمَا",
+        "transliteration": "wa ma",
+        "english": "And not",
+        "bangla": "এবং না"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "tafarraqa",
+        "arabic": "تَفَرَّقَ",
+        "transliteration": "tafarraqa",
+        "english": "became divided",
+        "bangla": "বিভক্ত হয়েছে"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "alladhina",
+        "arabic": "الَّذِينَ",
+        "transliteration": "alladhina",
+        "english": "those who",
+        "bangla": "যারা"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "utu",
+        "arabic": "أُوتُوا",
+        "transliteration": "utu",
+        "english": "were given",
+        "bangla": "দেওয়া হয়েছিল"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "al-kitaba",
+        "arabic": "الْكِتَابَ",
+        "transliteration": "al-kitaba",
+        "english": "the Book",
+        "bangla": "কিতাব"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "illa",
+        "arabic": "إِلَّا",
+        "transliteration": "illa",
+        "english": "except",
+        "bangla": "ছাড়া"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "min-al-falaq",
+        "arabic": "مِن",
+        "transliteration": "min",
+        "english": "from",
+        "bangla": "থেকে"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "badi",
+        "arabic": "بَعْدِ",
+        "transliteration": "ba'di",
+        "english": "after",
+        "bangla": "পরে"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "ma",
+        "arabic": "مَا",
+        "transliteration": "ma",
+        "english": "that",
+        "bangla": "যা"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "ja-at-humu",
+        "arabic": "جَاءَتْهُمُ",
+        "transliteration": "ja-at-humu",
+        "english": "came to them",
+        "bangla": "তাদের কাছে এসেছে"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "al-bayyinah",
+        "arabic": "الْبَيِّنَةُ",
+        "transliteration": "al-bayyinah",
+        "english": "the clear evidence",
+        "bangla": "সুস্পষ্ট প্রমাণ"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "wa-ma",
+        "arabic": "وَمَا",
+        "transliteration": "wa ma",
+        "english": "And not",
+        "bangla": "এবং না"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "umiru",
+        "arabic": "أُمِرُوا",
+        "transliteration": "umiru",
+        "english": "they were commanded",
+        "bangla": "তাদের আদেশ করা হয়েছিল"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "illa",
+        "arabic": "إِلَّا",
+        "transliteration": "illa",
+        "english": "except",
+        "bangla": "এছাড়া"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "liyabudu",
+        "arabic": "لِيَعْبُدُوا",
+        "transliteration": "liya'budu",
+        "english": "to worship",
+        "bangla": "যেন ইবাদত করে"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "allaha",
+        "arabic": "اللَّهَ",
+        "transliteration": "allaha",
+        "english": "Allah",
+        "bangla": "আল্লাহর"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "mukhlisina",
+        "arabic": "مُخْلِصِينَ",
+        "transliteration": "mukhlisina",
+        "english": "(being) sincere",
+        "bangla": "একনিষ্ঠভাবে"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "lahu-al-bayyinah",
+        "arabic": "لَهُ",
+        "transliteration": "lahu",
+        "english": "to Him",
+        "bangla": "তাঁরই জন্য"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "ad-dina",
+        "arabic": "الدِّينَ",
+        "transliteration": "ad-dina",
+        "english": "(in) the religion",
+        "bangla": "দ্বীনকে"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "hunafa-a",
+        "arabic": "حُنَفَاءَ",
+        "transliteration": "hunafa-a",
+        "english": "inclining to truth",
+        "bangla": "সরল পথে থেকে"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "wa-yuqimu",
+        "arabic": "وَيُقِيمُوا",
+        "transliteration": "wa yuqimu",
+        "english": "and to establish",
+        "bangla": "এবং কায়েম করে"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "as-salata",
+        "arabic": "الصَّلَاةَ",
+        "transliteration": "as-salata",
+        "english": "the prayer",
+        "bangla": "নামায"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "wa-yu-tu",
+        "arabic": "وَيُؤْتُوا",
+        "transliteration": "wa yu-tu",
+        "english": "and to give",
+        "bangla": "এবং দেয়"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "az-zakata",
+        "arabic": "الزَّكَاةَ",
+        "transliteration": "az-zakata",
+        "english": "the zakah",
+        "bangla": "যাকাত"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "wa-dhalika",
+        "arabic": "وَذَٰلِكَ",
+        "transliteration": "wa dhalika",
+        "english": "and that (is)",
+        "bangla": "আর এটাই"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "dinu",
+        "arabic": "دِينُ",
+        "transliteration": "dinu",
+        "english": "the religion",
+        "bangla": "দ্বীন"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "al-qayyimah",
+        "arabic": "الْقَيِّمَةِ",
+        "transliteration": "al-qayyimah",
+        "english": "correct",
+        "bangla": "সঠিক"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "inna",
+        "arabic": "إِنَّ",
+        "transliteration": "inna",
+        "english": "Indeed",
+        "bangla": "নিশ্চয়ই"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "alladhina",
+        "arabic": "الَّذِينَ",
+        "transliteration": "alladhina",
+        "english": "those who",
+        "bangla": "যারা"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "kafaru",
+        "arabic": "كَفَرُوا",
+        "transliteration": "kafaru",
+        "english": "disbelieved",
+        "bangla": "কুফর করেছে"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "min-al-bayyinah",
+        "arabic": "مِنْ",
+        "transliteration": "min",
+        "english": "from",
+        "bangla": "মধ্য থেকে"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "ahli",
+        "arabic": "أَهْلِ",
+        "transliteration": "ahli",
+        "english": "(the) people",
+        "bangla": "অধিকারীদের"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "al-kitabi",
+        "arabic": "الْكِتَابِ",
+        "transliteration": "al-kitabi",
+        "english": "of the Book",
+        "bangla": "কিতাবের"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "wal-mushrikina",
+        "arabic": "وَالْمُشْرِكِينَ",
+        "transliteration": "wal-mushrikina",
+        "english": "and the polytheists",
+        "bangla": "ও মুশরিকরা"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "fi",
+        "arabic": "فِي",
+        "transliteration": "fi",
+        "english": "(will be) in",
+        "bangla": "মধ্যে"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "nari",
+        "arabic": "نَارِ",
+        "transliteration": "nari",
+        "english": "(the) fire",
+        "bangla": "আগুনে"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "jahannama",
+        "arabic": "جَهَنَّمَ",
+        "transliteration": "jahannama",
+        "english": "of Hell",
+        "bangla": "জাহান্নামের"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "khalidina",
+        "arabic": "خَالِدِينَ",
+        "transliteration": "khalidina",
+        "english": "abiding eternally",
+        "bangla": "চিরস্থায়ী"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "fiha",
+        "arabic": "فِيهَا",
+        "transliteration": "fiha",
+        "english": "in it",
+        "bangla": "তাতে"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "ula-ika",
+        "arabic": "أُولَٰئِكَ",
+        "transliteration": "ula-ika",
+        "english": "those",
+        "bangla": "তারাই"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "hum",
+        "arabic": "هُمْ",
+        "transliteration": "hum",
+        "english": "they (are)",
+        "bangla": "হলো"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "sharru",
+        "arabic": "شَرُّ",
+        "transliteration": "sharru",
+        "english": "(the) worst",
+        "bangla": "নিকৃষ্ট"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "al-bariyyah",
+        "arabic": "الْبَرِيَّةِ",
+        "transliteration": "al-bariyyah",
+        "english": "of creatures",
+        "bangla": "সৃষ্টির"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "inna",
+        "arabic": "إِنَّ",
+        "transliteration": "inna",
+        "english": "Indeed",
+        "bangla": "নিশ্চয়ই"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "alladhina",
+        "arabic": "الَّذِينَ",
+        "transliteration": "alladhina",
+        "english": "those who",
+        "bangla": "যারা"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "amanu",
+        "arabic": "آمَنُوا",
+        "transliteration": "amanu",
+        "english": "believed",
+        "bangla": "ঈমান এনেছে"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "wa-amilu",
+        "arabic": "وَعَمِلُوا",
+        "transliteration": "wa 'amilu",
+        "english": "and did",
+        "bangla": "এবং করেছে"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "as-salihati",
+        "arabic": "الصَّالِحَاتِ",
+        "transliteration": "as-salihati",
+        "english": "righteous deeds",
+        "bangla": "সৎকর্ম"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "ula-ika",
+        "arabic": "أُولَٰئِكَ",
+        "transliteration": "ula-ika",
+        "english": "those",
+        "bangla": "তারাই"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "hum",
+        "arabic": "هُمْ",
+        "transliteration": "hum",
+        "english": "they (are)",
+        "bangla": "হলো"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "khayru",
+        "arabic": "خَيْرُ",
+        "transliteration": "khayru",
+        "english": "(the) best",
+        "bangla": "শ্রেষ্ঠ"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "al-bariyyah",
+        "arabic": "الْبَرِيَّةِ",
+        "transliteration": "al-bariyyah",
+        "english": "of creatures",
+        "bangla": "সৃষ্টির"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "jaza-uhum",
+        "arabic": "جَزَاؤُهُمْ",
+        "transliteration": "jaza-uhum",
+        "english": "Their reward",
+        "bangla": "তাদের প্রতিদান"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "inda",
+        "arabic": "عِندَ",
+        "transliteration": "'inda",
+        "english": "(is) with",
+        "bangla": "কাছে"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "rabbihim-al-bayyinah",
+        "arabic": "رَبِّهِمْ",
+        "transliteration": "rabbihim",
+        "english": "their Lord",
+        "bangla": "তাদের রবের"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "jannatu",
+        "arabic": "جَنَّاتُ",
+        "transliteration": "jannatu",
+        "english": "gardens",
+        "bangla": "জান্নাতসমূহ"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "adnin",
+        "arabic": "عَدْنٍ",
+        "transliteration": "'adnin",
+        "english": "of eternity",
+        "bangla": "স্থায়ী"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "tajri",
+        "arabic": "تَجْرِي",
+        "transliteration": "tajri",
+        "english": "flow",
+        "bangla": "প্রবাহিত হয়"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "min-al-falaq",
+        "arabic": "مِن",
+        "transliteration": "min",
+        "english": "from",
+        "bangla": "থেকে"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "tahtiha",
+        "arabic": "تَحْتِهَا",
+        "transliteration": "tahtiha",
+        "english": "beneath them",
+        "bangla": "তার নিচ"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "al-anharu",
+        "arabic": "الْأَنْهَارُ",
+        "transliteration": "al-anharu",
+        "english": "the rivers",
+        "bangla": "নদীসমূহ"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "khalidina",
+        "arabic": "خَالِدِينَ",
+        "transliteration": "khalidina",
+        "english": "abiding eternally",
+        "bangla": "চিরস্থায়ী"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "fiha",
+        "arabic": "فِيهَا",
+        "transliteration": "fiha",
+        "english": "in them",
+        "bangla": "তাতে"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "abadan",
+        "arabic": "أَبَدًا",
+        "transliteration": "abadan",
+        "english": "forever",
+        "bangla": "চিরকাল"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "radiya",
+        "arabic": "رَّضِيَ",
+        "transliteration": "radiya",
+        "english": "is pleased",
+        "bangla": "সন্তুষ্ট হয়েছেন"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "allahu",
+        "arabic": "اللَّهُ",
+        "transliteration": "allahu",
+        "english": "Allah",
+        "bangla": "আল্লাহ"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "anhum",
+        "arabic": "عَنْهُمْ",
+        "transliteration": "'anhum",
+        "english": "with them",
+        "bangla": "তাদের প্রতি"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "wa-radu",
+        "arabic": "وَرَضُوا",
+        "transliteration": "wa radu",
+        "english": "and they are pleased",
+        "bangla": "এবং তারাও সন্তুষ্ট"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "anhu",
+        "arabic": "عَنْهُ",
+        "transliteration": "'anhu",
+        "english": "with Him",
+        "bangla": "তাঁর প্রতি"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "dhalika",
+        "arabic": "ذَٰلِكَ",
+        "transliteration": "dhalika",
+        "english": "that (is)",
+        "bangla": "এটা"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "liman",
+        "arabic": "لِمَنْ",
+        "transliteration": "liman",
+        "english": "for whoever",
+        "bangla": "তার জন্য যে"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "khashiya",
+        "arabic": "خَشِيَ",
+        "transliteration": "khashiya",
+        "english": "fears",
+        "bangla": "ভয় করে"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "rabbahu",
+        "arabic": "رَبَّهُ",
+        "transliteration": "rabbahu",
+        "english": "his Lord",
+        "bangla": "তার রবকে"
+      }
+    ]
+  },
+  {
+    "slug": "az-zalzalah",
+    "banglaName": "আয-যালযালাহ",
+    "arabicName": "الزلزلة",
+    "englishName": "The Earthquake",
+    "mushafNumber": 99,
+    "verses": [
+      {
+        "ayah": 1,
+        "wordSlug": "idha",
+        "arabic": "إِذَا",
+        "transliteration": "idha",
+        "english": "When",
+        "bangla": "যখন"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "zulzilati",
+        "arabic": "زُلْزِلَتِ",
+        "transliteration": "zulzilati",
+        "english": "is shaken",
+        "bangla": "প্রকম্পিত হবে"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "al-ardu",
+        "arabic": "الْأَرْضُ",
+        "transliteration": "al-ardu",
+        "english": "the earth",
+        "bangla": "পৃথিবী"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "zilzalaha",
+        "arabic": "زِلْزَالَهَا",
+        "transliteration": "zilzalaha",
+        "english": "with its (final) quake",
+        "bangla": "তার (চূড়ান্ত) কম্পনে"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "wa-akhrajati",
+        "arabic": "وَأَخْرَجَتِ",
+        "transliteration": "wa akhrajati",
+        "english": "And brings forth",
+        "bangla": "এবং বের করে দেবে"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "al-ardu",
+        "arabic": "الْأَرْضُ",
+        "transliteration": "al-ardu",
+        "english": "the earth",
+        "bangla": "পৃথিবী"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "athqalaha",
+        "arabic": "أَثْقَالَهَا",
+        "transliteration": "athqalaha",
+        "english": "its burdens",
+        "bangla": "তার ভারসমূহ"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "wa-qala",
+        "arabic": "وَقَالَ",
+        "transliteration": "wa qala",
+        "english": "And says",
+        "bangla": "এবং বলবে"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "al-insanu",
+        "arabic": "الْإِنسَانُ",
+        "transliteration": "al-insanu",
+        "english": "man",
+        "bangla": "মানুষ"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "ma",
+        "arabic": "مَا",
+        "transliteration": "ma",
+        "english": "what (is)",
+        "bangla": "কী"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "laha",
+        "arabic": "لَهَا",
+        "transliteration": "laha",
+        "english": "with it",
+        "bangla": "এর হলো"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "yawma-idhin",
+        "arabic": "يَوْمَئِذٍ",
+        "transliteration": "yawma-idhin",
+        "english": "That Day",
+        "bangla": "সেদিন"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "tuhaddithu",
+        "arabic": "تُحَدِّثُ",
+        "transliteration": "tuhaddithu",
+        "english": "it will report",
+        "bangla": "সে বর্ণনা করবে"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "akhbaraha",
+        "arabic": "أَخْبَارَهَا",
+        "transliteration": "akhbaraha",
+        "english": "its news",
+        "bangla": "তার খবরসমূহ"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "bi-anna",
+        "arabic": "بِأَنَّ",
+        "transliteration": "bi-anna",
+        "english": "Because",
+        "bangla": "কারণ"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "rabbaka",
+        "arabic": "رَبَّكَ",
+        "transliteration": "rabbaka",
+        "english": "your Lord",
+        "bangla": "তোমার রব"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "awha",
+        "arabic": "أَوْحَىٰ",
+        "transliteration": "awha",
+        "english": "inspired (commanded)",
+        "bangla": "ওহি (নির্দেশ) করেছেন"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "laha",
+        "arabic": "لَهَا",
+        "transliteration": "laha",
+        "english": "it",
+        "bangla": "তাকে"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "yawma-idhin",
+        "arabic": "يَوْمَئِذٍ",
+        "transliteration": "yawma-idhin",
+        "english": "That Day",
+        "bangla": "সেদিন"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "yasduru",
+        "arabic": "يَصْدُرُ",
+        "transliteration": "yasduru",
+        "english": "will proceed",
+        "bangla": "বের হয়ে আসবে"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "an-nasu",
+        "arabic": "النَّاسُ",
+        "transliteration": "an-nasu",
+        "english": "the people",
+        "bangla": "মানুষেরা"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "ashtatan",
+        "arabic": "أَشْتَاتًا",
+        "transliteration": "ashtatan",
+        "english": "in scattered groups",
+        "bangla": "দলে দলে বিক্ষিপ্তভাবে"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "liyuraw",
+        "arabic": "لِّيُرَوْا",
+        "transliteration": "liyuraw",
+        "english": "to be shown",
+        "bangla": "দেখানোর জন্য"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "amalahum",
+        "arabic": "أَعْمَالَهُمْ",
+        "transliteration": "a'malahum",
+        "english": "their deeds",
+        "bangla": "তাদের আমলসমূহ"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "faman",
+        "arabic": "فَمَن",
+        "transliteration": "faman",
+        "english": "So whoever",
+        "bangla": "অতঃপর যে"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "yamal",
+        "arabic": "يَعْمَلْ",
+        "transliteration": "ya'mal",
+        "english": "does",
+        "bangla": "করবে"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "mithqala",
+        "arabic": "مِثْقَالَ",
+        "transliteration": "mithqala",
+        "english": "(the) weight",
+        "bangla": "পরিমাণ"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "dharratin",
+        "arabic": "ذَرَّةٍ",
+        "transliteration": "dharratin",
+        "english": "of an atom",
+        "bangla": "অণু"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "khayran",
+        "arabic": "خَيْرًا",
+        "transliteration": "khayran",
+        "english": "of good",
+        "bangla": "ভালো"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "yarahu",
+        "arabic": "يَرَهُ",
+        "transliteration": "yarahu",
+        "english": "will see it",
+        "bangla": "তা দেখবে"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "wa-man",
+        "arabic": "وَمَن",
+        "transliteration": "wa man",
+        "english": "And whoever",
+        "bangla": "আর যে"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "yamal",
+        "arabic": "يَعْمَلْ",
+        "transliteration": "ya'mal",
+        "english": "does",
+        "bangla": "করবে"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "mithqala",
+        "arabic": "مِثْقَالَ",
+        "transliteration": "mithqala",
+        "english": "(the) weight",
+        "bangla": "পরিমাণ"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "dharratin",
+        "arabic": "ذَرَّةٍ",
+        "transliteration": "dharratin",
+        "english": "of an atom",
+        "bangla": "অণু"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "sharran",
+        "arabic": "شَرًّا",
+        "transliteration": "sharran",
+        "english": "of evil",
+        "bangla": "মন্দ"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "yarahu",
+        "arabic": "يَرَهُ",
+        "transliteration": "yarahu",
+        "english": "will see it",
+        "bangla": "তা দেখবে"
+      }
+    ]
+  },
+  {
+    "slug": "at-takathur",
+    "banglaName": "আত-তাকাসুর",
+    "arabicName": "التكاثر",
+    "englishName": "Rivalry in Increase",
+    "mushafNumber": 102,
+    "verses": [
+      {
+        "ayah": 1,
+        "wordSlug": "alhakumu",
+        "arabic": "أَلْهَاكُمُ",
+        "transliteration": "alhakumu",
+        "english": "Diverts you",
+        "bangla": "তোমাদের ভুলিয়ে রেখেছে"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "at-takathuru",
+        "arabic": "التَّكَاثُرُ",
+        "transliteration": "at-takathuru",
+        "english": "the rivalry in increase",
+        "bangla": "প্রাচুর্যের প্রতিযোগিতা"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "hatta",
+        "arabic": "حَتَّىٰ",
+        "transliteration": "hatta",
+        "english": "Until",
+        "bangla": "যতক্ষণ না"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "zurtumu",
+        "arabic": "زُرْتُمُ",
+        "transliteration": "zurtumu",
+        "english": "you visit",
+        "bangla": "তোমরা যিয়ারত করলে"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "al-maqabira",
+        "arabic": "الْمَقَابِرَ",
+        "transliteration": "al-maqabira",
+        "english": "the graves",
+        "bangla": "কবরসমূহ"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "kalla",
+        "arabic": "كَلَّا",
+        "transliteration": "kalla",
+        "english": "No!",
+        "bangla": "কখনো না"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "sawfa",
+        "arabic": "سَوْفَ",
+        "transliteration": "sawfa",
+        "english": "soon",
+        "bangla": "শীঘ্রই"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "talamuna",
+        "arabic": "تَعْلَمُونَ",
+        "transliteration": "ta'lamuna",
+        "english": "you will know",
+        "bangla": "তোমরা জানবে"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "thumma",
+        "arabic": "ثُمَّ",
+        "transliteration": "thumma",
+        "english": "Then",
+        "bangla": "তারপর"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "kalla",
+        "arabic": "كَلَّا",
+        "transliteration": "kalla",
+        "english": "no!",
+        "bangla": "কখনো না"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "sawfa",
+        "arabic": "سَوْفَ",
+        "transliteration": "sawfa",
+        "english": "soon",
+        "bangla": "শীঘ্রই"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "talamuna",
+        "arabic": "تَعْلَمُونَ",
+        "transliteration": "ta'lamuna",
+        "english": "you will know",
+        "bangla": "তোমরা জানবে"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "kalla",
+        "arabic": "كَلَّا",
+        "transliteration": "kalla",
+        "english": "No!",
+        "bangla": "কখনো না"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "law",
+        "arabic": "لَوْ",
+        "transliteration": "law",
+        "english": "if",
+        "bangla": "যদি"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "talamuna",
+        "arabic": "تَعْلَمُونَ",
+        "transliteration": "ta'lamuna",
+        "english": "you knew",
+        "bangla": "তোমরা জানতে"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "ilma",
+        "arabic": "عِلْمَ",
+        "transliteration": "'ilma",
+        "english": "(with) knowledge",
+        "bangla": "জ্ঞানে"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "al-yaqini",
+        "arabic": "الْيَقِينِ",
+        "transliteration": "al-yaqini",
+        "english": "of certainty",
+        "bangla": "নিশ্চিত"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "latarawunna",
+        "arabic": "لَتَرَوُنَّ",
+        "transliteration": "latarawunna",
+        "english": "You will surely see",
+        "bangla": "অবশ্যই তোমরা দেখবে"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "al-jahima",
+        "arabic": "الْجَحِيمَ",
+        "transliteration": "al-jahima",
+        "english": "the Hellfire",
+        "bangla": "জাহিম (জাহান্নাম)"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "thumma",
+        "arabic": "ثُمَّ",
+        "transliteration": "thumma",
+        "english": "Then",
+        "bangla": "তারপর"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "latarawunnaha",
+        "arabic": "لَتَرَوُنَّهَا",
+        "transliteration": "latarawunnaha",
+        "english": "you will surely see it",
+        "bangla": "অবশ্যই তা দেখবে"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "ayna",
+        "arabic": "عَيْنَ",
+        "transliteration": "'ayna",
+        "english": "(with the) eye",
+        "bangla": "চোখে"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "al-yaqini",
+        "arabic": "الْيَقِينِ",
+        "transliteration": "al-yaqini",
+        "english": "of certainty",
+        "bangla": "নিশ্চিত"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "thumma",
+        "arabic": "ثُمَّ",
+        "transliteration": "thumma",
+        "english": "Then",
+        "bangla": "তারপর"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "latus-alunna",
+        "arabic": "لَتُسْأَلُنَّ",
+        "transliteration": "latus-alunna",
+        "english": "you will surely be asked",
+        "bangla": "অবশ্যই জিজ্ঞাসিত হবে"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "yawma-idhin",
+        "arabic": "يَوْمَئِذٍ",
+        "transliteration": "yawma-idhin",
+        "english": "that Day",
+        "bangla": "সেদিন"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "ani",
+        "arabic": "عَنِ",
+        "transliteration": "'ani",
+        "english": "about",
+        "bangla": "সম্পর্কে"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "an-naimi",
+        "arabic": "النَّعِيمِ",
+        "transliteration": "an-na'imi",
+        "english": "the blessings",
+        "bangla": "নিয়ামত"
+      }
+    ]
+  },
+  {
+    "slug": "ash-sharh",
+    "banglaName": "আশ-শারহ",
+    "arabicName": "الشرح",
+    "englishName": "The Relief",
+    "mushafNumber": 94,
+    "verses": [
+      {
+        "ayah": 1,
+        "wordSlug": "alam",
+        "arabic": "أَلَمْ",
+        "transliteration": "alam",
+        "english": "Did not?",
+        "bangla": "কি নি?"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "nashrah",
+        "arabic": "نَشْرَحْ",
+        "transliteration": "nashrah",
+        "english": "We expand",
+        "bangla": "আমরা প্রশস্ত করি"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "laka",
+        "arabic": "لَكَ",
+        "transliteration": "laka",
+        "english": "for you",
+        "bangla": "তোমার জন্য"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "sadraka",
+        "arabic": "صَدْرَكَ",
+        "transliteration": "sadraka",
+        "english": "your breast",
+        "bangla": "তোমার বক্ষ"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "wa-wadana",
+        "arabic": "وَوَضَعْنَا",
+        "transliteration": "wa wada'na",
+        "english": "And We removed",
+        "bangla": "এবং নামিয়ে দিয়েছি"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "anka",
+        "arabic": "عَنكَ",
+        "transliteration": "'anka",
+        "english": "from you",
+        "bangla": "তোমার থেকে"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "wizraka",
+        "arabic": "وِزْرَكَ",
+        "transliteration": "wizraka",
+        "english": "your burden",
+        "bangla": "তোমার বোঝা"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "alladhi",
+        "arabic": "الَّذِي",
+        "transliteration": "alladhi",
+        "english": "which",
+        "bangla": "যা"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "anqada",
+        "arabic": "أَنقَضَ",
+        "transliteration": "anqada",
+        "english": "weighed down",
+        "bangla": "ভারী করে ফেলেছিল"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "zahraka",
+        "arabic": "ظَهْرَكَ",
+        "transliteration": "zahraka",
+        "english": "your back",
+        "bangla": "তোমার পিঠ"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "wa-rafana",
+        "arabic": "وَرَفَعْنَا",
+        "transliteration": "wa rafa'na",
+        "english": "And We raised",
+        "bangla": "এবং উঁচু করেছি"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "laka",
+        "arabic": "لَكَ",
+        "transliteration": "laka",
+        "english": "for you",
+        "bangla": "তোমার জন্য"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "dhikraka",
+        "arabic": "ذِكْرَكَ",
+        "transliteration": "dhikraka",
+        "english": "your renown (mention)",
+        "bangla": "তোমার স্মরণ (আলোচনা)"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "fa-inna",
+        "arabic": "فَإِنَّ",
+        "transliteration": "fa-inna",
+        "english": "So indeed",
+        "bangla": "সুতরাং নিশ্চয়ই"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "maa",
+        "arabic": "مَعَ",
+        "transliteration": "ma'a",
+        "english": "with",
+        "bangla": "সাথে"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "al-usri",
+        "arabic": "الْعُسْرِ",
+        "transliteration": "al-'usri",
+        "english": "hardship",
+        "bangla": "কঠিনের"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "yusran",
+        "arabic": "يُسْرًا",
+        "transliteration": "yusran",
+        "english": "(is) ease",
+        "bangla": "সহজ আছে"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "inna",
+        "arabic": "إِنَّ",
+        "transliteration": "inna",
+        "english": "Indeed",
+        "bangla": "নিশ্চয়ই"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "maa",
+        "arabic": "مَعَ",
+        "transliteration": "ma'a",
+        "english": "with",
+        "bangla": "সাথে"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "al-usri",
+        "arabic": "الْعُسْرِ",
+        "transliteration": "al-'usri",
+        "english": "hardship",
+        "bangla": "কঠিনের"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "yusran",
+        "arabic": "يُسْرًا",
+        "transliteration": "yusran",
+        "english": "(is) ease",
+        "bangla": "সহজ আছে"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "fa-idha",
+        "arabic": "فَإِذَا",
+        "transliteration": "fa-idha",
+        "english": "So when",
+        "bangla": "অতঃপর যখন"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "faraghta",
+        "arabic": "فَرَغْتَ",
+        "transliteration": "faraghta",
+        "english": "you have finished",
+        "bangla": "অবসর হও"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "fansab",
+        "arabic": "فَانصَبْ",
+        "transliteration": "fansab",
+        "english": "then labor (in worship)",
+        "bangla": "তখন (ইবাদতে) পরিশ্রমে লেগে যাও"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "wa-ila",
+        "arabic": "وَإِلَىٰ",
+        "transliteration": "wa ila",
+        "english": "And to",
+        "bangla": "এবং দিকে"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "rabbika",
+        "arabic": "رَبِّكَ",
+        "transliteration": "rabbika",
+        "english": "your Lord",
+        "bangla": "তোমার রবের"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "farghab",
+        "arabic": "فَارْغَب",
+        "transliteration": "farghab",
+        "english": "turn (your) longing",
+        "bangla": "একান্ত মনোযোগী হও"
+      }
+    ]
+  },
+  {
+    "slug": "at-tin",
+    "banglaName": "আত-তিন",
+    "arabicName": "التين",
+    "englishName": "The Fig",
+    "mushafNumber": 95,
+    "verses": [
+      {
+        "ayah": 1,
+        "wordSlug": "wat-tini",
+        "arabic": "وَالتِّينِ",
+        "transliteration": "wat-tini",
+        "english": "By the fig",
+        "bangla": "তীনের (ডুমুরের) শপথ"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "waz-zaytuni",
+        "arabic": "وَالزَّيْتُونِ",
+        "transliteration": "waz-zaytuni",
+        "english": "and the olive",
+        "bangla": "ও যাইতুনের"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "wa-turi",
+        "arabic": "وَطُورِ",
+        "transliteration": "wa turi",
+        "english": "And (by) Mount",
+        "bangla": "এবং তুর পাহাড়ের"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "sinina",
+        "arabic": "سِينِينَ",
+        "transliteration": "sinina",
+        "english": "Sinai",
+        "bangla": "সিনাই এর"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "wa-hadha",
+        "arabic": "وَهَٰذَا",
+        "transliteration": "wa hadha",
+        "english": "And (by) this",
+        "bangla": "এবং এই"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "al-baladi",
+        "arabic": "الْبَلَدِ",
+        "transliteration": "al-baladi",
+        "english": "city",
+        "bangla": "নগরের"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "al-amini",
+        "arabic": "الْأَمِينِ",
+        "transliteration": "al-amini",
+        "english": "secure",
+        "bangla": "নিরাপদ"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "laqad",
+        "arabic": "لَقَدْ",
+        "transliteration": "laqad",
+        "english": "Certainly",
+        "bangla": "নিশ্চয়ই"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "khalaqna",
+        "arabic": "خَلَقْنَا",
+        "transliteration": "khalaqna",
+        "english": "We created",
+        "bangla": "আমরা সৃষ্টি করেছি"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "al-insana",
+        "arabic": "الْإِنسَانَ",
+        "transliteration": "al-insana",
+        "english": "man",
+        "bangla": "মানুষকে"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "fi",
+        "arabic": "فِي",
+        "transliteration": "fi",
+        "english": "in",
+        "bangla": "মধ্যে"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "ahsani",
+        "arabic": "أَحْسَنِ",
+        "transliteration": "ahsani",
+        "english": "(the) best",
+        "bangla": "সর্বোত্তম"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "taqwim",
+        "arabic": "تَقْوِيمٍ",
+        "transliteration": "taqwim",
+        "english": "form (stature)",
+        "bangla": "গঠনে"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "thumma",
+        "arabic": "ثُمَّ",
+        "transliteration": "thumma",
+        "english": "Then",
+        "bangla": "তারপর"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "radadnahu",
+        "arabic": "رَدَدْنَاهُ",
+        "transliteration": "radadnahu",
+        "english": "We returned him",
+        "bangla": "তাকে ফিরিয়ে দিয়েছি"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "asfala",
+        "arabic": "أَسْفَلَ",
+        "transliteration": "asfala",
+        "english": "(to the) lowest",
+        "bangla": "সর্বনিম্নে"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "safilina",
+        "arabic": "سَافِلِينَ",
+        "transliteration": "safilina",
+        "english": "of the low",
+        "bangla": "নিচুদের"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "illa",
+        "arabic": "إِلَّا",
+        "transliteration": "illa",
+        "english": "Except",
+        "bangla": "তবে"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "alladhina",
+        "arabic": "الَّذِينَ",
+        "transliteration": "alladhina",
+        "english": "those who",
+        "bangla": "যারা"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "amanu",
+        "arabic": "آمَنُوا",
+        "transliteration": "amanu",
+        "english": "believed",
+        "bangla": "ঈমান এনেছে"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "wa-amilu",
+        "arabic": "وَعَمِلُوا",
+        "transliteration": "wa 'amilu",
+        "english": "and did",
+        "bangla": "এবং করেছে"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "as-salihati",
+        "arabic": "الصَّالِحَاتِ",
+        "transliteration": "as-salihati",
+        "english": "righteous deeds",
+        "bangla": "সৎকর্ম"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "falahum",
+        "arabic": "فَلَهُمْ",
+        "transliteration": "falahum",
+        "english": "so for them (is)",
+        "bangla": "তাদের জন্য আছে"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "ajrun",
+        "arabic": "أَجْرٌ",
+        "transliteration": "ajrun",
+        "english": "a reward",
+        "bangla": "পুরস্কার"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "ghayru",
+        "arabic": "غَيْرُ",
+        "transliteration": "ghayru",
+        "english": "without",
+        "bangla": "নয়"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "mamnunin",
+        "arabic": "مَمْنُونٍ",
+        "transliteration": "mamnunin",
+        "english": "end (interruption)",
+        "bangla": "শেষ হওয়ার"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "fama",
+        "arabic": "فَمَا",
+        "transliteration": "fama",
+        "english": "So what",
+        "bangla": "তাহলে কিসে"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "yukadhdhibuka",
+        "arabic": "يُكَذِّبُكَ",
+        "transliteration": "yukadhdhibuka",
+        "english": "makes you deny",
+        "bangla": "তোমাকে অস্বীকার করায়"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "badu",
+        "arabic": "بَعْدُ",
+        "transliteration": "ba'du",
+        "english": "after (this)",
+        "bangla": "এরপরও"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "bid-dini",
+        "arabic": "بِالدِّينِ",
+        "transliteration": "bid-dini",
+        "english": "the Judgment",
+        "bangla": "বিচারকে"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "alaysa",
+        "arabic": "أَلَيْسَ",
+        "transliteration": "alaysa",
+        "english": "Is not?",
+        "bangla": "নন কি?"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "allahu",
+        "arabic": "اللَّهُ",
+        "transliteration": "allahu",
+        "english": "Allah",
+        "bangla": "আল্লাহ"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "bi-ahkami",
+        "arabic": "بِأَحْكَمِ",
+        "transliteration": "bi-ahkami",
+        "english": "the most just",
+        "bangla": "সর্বশ্রেষ্ঠ বিচারক"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "al-hakimina",
+        "arabic": "الْحَاكِمِينَ",
+        "transliteration": "al-hakimina",
+        "english": "of judges",
+        "bangla": "বিচারকদের মধ্যে"
+      }
+    ]
+  },
+  {
+    "slug": "al-humazah",
+    "banglaName": "আল-হুমাযাহ",
+    "arabicName": "الهمزة",
+    "englishName": "The Slanderer",
+    "mushafNumber": 104,
+    "verses": [
+      {
+        "ayah": 1,
+        "wordSlug": "waylun",
+        "arabic": "وَيْلٌ",
+        "transliteration": "waylun",
+        "english": "Woe",
+        "bangla": "দুর্ভোগ"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "likulli",
+        "arabic": "لِّكُلِّ",
+        "transliteration": "likulli",
+        "english": "to every",
+        "bangla": "প্রত্যেকের জন্য"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "humazatin",
+        "arabic": "هُمَزَةٍ",
+        "transliteration": "humazatin",
+        "english": "slanderer",
+        "bangla": "পেছনে নিন্দাকারীর"
+      },
+      {
+        "ayah": 1,
+        "wordSlug": "lumazatin",
+        "arabic": "لُّمَزَةٍ",
+        "transliteration": "lumazatin",
+        "english": "fault-finder",
+        "bangla": "সামনে খোঁটাদানকারীর"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "alladhi",
+        "arabic": "الَّذِي",
+        "transliteration": "alladhi",
+        "english": "Who",
+        "bangla": "যে"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "jamaa",
+        "arabic": "جَمَعَ",
+        "transliteration": "jama'a",
+        "english": "collects",
+        "bangla": "জমা করেছে"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "malan",
+        "arabic": "مَالًا",
+        "transliteration": "malan",
+        "english": "wealth",
+        "bangla": "সম্পদ"
+      },
+      {
+        "ayah": 2,
+        "wordSlug": "wa-addadahu",
+        "arabic": "وَعَدَّدَهُ",
+        "transliteration": "wa 'addadahu",
+        "english": "and counts it",
+        "bangla": "এবং তা গুনে গুনে রাখে"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "yahsabu",
+        "arabic": "يَحْسَبُ",
+        "transliteration": "yahsabu",
+        "english": "He thinks",
+        "bangla": "সে মনে করে"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "anna",
+        "arabic": "أَنَّ",
+        "transliteration": "anna",
+        "english": "that",
+        "bangla": "যে"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "malahu",
+        "arabic": "مَالَهُ",
+        "transliteration": "malahu",
+        "english": "his wealth",
+        "bangla": "তার সম্পদ"
+      },
+      {
+        "ayah": 3,
+        "wordSlug": "akhladahu",
+        "arabic": "أَخْلَدَهُ",
+        "transliteration": "akhladahu",
+        "english": "will make him immortal",
+        "bangla": "তাকে অমর করবে"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "kalla",
+        "arabic": "كَلَّا",
+        "transliteration": "kalla",
+        "english": "No!",
+        "bangla": "কখনো না"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "layunbadhanna",
+        "arabic": "لَيُنبَذَنَّ",
+        "transliteration": "layunbadhanna",
+        "english": "he will surely be thrown",
+        "bangla": "অবশ্যই সে নিক্ষিপ্ত হবে"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "fi",
+        "arabic": "فِي",
+        "transliteration": "fi",
+        "english": "into",
+        "bangla": "মধ্যে"
+      },
+      {
+        "ayah": 4,
+        "wordSlug": "al-hutamah",
+        "arabic": "الْحُطَمَةِ",
+        "transliteration": "al-hutamah",
+        "english": "the Crusher",
+        "bangla": "হুতামায় (চূর্ণকারীতে)"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "wa-ma",
+        "arabic": "وَمَا",
+        "transliteration": "wa ma",
+        "english": "And what",
+        "bangla": "আর কিসে"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "adraka",
+        "arabic": "أَدْرَاكَ",
+        "transliteration": "adraka",
+        "english": "will make you know",
+        "bangla": "তোমাকে জানাবে"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "ma",
+        "arabic": "مَا",
+        "transliteration": "ma",
+        "english": "what (is)",
+        "bangla": "কী"
+      },
+      {
+        "ayah": 5,
+        "wordSlug": "al-hutamah",
+        "arabic": "الْحُطَمَةُ",
+        "transliteration": "al-hutamah",
+        "english": "the Crusher",
+        "bangla": "হুতামা"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "naru",
+        "arabic": "نَارُ",
+        "transliteration": "naru",
+        "english": "(It is the) fire",
+        "bangla": "আগুন"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "allahi",
+        "arabic": "اللَّهِ",
+        "transliteration": "allahi",
+        "english": "of Allah",
+        "bangla": "আল্লাহর"
+      },
+      {
+        "ayah": 6,
+        "wordSlug": "al-muqadah",
+        "arabic": "الْمُوقَدَةُ",
+        "transliteration": "al-muqadah",
+        "english": "kindled",
+        "bangla": "প্রজ্বলিত"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "allati",
+        "arabic": "الَّتِي",
+        "transliteration": "allati",
+        "english": "Which",
+        "bangla": "যা"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "tattaliu",
+        "arabic": "تَطَّلِعُ",
+        "transliteration": "tattali'u",
+        "english": "leaps up",
+        "bangla": "পৌঁছে যায়"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "ala-al-humazah",
+        "arabic": "عَلَى",
+        "transliteration": "'ala",
+        "english": "over",
+        "bangla": "উপর"
+      },
+      {
+        "ayah": 7,
+        "wordSlug": "al-af-idati",
+        "arabic": "الْأَفْئِدَةِ",
+        "transliteration": "al-af-idati",
+        "english": "the hearts",
+        "bangla": "হৃদয়সমূহের"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "innaha",
+        "arabic": "إِنَّهَا",
+        "transliteration": "innaha",
+        "english": "Indeed it (will be)",
+        "bangla": "নিশ্চয়ই তা"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "alayhim-al-humazah",
+        "arabic": "عَلَيْهِم",
+        "transliteration": "'alayhim",
+        "english": "upon them",
+        "bangla": "তাদের উপর"
+      },
+      {
+        "ayah": 8,
+        "wordSlug": "mu-sadah",
+        "arabic": "مُّؤْصَدَةٌ",
+        "transliteration": "mu-sadah",
+        "english": "closed over",
+        "bangla": "বন্ধ করা থাকবে"
+      },
+      {
+        "ayah": 9,
+        "wordSlug": "fi",
+        "arabic": "فِي",
+        "transliteration": "fi",
+        "english": "In",
+        "bangla": "মধ্যে"
+      },
+      {
+        "ayah": 9,
+        "wordSlug": "amadin",
+        "arabic": "عَمَدٍ",
+        "transliteration": "'amadin",
+        "english": "columns",
+        "bangla": "স্তম্ভসমূহের"
+      },
+      {
+        "ayah": 9,
+        "wordSlug": "mumaddadah",
+        "arabic": "مُّمَدَّدَةٍ",
+        "transliteration": "mumaddadah",
+        "english": "extended",
+        "bangla": "প্রলম্বিত"
+      }
+    ]
+  }
+]

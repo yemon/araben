@@ -1,0 +1,507 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------------------------------------------------------
+   Font stack (self-hosted via next/font — see src/lib/fonts.ts).
+   The --font-*-next variables come from the <html> element that
+   next/font decorates with them.
+------------------------------------------------------------------ */
+:root {
+  --font-arabic: var(--font-arabic-next), 'Amiri', 'Scheherazade New', 'Noto Naskh Arabic', serif;
+  --font-bangla: var(--font-bangla-next), 'Noto Sans Bengali', 'Hind Siliguri', sans-serif;
+  --font-latin: var(--font-latin-next), system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-serif: var(--font-serif-next), 'Charter', Georgia, serif;
+  --font-read: var(--font-read-next), 'Charter', Georgia, serif;
+}
+
+/* ------------------------------------------------------------------
+   Themes — accent (teal, learning/progress) + accent-2 (amber, cultural warmth)
+------------------------------------------------------------------ */
+:root,
+[data-theme='light-gray'] {
+  --bg: #eef1f4;
+  --bg-2: #e6ebef;
+  --surface: #ffffff;
+  --surface-2: #f5f7f9;
+  --surface-3: #fbfbfc;
+  --fg: #1a2530;
+  --fg-2: #35424f;
+  --muted: #667383;
+  --accent: #0d7c66;
+  --accent-2: #c97b1b;
+  --accent-soft: #dcf1eb;
+  --accent-2-soft: #fbeed6;
+  --accent-fg: #ffffff;
+  --border: #dbe0e6;
+  --border-2: #eaeef2;
+  --highlight: #fff2c2;
+  --ring: rgba(13, 124, 102, 0.35);
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.05);
+  --shadow: 0 2px 6px rgba(15, 23, 42, 0.06), 0 12px 32px -8px rgba(15, 23, 42, 0.08);
+  --shadow-lg: 0 20px 60px -20px rgba(13, 124, 102, 0.18);
+  --gradient-hero: radial-gradient(
+      1200px 500px at 15% -10%,
+      rgba(13, 124, 102, 0.14),
+      transparent 60%
+    ),
+    radial-gradient(900px 400px at 85% 0%, rgba(201, 123, 27, 0.14), transparent 60%);
+  --gradient-accent: linear-gradient(135deg, #0d7c66 0%, #14a688 100%);
+  --gradient-accent-2: linear-gradient(135deg, #c97b1b 0%, #e8a24a 100%);
+}
+
+[data-theme='semi-dark'] {
+  --bg: #1c2027;
+  --bg-2: #171b21;
+  --surface: #262c34;
+  --surface-2: #303841;
+  --surface-3: #384049;
+  --fg: #eef2f6;
+  --fg-2: #d0d7df;
+  --muted: #9aa7b4;
+  --accent: #4dd6b8;
+  --accent-2: #f0b365;
+  --accent-soft: rgba(77, 214, 184, 0.14);
+  --accent-2-soft: rgba(240, 179, 101, 0.16);
+  --accent-fg: #0a1114;
+  --border: #3a424d;
+  --border-2: #2b323b;
+  --highlight: #4a4416;
+  --ring: rgba(77, 214, 184, 0.4);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow: 0 2px 6px rgba(0, 0, 0, 0.35), 0 12px 32px -8px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 20px 60px -20px rgba(77, 214, 184, 0.25);
+  --gradient-hero: radial-gradient(
+      1200px 500px at 15% -10%,
+      rgba(77, 214, 184, 0.14),
+      transparent 60%
+    ),
+    radial-gradient(900px 400px at 85% 0%, rgba(240, 179, 101, 0.12), transparent 60%);
+  --gradient-accent: linear-gradient(135deg, #14a688 0%, #4dd6b8 100%);
+  --gradient-accent-2: linear-gradient(135deg, #c97b1b 0%, #f0b365 100%);
+}
+
+[data-theme='sepia'] {
+  --bg: #f0e3c6;
+  --bg-2: #ead9b6;
+  --surface: #faf1d8;
+  --surface-2: #f6ecd0;
+  --surface-3: #fdf6e2;
+  --fg: #4a3320;
+  --fg-2: #5f4630;
+  --muted: #8a704f;
+  --accent: #a04d1a;
+  --accent-2: #7a5b1a;
+  --accent-soft: #f2d9ba;
+  --accent-2-soft: #ede1b0;
+  --accent-fg: #faf1d8;
+  --border: #d9c9a3;
+  --border-2: #e6d9b8;
+  --highlight: #e8d38a;
+  --ring: rgba(160, 77, 26, 0.4);
+  --shadow-sm: 0 1px 2px rgba(90, 60, 20, 0.08);
+  --shadow: 0 2px 6px rgba(90, 60, 20, 0.09), 0 12px 32px -8px rgba(90, 60, 20, 0.12);
+  --shadow-lg: 0 20px 60px -20px rgba(160, 77, 26, 0.25);
+  --gradient-hero: radial-gradient(
+      1200px 500px at 15% -10%,
+      rgba(160, 77, 26, 0.14),
+      transparent 60%
+    ),
+    radial-gradient(900px 400px at 85% 0%, rgba(122, 91, 26, 0.12), transparent 60%);
+  --gradient-accent: linear-gradient(135deg, #a04d1a 0%, #c97036 100%);
+  --gradient-accent-2: linear-gradient(135deg, #7a5b1a 0%, #a4842d 100%);
+}
+
+/* ------------------------------------------------------------------
+   Base
+------------------------------------------------------------------ */
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-latin);
+  font-size: 17px;
+  line-height: 1.65;
+  min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-image: var(--gradient-hero);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 720px;
+}
+
+html[lang='bn'] body {
+  font-family: var(--font-bangla);
+}
+
+/* Any element explicitly marked as English (lang="en") stays in the Latin
+   stack, no matter what the ancestor language is. This keeps English meaning
+   columns, transliterations, and English titles from inheriting Anek Bangla. */
+[lang='en'] {
+  font-family: var(--font-latin);
+}
+
+/* Same idea in reverse — an element explicitly marked Bangla always uses
+   Anek Bangla, even in English mode. */
+[lang='bn'] {
+  font-family: var(--font-bangla);
+}
+
+/* Arabic mark always uses Amiri. */
+[lang='ar'] {
+  font-family: var(--font-arabic);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+a:hover {
+  color: var(--accent-2);
+}
+
+::selection {
+  background: color-mix(in oklab, var(--accent) 45%, transparent);
+  color: var(--fg);
+}
+
+/* ------------------------------------------------------------------
+   Arabic — larger, RTL, generous line height
+------------------------------------------------------------------ */
+.ar {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  font-size: 1.55em;
+  line-height: 2;
+  font-weight: 400;
+  unicode-bidi: isolate;
+}
+
+.ar-lg {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  font-size: 2.75em;
+  line-height: 1.5;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.bn {
+  font-family: var(--font-bangla);
+  font-feature-settings: 'ss01' on;
+}
+
+.translit {
+  font-family: var(--font-latin);
+  font-style: italic;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.01em;
+}
+
+/* Reading-body wrapper for long-form paragraphs */
+.read-body {
+  font-family: var(--font-read);
+  font-size: 1.075rem;
+  line-height: 1.8;
+  max-width: 68ch;
+  color: var(--fg-2);
+}
+
+.display {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+}
+
+/* Playfair Display has no Bangla glyphs — fall back to Anek Bangla in bn mode.
+   Use a heavier weight + tighter leading to keep the "display" feel. */
+html[lang='bn'] .display {
+  font-family: var(--font-bangla);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  font-style: normal;
+}
+
+/* Long-read body font in Bangla mode: Source Serif is Latin-only. */
+html[lang='bn'] .read-body {
+  font-family: var(--font-bangla);
+  font-weight: 400;
+}
+
+/* ------------------------------------------------------------------
+   Elegant card, chip, button
+------------------------------------------------------------------ */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.card-hover {
+  cursor: pointer;
+}
+.card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+  border-color: color-mix(in oklab, var(--accent) 30%, var(--border));
+}
+
+.card-2 {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+
+.chip-accent {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-color: transparent;
+}
+
+.chip-warm {
+  background: var(--accent-2-soft);
+  color: var(--accent-2);
+  border-color: transparent;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 22px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease,
+    color 0.15s ease, border-color 0.15s ease;
+  border: 1px solid transparent;
+  line-height: 1;
+}
+
+.btn-primary {
+  background: var(--gradient-accent);
+  color: var(--accent-fg);
+  box-shadow: 0 8px 20px -8px var(--ring);
+}
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 28px -8px var(--ring);
+  color: var(--accent-fg);
+}
+
+.btn-ghost {
+  background: var(--surface);
+  color: var(--fg);
+  border-color: var(--border);
+}
+.btn-ghost:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* Focus ring — accessible for all themes */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 8px;
+}
+
+/* ------------------------------------------------------------------
+   Minimal scrollbar — invisible until you hover the scroll area
+------------------------------------------------------------------ */
+.scrollbar-minimal {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+  transition: scrollbar-color 0.2s ease;
+}
+.scrollbar-minimal:hover,
+.scrollbar-minimal:focus-within {
+  scrollbar-color: color-mix(in oklab, var(--muted) 35%, transparent) transparent;
+}
+.scrollbar-minimal::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.scrollbar-minimal::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollbar-minimal::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 999px;
+  transition: background 0.2s ease;
+}
+.scrollbar-minimal:hover::-webkit-scrollbar-thumb,
+.scrollbar-minimal:focus-within::-webkit-scrollbar-thumb {
+  background: color-mix(in oklab, var(--muted) 30%, transparent);
+}
+.scrollbar-minimal::-webkit-scrollbar-thumb:hover {
+  background: color-mix(in oklab, var(--muted) 55%, transparent);
+}
+.scrollbar-minimal::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* ------------------------------------------------------------------
+   Decorative bits
+------------------------------------------------------------------ */
+.divider-fancy {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--muted);
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.divider-fancy::before,
+.divider-fancy::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--border),
+    transparent
+  );
+}
+
+/* Hand-drawn curved underline, sits tight under the baseline.
+   SVG stretches to fit any word length; stroke inherits accent color. */
+.underline-flourish {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 0.12em;
+}
+.underline-flourish::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -0.05em;
+  height: 0.32em;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 12' preserveAspectRatio='none'><defs><linearGradient id='g' x1='0' x2='1'><stop offset='0' stop-color='%230d7c66'/><stop offset='1' stop-color='%23c97b1b'/></linearGradient></defs><path d='M2 8 Q 50 -1 100 6 T 198 5' fill='none' stroke='url(%23g)' stroke-width='3' stroke-linecap='round'/></svg>");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  pointer-events: none;
+}
+[data-theme='semi-dark'] .underline-flourish::after {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 12' preserveAspectRatio='none'><defs><linearGradient id='g' x1='0' x2='1'><stop offset='0' stop-color='%234dd6b8'/><stop offset='1' stop-color='%23f0b365'/></linearGradient></defs><path d='M2 8 Q 50 -1 100 6 T 198 5' fill='none' stroke='url(%23g)' stroke-width='3' stroke-linecap='round'/></svg>");
+}
+[data-theme='sepia'] .underline-flourish::after {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 12' preserveAspectRatio='none'><defs><linearGradient id='g' x1='0' x2='1'><stop offset='0' stop-color='%23a04d1a'/><stop offset='1' stop-color='%237a5b1a'/></linearGradient></defs><path d='M2 8 Q 50 -1 100 6 T 198 5' fill='none' stroke='url(%23g)' stroke-width='3' stroke-linecap='round'/></svg>");
+}
+
+/* Subtle arabesque background for the hero */
+.hero-ornament {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+.hero-ornament::before {
+  content: '';
+  position: absolute;
+  inset: -40% -20% auto -20%;
+  height: 720px;
+  background:
+    radial-gradient(600px 240px at 30% 40%, var(--accent-soft), transparent 65%),
+    radial-gradient(500px 220px at 75% 55%, var(--accent-2-soft), transparent 65%);
+  pointer-events: none;
+  z-index: -1;
+  opacity: 0.9;
+}
+
+.stat-num {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 2rem;
+  background: var(--gradient-accent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  line-height: 1;
+}
+
+/* ------------------------------------------------------------------
+   Responsive
+------------------------------------------------------------------ */
+@media (max-width: 640px) {
+  body {
+    font-size: 16px;
+  }
+  .ar {
+    font-size: 1.7em;
+    line-height: 2.1;
+  }
+  .ar-lg {
+    font-size: 2.3em;
+  }
+  .responsive-table {
+    display: block;
+  }
+  .responsive-table thead {
+    display: none;
+  }
+  .responsive-table tbody,
+  .responsive-table tr,
+  .responsive-table td {
+    display: block;
+    width: 100%;
+  }
+  .responsive-table tr {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 14px;
+    margin-bottom: 12px;
+    box-shadow: var(--shadow-sm);
+  }
+  .responsive-table td {
+    padding: 4px 0;
+    border: none;
+  }
+  .responsive-table td[data-label]::before {
+    content: attr(data-label);
+    display: block;
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}

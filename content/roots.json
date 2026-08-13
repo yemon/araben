@@ -1,0 +1,1143 @@
+[
+  {
+    "slug": "k-t-b",
+    "arabic": "ك-ت-ب",
+    "latin": "K-T-B",
+    "meaning": "লেখা",
+    "order": 1,
+    "family": [
+      {
+        "arabic": "كَتَبَ",
+        "transliteration": "KaTaBa",
+        "pattern": "মূল ক্রিয়া",
+        "meaning": "সে লিখল",
+        "note": ""
+      },
+      {
+        "arabic": "كِتَاب",
+        "transliteration": "KiTaB",
+        "pattern": "فِعَال",
+        "meaning": "বই",
+        "note": "বাংলা কিতাব"
+      },
+      {
+        "arabic": "كَاتِب",
+        "transliteration": "KaTiB",
+        "pattern": "فَاعِل",
+        "meaning": "লেখক",
+        "note": "কাতিব"
+      },
+      {
+        "arabic": "مَكْتُوب",
+        "transliteration": "maKTuB",
+        "pattern": "مَفْعُول",
+        "meaning": "লিখিত, চিঠি",
+        "note": "মাকতুব"
+      },
+      {
+        "arabic": "مَكْتَب",
+        "transliteration": "maKTaB",
+        "pattern": "স্থান",
+        "meaning": "অফিস, স্কুল",
+        "note": "মক্তব"
+      },
+      {
+        "arabic": "مَكْتَبَة",
+        "transliteration": "maKTaBa",
+        "pattern": "স্থান",
+        "meaning": "লাইব্রেরি",
+        "note": ""
+      },
+      {
+        "arabic": "كِتَابَة",
+        "transliteration": "KiTaBa",
+        "pattern": "ক্রিয়াবাচক",
+        "meaning": "লেখালেখি",
+        "note": "কিতাবত"
+      }
+    ]
+  },
+  {
+    "slug": "a-l-m",
+    "arabic": "ع-ل-م",
+    "latin": "'-L-M",
+    "meaning": "জানা",
+    "order": 2,
+    "family": [
+      {
+        "arabic": "عَلِمَ",
+        "transliteration": "'aLiMa",
+        "pattern": "মূল ক্রিয়া",
+        "meaning": "সে জানল",
+        "note": ""
+      },
+      {
+        "arabic": "عِلْم",
+        "transliteration": "'iLM",
+        "pattern": "বিশেষ্য",
+        "meaning": "জ্ঞান",
+        "note": "এলেম"
+      },
+      {
+        "arabic": "عَالِم",
+        "transliteration": "'aLiM",
+        "pattern": "فَاعِل",
+        "meaning": "জ্ঞানী",
+        "note": "আলেম"
+      },
+      {
+        "arabic": "عُلَمَاء",
+        "transliteration": "'uLaMa'",
+        "pattern": "বহুবচন",
+        "meaning": "জ্ঞানীরা",
+        "note": "উলামা"
+      },
+      {
+        "arabic": "مَعْلُوم",
+        "transliteration": "ma'LuM",
+        "pattern": "مَفْعُول",
+        "meaning": "জ্ঞাত",
+        "note": "মালুম"
+      },
+      {
+        "arabic": "تَعْلِيم",
+        "transliteration": "ta'LiM",
+        "pattern": "تَفْعِيل",
+        "meaning": "শিক্ষাদান",
+        "note": "তালিম"
+      },
+      {
+        "arabic": "مُعَلِّم",
+        "transliteration": "mu'aLLiM",
+        "pattern": "কর্তা",
+        "meaning": "শিক্ষক",
+        "note": "মুয়াল্লিম"
+      },
+      {
+        "arabic": "عَلَامَة",
+        "transliteration": "'aLaMa",
+        "pattern": "বিশেষ্য",
+        "meaning": "চিহ্ন",
+        "note": "আলামত"
+      },
+      {
+        "arabic": "عَالَمِين",
+        "transliteration": "'aLaMin",
+        "pattern": "বহুবচন",
+        "meaning": "সকল জগত",
+        "note": "ফাতিহা: رَبِّ الْعَالَمِينَ, \"জগত\" মানে যা দিয়ে স্রষ্টাকে জানা যায়"
+      }
+    ]
+  },
+  {
+    "slug": "a-m-l",
+    "arabic": "ع-م-ل",
+    "latin": "'-M-L",
+    "meaning": "কাজ করা",
+    "order": 3,
+    "family": [
+      {
+        "arabic": "عَمِلَ",
+        "transliteration": "'aMiLa",
+        "pattern": "মূল ক্রিয়া",
+        "meaning": "সে কাজ করল",
+        "note": "আসর: عَمِلُوا الصَّالِحَاتِ"
+      },
+      {
+        "arabic": "عَمَل",
+        "transliteration": "'aMaL",
+        "pattern": "বিশেষ্য",
+        "meaning": "কাজ",
+        "note": "আমল"
+      },
+      {
+        "arabic": "أَعْمَال",
+        "transliteration": "a'MaL",
+        "pattern": "বহুবচন",
+        "meaning": "কাজসমূহ",
+        "note": "আমলনামা"
+      },
+      {
+        "arabic": "عَامِل",
+        "transliteration": "'aMiL",
+        "pattern": "فَاعِل",
+        "meaning": "কর্মী",
+        "note": "আমিল"
+      },
+      {
+        "arabic": "عَمَلَة",
+        "transliteration": "'aMaLa",
+        "pattern": "বহুবচন",
+        "meaning": "কর্মচারীরা",
+        "note": "আমলা"
+      },
+      {
+        "arabic": "مُعَامَلَة",
+        "transliteration": "mu'aMaLa",
+        "pattern": "مُفَاعَلَة",
+        "meaning": "লেনদেন",
+        "note": "মামলা"
+      }
+    ]
+  },
+  {
+    "slug": "h-m-d",
+    "arabic": "ح-م-د",
+    "latin": "H-M-D",
+    "meaning": "প্রশংসা",
+    "order": 4,
+    "family": [
+      {
+        "arabic": "حَمِدَ",
+        "transliteration": "HaMiDa",
+        "pattern": "মূল ক্রিয়া",
+        "meaning": "প্রশংসা করল",
+        "note": ""
+      },
+      {
+        "arabic": "حَمْد",
+        "transliteration": "HaMD",
+        "pattern": "বিশেষ্য",
+        "meaning": "প্রশংসা",
+        "note": "ফাতিহা: الْحَمْدُ لِلَّهِ"
+      },
+      {
+        "arabic": "حَامِد",
+        "transliteration": "HaMiD",
+        "pattern": "فَاعِل",
+        "meaning": "প্রশংসাকারী",
+        "note": "হামিদ (নাম)"
+      },
+      {
+        "arabic": "مَحْمُود",
+        "transliteration": "maHMuD",
+        "pattern": "مَفْعُول",
+        "meaning": "প্রশংসিত",
+        "note": "মাহমুদ (নাম)"
+      },
+      {
+        "arabic": "أَحْمَد",
+        "transliteration": "aHMaD",
+        "pattern": "তুলনামূলক",
+        "meaning": "অধিক প্রশংসিত",
+        "note": "আহমদ (নাম)"
+      },
+      {
+        "arabic": "مُحَمَّد",
+        "transliteration": "muHaMMaD",
+        "pattern": "ফর্ম ২ কর্ম",
+        "meaning": "বারবার প্রশংসিত",
+        "note": "মুহাম্মদ (সা.)"
+      }
+    ]
+  },
+  {
+    "slug": "s-l-m",
+    "arabic": "س-ل-م",
+    "latin": "S-L-M",
+    "meaning": "শান্তি, নিরাপত্তা",
+    "order": 5,
+    "family": [
+      {
+        "arabic": "سَلِمَ",
+        "transliteration": "SaLiMa",
+        "pattern": "মূল ক্রিয়া",
+        "meaning": "নিরাপদ থাকল",
+        "note": ""
+      },
+      {
+        "arabic": "سَلَام",
+        "transliteration": "SaLaM",
+        "pattern": "বিশেষ্য",
+        "meaning": "শান্তি",
+        "note": "কদর: سَلَامٌ هِيَ; আসসালামু আলাইকুম"
+      },
+      {
+        "arabic": "سَلَامَة",
+        "transliteration": "SaLaMa",
+        "pattern": "বিশেষ্য",
+        "meaning": "নিরাপত্তা",
+        "note": "মাআস-সালামা (বিদায়)"
+      },
+      {
+        "arabic": "إِسْلَام",
+        "transliteration": "iSLaM",
+        "pattern": "ফর্ম ৪",
+        "meaning": "আত্মসমর্পণ",
+        "note": "ইসলাম"
+      },
+      {
+        "arabic": "مُسْلِم",
+        "transliteration": "muSLiM",
+        "pattern": "ফর্ম ৪ কর্তা",
+        "meaning": "আত্মসমর্পণকারী",
+        "note": "মুসলিম"
+      },
+      {
+        "arabic": "تَسْلِيم",
+        "transliteration": "taSLiM",
+        "pattern": "تَفْعِيل",
+        "meaning": "সমর্পণ, সালাম পেশ",
+        "note": "তসলিম"
+      },
+      {
+        "arabic": "سَلِيم",
+        "transliteration": "SaLiM",
+        "pattern": "فَعِيل",
+        "meaning": "নিরাপদ, সুস্থ",
+        "note": "সেলিম (নাম)"
+      }
+    ]
+  },
+  {
+    "slug": "r-h-m",
+    "arabic": "ر-ح-م",
+    "latin": "R-H-M",
+    "meaning": "দয়া",
+    "order": 6,
+    "family": [
+      {
+        "arabic": "رَحِمَ",
+        "transliteration": "RaHiMa",
+        "pattern": "মূল ক্রিয়া",
+        "meaning": "দয়া করল",
+        "note": ""
+      },
+      {
+        "arabic": "رَحْمَة",
+        "transliteration": "RaHMa",
+        "pattern": "বিশেষ্য",
+        "meaning": "দয়া",
+        "note": "রহমত"
+      },
+      {
+        "arabic": "رَحْمَان",
+        "transliteration": "RaHMan",
+        "pattern": "তীব্র গুণ",
+        "meaning": "পরম করুণাময়",
+        "note": "প্রতিটি বিসমিল্লাহতে"
+      },
+      {
+        "arabic": "رَحِيم",
+        "transliteration": "RaHiM",
+        "pattern": "فَعِيل",
+        "meaning": "পরম দয়ালু",
+        "note": "রহিম"
+      },
+      {
+        "arabic": "مَرْحُوم",
+        "transliteration": "maRHuM",
+        "pattern": "مَفْعُول",
+        "meaning": "দয়াপ্রাপ্ত",
+        "note": "মরহুম (প্রয়াত ব্যক্তি)"
+      },
+      {
+        "arabic": "رَحِم",
+        "transliteration": "RaHiM",
+        "pattern": "বিশেষ্য",
+        "meaning": "মাতৃগর্ভ",
+        "note": "দয়া আর মায়ের গর্ভ একই মূলে, ভাবার মতো"
+      }
+    ]
+  },
+  {
+    "slug": "a-b-d",
+    "arabic": "ع-ب-د",
+    "latin": "'-B-D",
+    "meaning": "ইবাদত, দাসত্ব",
+    "order": 7,
+    "family": [
+      {
+        "arabic": "عَبَدَ",
+        "transliteration": "'aBaDa",
+        "pattern": "মূল ক্রিয়া",
+        "meaning": "ইবাদত করল",
+        "note": ""
+      },
+      {
+        "arabic": "نَعْبُدُ",
+        "transliteration": "na'BuDu",
+        "pattern": "বর্তমান, আমরা",
+        "meaning": "আমরা ইবাদত করি",
+        "note": "ফাতিহা: إِيَّاكَ نَعْبُدُ"
+      },
+      {
+        "arabic": "عَبْد",
+        "transliteration": "'aBD",
+        "pattern": "বিশেষ্য",
+        "meaning": "দাস, বান্দা",
+        "note": "আবদুল্লাহ = আল্লাহর বান্দা"
+      },
+      {
+        "arabic": "عِبَاد",
+        "transliteration": "'iBaD",
+        "pattern": "বহুবচন",
+        "meaning": "বান্দারা",
+        "note": ""
+      },
+      {
+        "arabic": "عِبَادَة",
+        "transliteration": "'iBaDa",
+        "pattern": "ক্রিয়াবাচক",
+        "meaning": "উপাসনা",
+        "note": "ইবাদত"
+      },
+      {
+        "arabic": "مَعْبُود",
+        "transliteration": "ma'BuD",
+        "pattern": "مَفْعُول",
+        "meaning": "উপাস্য",
+        "note": "মাবুদ"
+      }
+    ]
+  },
+  {
+    "slug": "q-d-r",
+    "arabic": "ق-د-ر",
+    "latin": "Q-D-R",
+    "meaning": "ক্ষমতা, নির্ধারণ",
+    "order": 8,
+    "family": [
+      {
+        "arabic": "قَدَرَ",
+        "transliteration": "QaDaRa",
+        "pattern": "মূল ক্রিয়া",
+        "meaning": "নির্ধারণ করল, সক্ষম হলো",
+        "note": ""
+      },
+      {
+        "arabic": "قَدْر",
+        "transliteration": "QaDR",
+        "pattern": "বিশেষ্য",
+        "meaning": "মর্যাদা, নির্ধারণ",
+        "note": "সূরা আল-কদর"
+      },
+      {
+        "arabic": "قُدْرَة",
+        "transliteration": "QuDRa",
+        "pattern": "বিশেষ্য",
+        "meaning": "ক্ষমতা",
+        "note": "কুদরত"
+      },
+      {
+        "arabic": "قَدِير",
+        "transliteration": "QaDiR",
+        "pattern": "فَعِيل",
+        "meaning": "সর্বশক্তিমান",
+        "note": "কাদির (আল্লাহর নাম)"
+      },
+      {
+        "arabic": "تَقْدِير",
+        "transliteration": "taQDiR",
+        "pattern": "تَفْعِيل",
+        "meaning": "নির্ধারণ",
+        "note": "তকদির"
+      },
+      {
+        "arabic": "مِقْدَار",
+        "transliteration": "miQDaR",
+        "pattern": "পরিমাপ",
+        "meaning": "পরিমাণ",
+        "note": "মিকদার"
+      }
+    ]
+  },
+  {
+    "slug": "f-t-h",
+    "arabic": "ف-ت-ح",
+    "latin": "F-T-H",
+    "meaning": "খোলা, বিজয়",
+    "order": 9,
+    "family": [
+      {
+        "arabic": "فَتَحَ",
+        "transliteration": "FaTaHa",
+        "pattern": "মূল ক্রিয়া",
+        "meaning": "খুলল, জয় করল",
+        "note": ""
+      },
+      {
+        "arabic": "فَتْح",
+        "transliteration": "FaTH",
+        "pattern": "বিশেষ্য",
+        "meaning": "বিজয়",
+        "note": "নাসর: وَالْفَتْحُ; শহরের দরজা খুলে যাওয়া"
+      },
+      {
+        "arabic": "فَاتِحَة",
+        "transliteration": "FaTiHa",
+        "pattern": "فَاعِلَة",
+        "meaning": "যা খুলে দেয়, সূচনা",
+        "note": "সূরা আল-ফাতিহা, কুরআনের দরজা"
+      },
+      {
+        "arabic": "مِفْتَاح",
+        "transliteration": "miFTaH",
+        "pattern": "مِفْعَال যন্ত্র",
+        "meaning": "খোলার যন্ত্র: চাবি",
+        "note": "হোটেল ডায়ালগের সেই মিফতাহ"
+      },
+      {
+        "arabic": "اِفْتِتَاح",
+        "transliteration": "iFTiTaH",
+        "pattern": "ফর্ম ৮",
+        "meaning": "উদ্বোধন",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "slug": "n-s-r",
+    "arabic": "ن-ص-ر",
+    "latin": "N-S-R",
+    "meaning": "সাহায্য",
+    "order": 10,
+    "family": [
+      {
+        "arabic": "نَصَرَ",
+        "transliteration": "NaSaRa",
+        "pattern": "মূল ক্রিয়া",
+        "meaning": "সাহায্য করল",
+        "note": ""
+      },
+      {
+        "arabic": "نَصْر",
+        "transliteration": "NaSR",
+        "pattern": "বিশেষ্য",
+        "meaning": "সাহায্য, বিজয়",
+        "note": "সূরা আন-নাসর"
+      },
+      {
+        "arabic": "نَاصِر",
+        "transliteration": "NaSiR",
+        "pattern": "فَاعِل",
+        "meaning": "সাহায্যকারী",
+        "note": "নাসির (নাম)"
+      },
+      {
+        "arabic": "مَنْصُور",
+        "transliteration": "maNSuR",
+        "pattern": "مَفْعُول",
+        "meaning": "সাহায্যপ্রাপ্ত",
+        "note": "মনসুর (নাম)"
+      },
+      {
+        "arabic": "أَنْصَار",
+        "transliteration": "aNSaR",
+        "pattern": "বহুবচন",
+        "meaning": "সাহায্যকারীরা",
+        "note": "মদিনার আনসারগণ"
+      },
+      {
+        "arabic": "نُصْرَة",
+        "transliteration": "NuSRa",
+        "pattern": "বিশেষ্য",
+        "meaning": "সহায়তা",
+        "note": "নুসরত (নাম)"
+      }
+    ]
+  },
+  {
+    "slug": "s-j-d",
+    "arabic": "س-ج-د",
+    "latin": "S-J-D",
+    "meaning": "সিজদা",
+    "order": 11,
+    "family": [
+      {
+        "arabic": "سَجَدَ",
+        "transliteration": "SaJaDa",
+        "pattern": "মূল ক্রিয়া",
+        "meaning": "সিজদা করল",
+        "note": ""
+      },
+      {
+        "arabic": "سُجُود",
+        "transliteration": "SuJuD",
+        "pattern": "ক্রিয়াবাচক",
+        "meaning": "সিজদা",
+        "note": "সুজুদ"
+      },
+      {
+        "arabic": "سَجْدَة",
+        "transliteration": "SaJDa",
+        "pattern": "একবারের কাজ",
+        "meaning": "এক সিজদা",
+        "note": "সাজদা"
+      },
+      {
+        "arabic": "مَسْجِد",
+        "transliteration": "maSJiD",
+        "pattern": "স্থান",
+        "meaning": "সিজদার জায়গা",
+        "note": "মসজিদ; ma- বসতেই স্থান হয়ে গেল"
+      },
+      {
+        "arabic": "سَاجِد",
+        "transliteration": "SaJiD",
+        "pattern": "فَاعِل",
+        "meaning": "সিজদাকারী",
+        "note": "সাজিদ (নাম)"
+      }
+    ]
+  },
+  {
+    "slug": "gh-f-r",
+    "arabic": "غ-ف-ر",
+    "latin": "GH-F-R",
+    "meaning": "ক্ষমা",
+    "order": 12,
+    "family": [
+      {
+        "arabic": "غَفَرَ",
+        "transliteration": "GhaFaRa",
+        "pattern": "মূল ক্রিয়া",
+        "meaning": "ক্ষমা করল",
+        "note": ""
+      },
+      {
+        "arabic": "مَغْفِرَة",
+        "transliteration": "maGhFiRa",
+        "pattern": "বিশেষ্য",
+        "meaning": "ক্ষমা",
+        "note": "মাগফিরাত"
+      },
+      {
+        "arabic": "غَفُور",
+        "transliteration": "GhaFuR",
+        "pattern": "তীব্র গুণ",
+        "meaning": "পরম ক্ষমাশীল",
+        "note": "গফুর (আল্লাহর নাম)"
+      },
+      {
+        "arabic": "غَفَّار",
+        "transliteration": "GhaFFaR",
+        "pattern": "فَعَّال",
+        "meaning": "বারবার ক্ষমাকারী",
+        "note": "আবদুল গাফফার নামের গাফফার"
+      },
+      {
+        "arabic": "اِسْتِغْفَار",
+        "transliteration": "iStiGhFaR",
+        "pattern": "اِسْتِفْعَال",
+        "meaning": "ক্ষমা চাওয়া",
+        "note": "ইস্তেগফার; ist- মানেই চাওয়া"
+      },
+      {
+        "arabic": "اِسْتَغْفِرْهُ",
+        "transliteration": "iStaGhFiRhu",
+        "pattern": "আদেশ + তাঁকে",
+        "meaning": "তাঁর কাছে ক্ষমা চাও",
+        "note": "নাসর: وَاسْتَغْفِرْهُ"
+      }
+    ]
+  },
+  {
+    "slug": "n-z-l",
+    "arabic": "ن-ز-ل",
+    "latin": "N-Z-L",
+    "meaning": "নামা",
+    "order": 13,
+    "family": [
+      {
+        "arabic": "نَزَلَ",
+        "transliteration": "NaZaLa",
+        "pattern": "মূল ক্রিয়া",
+        "meaning": "নামল",
+        "note": ""
+      },
+      {
+        "arabic": "أَنْزَلَ",
+        "transliteration": "aNZaLa",
+        "pattern": "ফর্ম ৪",
+        "meaning": "নামাল",
+        "note": "a- যোগ হলে \"অন্যকে করানো\""
+      },
+      {
+        "arabic": "أَنْزَلْنَاهُ",
+        "transliteration": "aNZaLNaHu",
+        "pattern": "ক্রিয়া ভাঙলে",
+        "meaning": "আমরা এটা নাযিল করেছি",
+        "note": "কদর ১ম আয়াত: aNZaL (নামাল) + na (আমরা) + hu (এটা)"
+      },
+      {
+        "arabic": "تَنَزَّلُ",
+        "transliteration": "taNaZZaLu",
+        "pattern": "ফর্ম ৫",
+        "meaning": "ধীরে ধীরে নামে",
+        "note": "কদর: ফেরেশতাদের অবতরণ"
+      },
+      {
+        "arabic": "نُزُول",
+        "transliteration": "NuZuL",
+        "pattern": "ক্রিয়াবাচক",
+        "meaning": "অবতরণ",
+        "note": "নাযিল হওয়া"
+      },
+      {
+        "arabic": "مَنْزِل",
+        "transliteration": "maNZiL",
+        "pattern": "স্থান",
+        "meaning": "নামার জায়গা, বাসা",
+        "note": "মঞ্জিল"
+      }
+    ]
+  },
+  {
+    "slug": "d-kh-l",
+    "arabic": "د-خ-ل",
+    "latin": "D-KH-L",
+    "meaning": "প্রবেশ",
+    "order": 14,
+    "family": [
+      {
+        "arabic": "دَخَلَ",
+        "transliteration": "DaKhaLa",
+        "pattern": "মূল ক্রিয়া",
+        "meaning": "ঢুকল",
+        "note": ""
+      },
+      {
+        "arabic": "دَخْل",
+        "transliteration": "DaKhL",
+        "pattern": "বিশেষ্য",
+        "meaning": "প্রবেশ",
+        "note": "দখল"
+      },
+      {
+        "arabic": "دَاخِل",
+        "transliteration": "DaKhiL",
+        "pattern": "فَاعِل",
+        "meaning": "ভেতরে, প্রবেশকারী",
+        "note": "দাখিল করা, দাখিল পরীক্ষা"
+      },
+      {
+        "arabic": "مَدْخَل",
+        "transliteration": "maDKhaL",
+        "pattern": "স্থান",
+        "meaning": "প্রবেশপথ",
+        "note": ""
+      },
+      {
+        "arabic": "يَدْخُلُونَ",
+        "transliteration": "yaDKhuLuna",
+        "pattern": "বর্তমান, তারা",
+        "meaning": "তারা প্রবেশ করছে",
+        "note": "নাসর: দলে দলে দ্বীনে প্রবেশ"
+      }
+    ]
+  },
+  {
+    "slug": "kh-r-j",
+    "arabic": "خ-ر-ج",
+    "latin": "KH-R-J",
+    "meaning": "বের হওয়া",
+    "order": 15,
+    "family": [
+      {
+        "arabic": "خَرَجَ",
+        "transliteration": "KhaRaJa",
+        "pattern": "মূল ক্রিয়া",
+        "meaning": "বের হলো",
+        "note": ""
+      },
+      {
+        "arabic": "خَرْج",
+        "transliteration": "KhaRJ",
+        "pattern": "বিশেষ্য",
+        "meaning": "ব্যয়",
+        "note": "খরচ, যা পকেট থেকে বের হয়"
+      },
+      {
+        "arabic": "خَارِج",
+        "transliteration": "KhaRiJ",
+        "pattern": "فَاعِل",
+        "meaning": "বাইরের",
+        "note": "খারিজ"
+      },
+      {
+        "arabic": "مَخْرَج",
+        "transliteration": "maKhRaJ",
+        "pattern": "স্থান",
+        "meaning": "বের হওয়ার জায়গা",
+        "note": "তাজবিদের মাখরাজ: হরফ যেখান থেকে বের হয়"
+      },
+      {
+        "arabic": "إِخْرَاج",
+        "transliteration": "iKhRaJ",
+        "pattern": "ফর্ম ৪",
+        "meaning": "বের করা",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "slug": "h-k-m",
+    "arabic": "ح-ك-م",
+    "latin": "H-K-M",
+    "meaning": "বিচার, শাসন",
+    "order": 16,
+    "family": [
+      {
+        "arabic": "حَكَمَ",
+        "transliteration": "HaKaMa",
+        "pattern": "মূল ক্রিয়া",
+        "meaning": "বিচার করল",
+        "note": ""
+      },
+      {
+        "arabic": "حُكْم",
+        "transliteration": "HuKM",
+        "pattern": "বিশেষ্য",
+        "meaning": "আদেশ, রায়",
+        "note": "হুকুম"
+      },
+      {
+        "arabic": "حَاكِم",
+        "transliteration": "HaKiM",
+        "pattern": "فَاعِل",
+        "meaning": "শাসক",
+        "note": "হাকিম (হা টেনে)"
+      },
+      {
+        "arabic": "حَكِيم",
+        "transliteration": "HaKiM",
+        "pattern": "فَعِيل",
+        "meaning": "প্রজ্ঞাবান",
+        "note": "হেকিম (কি টেনে); একই অক্ষর, ভিন্ন ছাঁচ, ভিন্ন অর্থ"
+      },
+      {
+        "arabic": "حِكْمَة",
+        "transliteration": "HiKMa",
+        "pattern": "বিশেষ্য",
+        "meaning": "প্রজ্ঞা",
+        "note": "হিকমত"
+      },
+      {
+        "arabic": "مَحْكَمَة",
+        "transliteration": "maHKaMa",
+        "pattern": "স্থান",
+        "meaning": "আদালত",
+        "note": "মহকুমা"
+      },
+      {
+        "arabic": "حُكُومَة",
+        "transliteration": "HuKuMa",
+        "pattern": "বিশেষ্য",
+        "meaning": "সরকার",
+        "note": "হুকুমত"
+      }
+    ]
+  },
+  {
+    "slug": "h-q-q",
+    "arabic": "ح-ق-ق",
+    "latin": "H-Q-Q",
+    "meaning": "সত্য",
+    "order": 17,
+    "family": [
+      {
+        "arabic": "حَقّ",
+        "transliteration": "HaQQ",
+        "pattern": "বিশেষ্য",
+        "meaning": "সত্য, অধিকার",
+        "note": "আসর: بِالْحَقِّ; শেষ দুই অক্ষর এক, তাই তাশদিদ"
+      },
+      {
+        "arabic": "حَقِيقَة",
+        "transliteration": "HaQiQa",
+        "pattern": "فَعِيلَة",
+        "meaning": "বাস্তবতা",
+        "note": "হকিকত"
+      },
+      {
+        "arabic": "تَحْقِيق",
+        "transliteration": "taHQiQ",
+        "pattern": "تَفْعِيل",
+        "meaning": "যাচাই",
+        "note": "তাহকিক"
+      },
+      {
+        "arabic": "حُقُوق",
+        "transliteration": "HuQuQ",
+        "pattern": "বহুবচন",
+        "meaning": "অধিকারসমূহ",
+        "note": "হুকুক"
+      }
+    ]
+  },
+  {
+    "slug": "s-d-q",
+    "arabic": "ص-د-ق",
+    "latin": "S-D-Q",
+    "meaning": "সত্য বলা",
+    "order": 18,
+    "family": [
+      {
+        "arabic": "صَدَقَ",
+        "transliteration": "SaDaQa",
+        "pattern": "মূল ক্রিয়া",
+        "meaning": "সত্য বলল",
+        "note": ""
+      },
+      {
+        "arabic": "صِدْق",
+        "transliteration": "SiDQ",
+        "pattern": "বিশেষ্য",
+        "meaning": "সততা",
+        "note": ""
+      },
+      {
+        "arabic": "صَادِق",
+        "transliteration": "SaDiQ",
+        "pattern": "فَاعِل",
+        "meaning": "সত্যবাদী",
+        "note": "সাদিক (নাম)"
+      },
+      {
+        "arabic": "صَدِيق",
+        "transliteration": "SaDiQ",
+        "pattern": "فَعِيل",
+        "meaning": "বন্ধু",
+        "note": "Part 2 এর সাদিক; বন্ধু = বিশ্বস্ত সত্যবাদী জন"
+      },
+      {
+        "arabic": "صِدِّيق",
+        "transliteration": "SiDDiQ",
+        "pattern": "তীব্র গুণ",
+        "meaning": "পরম সত্যবাদী",
+        "note": "আবু বকর সিদ্দিক (রা.)"
+      },
+      {
+        "arabic": "صَدَقَة",
+        "transliteration": "SaDaQa",
+        "pattern": "বিশেষ্য",
+        "meaning": "দান",
+        "note": "সদকা, ঈমানের সত্যতার প্রমাণ"
+      }
+    ]
+  },
+  {
+    "slug": "n-z-r",
+    "arabic": "ن-ظ-ر",
+    "latin": "N-Z-R",
+    "meaning": "দেখা",
+    "order": 19,
+    "family": [
+      {
+        "arabic": "نَظَرَ",
+        "transliteration": "NaZaRa",
+        "pattern": "মূল ক্রিয়া",
+        "meaning": "দেখল",
+        "note": ""
+      },
+      {
+        "arabic": "نَظَر",
+        "transliteration": "NaZaR",
+        "pattern": "বিশেষ্য",
+        "meaning": "দৃষ্টি",
+        "note": "নজর"
+      },
+      {
+        "arabic": "اُنْظُرْ",
+        "transliteration": "uNZuR",
+        "pattern": "আদেশ",
+        "meaning": "দেখো",
+        "note": "Part 2 এর unzur"
+      },
+      {
+        "arabic": "مَنْظُور",
+        "transliteration": "maNZuR",
+        "pattern": "مَفْعُول",
+        "meaning": "দৃষ্ট, অনুমোদিত",
+        "note": "মঞ্জুর"
+      },
+      {
+        "arabic": "نَظِير",
+        "transliteration": "NaZiR",
+        "pattern": "فَعِيل",
+        "meaning": "সমতুল্য, দৃষ্টান্ত",
+        "note": "নজির, নজিরবিহীন"
+      },
+      {
+        "arabic": "اِنْتِظَار",
+        "transliteration": "iNtiZaR",
+        "pattern": "ফর্ম ৮",
+        "meaning": "অপেক্ষা",
+        "note": "ইন্তেজার"
+      }
+    ]
+  },
+  {
+    "slug": "s-f-r",
+    "arabic": "س-ف-ر",
+    "latin": "S-F-R",
+    "meaning": "ভ্রমণ",
+    "order": 20,
+    "family": [
+      {
+        "arabic": "سَفَر",
+        "transliteration": "SaFaR",
+        "pattern": "বিশেষ্য",
+        "meaning": "ভ্রমণ",
+        "note": "সফর; ইংরেজি safari"
+      },
+      {
+        "arabic": "سَافَرَ",
+        "transliteration": "SaFaRa",
+        "pattern": "ফর্ম ৩",
+        "meaning": "ভ্রমণ করল",
+        "note": ""
+      },
+      {
+        "arabic": "مُسَافِر",
+        "transliteration": "muSaFiR",
+        "pattern": "ফর্ম ৩ কর্তা",
+        "meaning": "ভ্রমণকারী",
+        "note": "মুসাফির; mu- = যে করে"
+      },
+      {
+        "arabic": "سَفِير",
+        "transliteration": "SaFiR",
+        "pattern": "فَعِيل",
+        "meaning": "রাষ্ট্রদূত",
+        "note": "সফির"
+      },
+      {
+        "arabic": "سِفَارَة",
+        "transliteration": "SiFaRa",
+        "pattern": "বিশেষ্য",
+        "meaning": "দূতাবাস",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "slug": "h-s-b",
+    "arabic": "ح-س-ب",
+    "latin": "h-s-b",
+    "meaning": "গণনা",
+    "familyGlance": "HiSaB (হিসাব), muHaSiB (হিসাবরক্ষক), muHaSaBa (আত্মপর্যালোচনা)",
+    "family": []
+  },
+  {
+    "slug": "k-b-r",
+    "arabic": "ك-ب-ر",
+    "latin": "k-b-r",
+    "meaning": "বড়",
+    "familyGlance": "KaBiR (কাবির/বড়), aKBaR (সর্ববৃহৎ, আল্লাহু আকবার), taKBiR (তাকবির), KiBR (অহংকার)",
+    "family": []
+  },
+  {
+    "slug": "s-l-h",
+    "arabic": "ص-ل-ح",
+    "latin": "s-l-h",
+    "meaning": "ভালো, ঠিক করা",
+    "familyGlance": "SaLiH (সৎ), SaLiHat(সৎকর্ম, আসর), iSLaH (সংশোধন), SuLH (সন্ধি)",
+    "family": []
+  },
+  {
+    "slug": "s-b-r",
+    "arabic": "ص-ب-ر",
+    "latin": "s-b-r",
+    "meaning": "ধৈর্য",
+    "familyGlance": "SaBR(সবর, আসর), SaBiR (ধৈর্যশীল), SaBuR (আস-সাবুর, আল্লাহর নাম)",
+    "family": []
+  },
+  {
+    "slug": "sh-k-r",
+    "arabic": "ش-ك-ر",
+    "latin": "sh-k-r",
+    "meaning": "কৃতজ্ঞতা",
+    "familyGlance": "ShuKR (শোকর), ShuKRan (ধন্যবাদ), ShaKiR (কৃতজ্ঞ), ShaKuR (পরম কৃতজ্ঞ)",
+    "family": []
+  },
+  {
+    "slug": "kh-b-r",
+    "arabic": "خ-ب-ر",
+    "latin": "kh-b-r",
+    "meaning": "সংবাদ",
+    "familyGlance": "KhaBaR (খবর), aKhBaR (সংবাদসমূহ, পত্রিকার নাম), KhaBiR (সর্বজ্ঞ)",
+    "family": []
+  },
+  {
+    "slug": "a-r-f",
+    "arabic": "ع-ر-ف",
+    "latin": "a-r-f",
+    "meaning": "চেনা",
+    "familyGlance": "ma'RiFa (মারফত), ta'RiF (তারিফ), 'aRiF (আরিফ), ma'RuF (মারুফ, সুপরিচিত)",
+    "family": []
+  },
+  {
+    "slug": "t-l-b",
+    "arabic": "ط-ل-ب",
+    "latin": "t-l-b",
+    "meaning": "চাওয়া",
+    "familyGlance": "TaLaB (তলব), maTLaB (মতলব), TaLiB (তালিব, জ্ঞান-অন্বেষী ছাত্র)",
+    "family": []
+  },
+  {
+    "slug": "s-a-l",
+    "arabic": "س-أ-ل",
+    "latin": "s-a-l",
+    "meaning": "প্রশ্ন",
+    "familyGlance": "Su'aL (সওয়াল), maS'aLa (মাসআলা), Sa'iL (প্রশ্নকারী)",
+    "family": []
+  },
+  {
+    "slug": "w-z-n",
+    "arabic": "و-ز-ن",
+    "latin": "w-z-n",
+    "meaning": "ওজন",
+    "familyGlance": "WaZN (ওজন), miZaN (মিযান, দাঁড়িপাল্লা: যন্ত্র-ছাঁচ), maWZuN (পরিমিত)",
+    "family": []
+  },
+  {
+    "slug": "a-j-b",
+    "arabic": "ع-ج-ب",
+    "latin": "a-j-b",
+    "meaning": "বিস্ময়",
+    "familyGlance": "'aJaB (আজব), 'aJiB (আজিব), ta'aJJuB (তাজ্জব)",
+    "family": []
+  },
+  {
+    "slug": "n-w-r",
+    "arabic": "ن-و-ر",
+    "latin": "n-w-r",
+    "meaning": "আলো",
+    "familyGlance": "NuR (নূর), maNaRa (মিনার, আলোর জায়গা), muNaWWaR (মুনাওয়ার, আলোকিত)",
+    "family": []
+  },
+  {
+    "slug": "s-w-r",
+    "arabic": "ص-و-ر",
+    "latin": "s-w-r",
+    "meaning": "রূপ",
+    "familyGlance": "SuRa (সুরত), taSWiR (তসবির, ছবি), muSaWWiR (রূপদানকারী, আল্লাহর নাম)",
+    "family": []
+  },
+  {
+    "slug": "q-w-l",
+    "arabic": "ق-و-ل",
+    "latin": "q-w-l",
+    "meaning": "বলা",
+    "familyGlance": "QaWL (কওল, কথা), QuL(বলো), maQaLa (প্রবন্ধ); মাঝের و দুর্বল অক্ষর, QuL এ গায়েব",
+    "family": []
+  },
+  {
+    "slug": "f-h-m",
+    "arabic": "ف-ه-م",
+    "latin": "f-h-m",
+    "meaning": "বোঝা",
+    "familyGlance": "FaHM (বোধ), aFHaMu (আমি বুঝি, Part 2), FaHiM (ফাহিম, বুদ্ধিমান)",
+    "family": []
+  },
+  {
+    "slug": "s-m-a",
+    "arabic": "س-م-ع",
+    "latin": "s-m-a",
+    "meaning": "শোনা",
+    "familyGlance": "SaM' (শ্রবণ), SaMi' (আস-সামি, সর্বশ্রোতা), iStiMa' (মনোযোগ দিয়ে শোনা)",
+    "family": []
+  }
+]

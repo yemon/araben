@@ -1,0 +1,1517 @@
+{
+  "categories": [
+    {
+      "slug": "law-and-administration",
+      "title": "আইন-আদালত ও প্রশাসন",
+      "entries": [
+        {
+          "bangla": "আদালত",
+          "arabic": "عَدَالَة",
+          "transliteration": "'adala",
+          "arabicMeaning": "ন্যায়বিচার",
+          "note": ""
+        },
+        {
+          "bangla": "কানুন",
+          "arabic": "قَانُون",
+          "transliteration": "qanun",
+          "arabicMeaning": "আইন",
+          "note": "মূলে গ্রিক kanon, আরবি হয়ে এসেছে"
+        },
+        {
+          "bangla": "উকিল",
+          "arabic": "وَكِيل",
+          "transliteration": "wakil",
+          "arabicMeaning": "প্রতিনিধি",
+          "note": ""
+        },
+        {
+          "bangla": "কাজি",
+          "arabic": "قَاضِي",
+          "transliteration": "qadi",
+          "arabicMeaning": "বিচারক",
+          "note": ""
+        },
+        {
+          "bangla": "হাকিম",
+          "arabic": "حَاكِم",
+          "transliteration": "hakim",
+          "arabicMeaning": "শাসক, বিচারক",
+          "note": "حَكِيم (hakim) = জ্ঞানী, সেখান থেকে \"হেকিম\" (চিকিৎসক)"
+        },
+        {
+          "bangla": "আমলা",
+          "arabic": "عَمَلَة",
+          "transliteration": "'amala",
+          "arabicMeaning": "কর্মচারীরা",
+          "note": "ع-م-ل মূল, আমল শব্দের ভাই"
+        },
+        {
+          "bangla": "মামলা",
+          "arabic": "مُعَامَلَة",
+          "transliteration": "mu'amala",
+          "arabicMeaning": "লেনদেন, আচরণ",
+          "note": ""
+        },
+        {
+          "bangla": "আসামি",
+          "arabic": "أَسَامِي",
+          "transliteration": "asami",
+          "arabicMeaning": "নামসমূহ (ইসম এর বহুবচন)",
+          "note": "নাম-ধরা ব্যক্তি থেকে অভিযুক্ত"
+        },
+        {
+          "bangla": "জামিন",
+          "arabic": "ضَامِن",
+          "transliteration": "damin",
+          "arabicMeaning": "জিম্মাদার",
+          "note": ""
+        },
+        {
+          "bangla": "জিম্মা",
+          "arabic": "ذِمَّة",
+          "transliteration": "dhimma",
+          "arabicMeaning": "দায়িত্ব, হেফাজত",
+          "note": "জিম্মাদার, জিম্মি"
+        },
+        {
+          "bangla": "রায়",
+          "arabic": "رَأْي",
+          "transliteration": "ra'y",
+          "arabicMeaning": "মত",
+          "note": ""
+        },
+        {
+          "bangla": "দলিল",
+          "arabic": "دَلِيل",
+          "transliteration": "dalil",
+          "arabicMeaning": "প্রমাণ",
+          "note": ""
+        },
+        {
+          "bangla": "ফয়সালা",
+          "arabic": "فَيْصَلَة",
+          "transliteration": "faysala",
+          "arabicMeaning": "চূড়ান্ত সিদ্ধান্ত",
+          "note": ""
+        },
+        {
+          "bangla": "খারিজ",
+          "arabic": "خَارِج",
+          "transliteration": "kharij",
+          "arabicMeaning": "বাইরে",
+          "note": "বাইরে ফেলে দেওয়া থেকে বাতিল"
+        },
+        {
+          "bangla": "মঞ্জুর",
+          "arabic": "مَنْظُور",
+          "transliteration": "manzur",
+          "arabicMeaning": "দৃষ্ট, দেখা হয়েছে",
+          "note": "ن-ظ-ر মূল, নজর শব্দের ভাই"
+        },
+        {
+          "bangla": "জব্দ",
+          "arabic": "ضَبْط",
+          "transliteration": "dabt",
+          "arabicMeaning": "নিয়ন্ত্রণ, আটক",
+          "note": ""
+        },
+        {
+          "bangla": "হাজির",
+          "arabic": "حَاضِر",
+          "transliteration": "hadir",
+          "arabicMeaning": "উপস্থিত",
+          "note": ""
+        },
+        {
+          "bangla": "গায়েব",
+          "arabic": "غَائِب",
+          "transliteration": "gha'ib",
+          "arabicMeaning": "অনুপস্থিত",
+          "note": ""
+        },
+        {
+          "bangla": "আসল",
+          "arabic": "أَصْل",
+          "transliteration": "asl",
+          "arabicMeaning": "মূল, শিকড়",
+          "note": ""
+        },
+        {
+          "bangla": "নকল",
+          "arabic": "نَقْل",
+          "transliteration": "naql",
+          "arabicMeaning": "স্থানান্তর, অনুলিপি",
+          "note": ""
+        },
+        {
+          "bangla": "জালিয়াতি",
+          "arabic": "جَعْل",
+          "transliteration": "ja'l",
+          "arabicMeaning": "বানানো, সাজানো",
+          "note": ""
+        },
+        {
+          "bangla": "কয়েদ",
+          "arabic": "قَيْد",
+          "transliteration": "qayd",
+          "arabicMeaning": "বাঁধন",
+          "note": "কয়েদি"
+        },
+        {
+          "bangla": "খালাস",
+          "arabic": "خَلَاص",
+          "transliteration": "khalas",
+          "arabicMeaning": "মুক্তি, শেষ",
+          "note": ""
+        },
+        {
+          "bangla": "ফেরার",
+          "arabic": "فِرَار",
+          "transliteration": "firar",
+          "arabicMeaning": "পলায়ন",
+          "note": "ফেরারি আসামি"
+        },
+        {
+          "bangla": "কতল",
+          "arabic": "قَتْل",
+          "transliteration": "qatl",
+          "arabicMeaning": "হত্যা",
+          "note": "\"খুন\" এর সঠিক আরবি প্রতিশব্দ এটাই"
+        },
+        {
+          "bangla": "আরজি",
+          "arabic": "عَرْض",
+          "transliteration": "'ard",
+          "arabicMeaning": "পেশ করা",
+          "note": "আবেদন"
+        },
+        {
+          "bangla": "এলান",
+          "arabic": "إِعْلَان",
+          "transliteration": "i'lan",
+          "arabicMeaning": "ঘোষণা",
+          "note": ""
+        },
+        {
+          "bangla": "ইস্তফা",
+          "arabic": "اِسْتِعْفَاء",
+          "transliteration": "isti'fa'",
+          "arabicMeaning": "পদত্যাগ",
+          "note": "ع-ف-و মূল, মাফ শব্দের ভাই"
+        },
+        {
+          "bangla": "এজলাস",
+          "arabic": "إِجْلَاس",
+          "transliteration": "ijlas",
+          "arabicMeaning": "বসানো",
+          "note": "বিচারকের আসন"
+        },
+        {
+          "bangla": "দখল",
+          "arabic": "دَخْل",
+          "transliteration": "dakhl",
+          "arabicMeaning": "প্রবেশ",
+          "note": "ঢুকে পড়া থেকে অধিকার"
+        },
+        {
+          "bangla": "এখতিয়ার",
+          "arabic": "اِخْتِيَار",
+          "transliteration": "ikhtiyar",
+          "arabicMeaning": "পছন্দ, বাছাই",
+          "note": "ক্ষমতা অর্থে"
+        }
+      ]
+    },
+    {
+      "slug": "money-and-business",
+      "title": "টাকা-পয়সা ও ব্যবসা",
+      "entries": [
+        {
+          "bangla": "হিসাব",
+          "arabic": "حِسَاب",
+          "transliteration": "hisab",
+          "arabicMeaning": "গণনা",
+          "note": "Part 3 এর al-hisab min fadlik মনে আছে?"
+        },
+        {
+          "bangla": "বাকি",
+          "arabic": "بَاقِي",
+          "transliteration": "baqi",
+          "arabicMeaning": "অবশিষ্ট",
+          "note": ""
+        },
+        {
+          "bangla": "নগদ",
+          "arabic": "نَقْد",
+          "transliteration": "naqd",
+          "arabicMeaning": "ক্যাশ",
+          "note": ""
+        },
+        {
+          "bangla": "কর্জ",
+          "arabic": "قَرْض",
+          "transliteration": "qard",
+          "arabicMeaning": "ঋণ",
+          "note": ""
+        },
+        {
+          "bangla": "মুনাফা",
+          "arabic": "مَنَافِع",
+          "transliteration": "manafi'",
+          "arabicMeaning": "উপকারসমূহ",
+          "note": ""
+        },
+        {
+          "bangla": "লোকসান",
+          "arabic": "نُقْصَان",
+          "transliteration": "nuqsan",
+          "arabicMeaning": "ঘাটতি",
+          "note": "নোকসান থেকে লোকসান"
+        },
+        {
+          "bangla": "খরচ",
+          "arabic": "خَرْج",
+          "transliteration": "kharj",
+          "arabicMeaning": "ব্যয়, বের হওয়া",
+          "note": "খারিজ শব্দের ভাই"
+        },
+        {
+          "bangla": "জমা",
+          "arabic": "جَمْع",
+          "transliteration": "jam'",
+          "arabicMeaning": "একত্র করা",
+          "note": "জুমার নামাজও একই মূল, \"সমবেত হওয়া\""
+        },
+        {
+          "bangla": "কিস্তি",
+          "arabic": "قِسْط",
+          "transliteration": "qist",
+          "arabicMeaning": "ভাগ, কিস্তি",
+          "note": ""
+        },
+        {
+          "bangla": "খাজনা",
+          "arabic": "خِزَانَة",
+          "transliteration": "khizana",
+          "arabicMeaning": "কোষাগার",
+          "note": ""
+        },
+        {
+          "bangla": "তহবিল",
+          "arabic": "تَحْوِيل",
+          "transliteration": "tahwil",
+          "arabicMeaning": "স্থানান্তর",
+          "note": ""
+        },
+        {
+          "bangla": "দালাল",
+          "arabic": "دَلَّال",
+          "transliteration": "dallal",
+          "arabicMeaning": "মধ্যস্থ",
+          "note": "دليل (দলিল) এর মূল থেকে, \"পথ দেখানো\""
+        },
+        {
+          "bangla": "মাল",
+          "arabic": "مَال",
+          "transliteration": "mal",
+          "arabicMeaning": "সম্পদ",
+          "note": "সূরা মাসাদ: مَالُهُ (তার সম্পদ)"
+        },
+        {
+          "bangla": "মালিক",
+          "arabic": "مَالِك",
+          "transliteration": "malik",
+          "arabicMeaning": "অধিকারী",
+          "note": "সূরা ফাতিহা: مَالِكِ يَوْمِ الدِّينِ"
+        },
+        {
+          "bangla": "মজুত",
+          "arabic": "مَوْجُود",
+          "transliteration": "mawjud",
+          "arabicMeaning": "বিদ্যমান",
+          "note": "\"যা আছে\" থেকে স্টক"
+        },
+        {
+          "bangla": "আমানত",
+          "arabic": "أَمَانَة",
+          "transliteration": "amana",
+          "arabicMeaning": "গচ্ছিত জিনিস",
+          "note": "ঈমানের মূল أ-م-ن থেকেই"
+        },
+        {
+          "bangla": "খেয়ানত",
+          "arabic": "خِيَانَة",
+          "transliteration": "khiyana",
+          "arabicMeaning": "বিশ্বাসঘাতকতা",
+          "note": ""
+        },
+        {
+          "bangla": "ওয়ারিশ",
+          "arabic": "وَارِث",
+          "transliteration": "warith",
+          "arabicMeaning": "উত্তরাধিকারী",
+          "note": ""
+        },
+        {
+          "bangla": "দৌলত",
+          "arabic": "دَوْلَة",
+          "transliteration": "dawla",
+          "arabicMeaning": "রাষ্ট্র, সম্পদ",
+          "note": "আরবিতে এখনো \"রাষ্ট্র\" অর্থে চলে"
+        },
+        {
+          "bangla": "খয়রাত",
+          "arabic": "خَيْرَات",
+          "transliteration": "khayrat",
+          "arabicMeaning": "ভালো কাজসমূহ",
+          "note": "খায়ের (ভালো) এর বহুবচন"
+        },
+        {
+          "bangla": "মেরামত",
+          "arabic": "مَرَمَّة",
+          "transliteration": "maramma",
+          "arabicMeaning": "সংস্কার",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "slug": "places-and-conflict",
+      "title": "জায়গা, প্রশাসনিক এলাকা ও সংঘাত",
+      "entries": [
+        {
+          "bangla": "জেলা",
+          "arabic": "ضِلْع",
+          "transliteration": "dil'",
+          "arabicMeaning": "পাঁজরের হাড়, পার্শ্ব",
+          "note": ""
+        },
+        {
+          "bangla": "মহকুমা",
+          "arabic": "مَحْكَمَة",
+          "transliteration": "mahkama",
+          "arabicMeaning": "আদালত",
+          "note": "বিচারিক এলাকা থেকে প্রশাসনিক ভাগ"
+        },
+        {
+          "bangla": "মৌজা",
+          "arabic": "مَوْضِع",
+          "transliteration": "mawdi'",
+          "arabicMeaning": "স্থান",
+          "note": ""
+        },
+        {
+          "bangla": "মহল্লা",
+          "arabic": "مَحَلَّة",
+          "transliteration": "mahalla",
+          "arabicMeaning": "পাড়া",
+          "note": ""
+        },
+        {
+          "bangla": "মহল",
+          "arabic": "مَحَلّ",
+          "transliteration": "mahall",
+          "arabicMeaning": "স্থান",
+          "note": ""
+        },
+        {
+          "bangla": "এলাকা",
+          "arabic": "عَلَاقَة",
+          "transliteration": "'alaqa",
+          "arabicMeaning": "সম্পর্ক, সংযোগ",
+          "note": "অধিক্ষেত্র থেকে অঞ্চল"
+        },
+        {
+          "bangla": "মঞ্জিল",
+          "arabic": "مَنْزِل",
+          "transliteration": "manzil",
+          "arabicMeaning": "বাসস্থান, গন্তব্য",
+          "note": ""
+        },
+        {
+          "bangla": "কেল্লা",
+          "arabic": "قَلْعَة",
+          "transliteration": "qal'a",
+          "arabicMeaning": "দুর্গ",
+          "note": ""
+        },
+        {
+          "bangla": "মিনার",
+          "arabic": "مَنَارَة",
+          "transliteration": "manara",
+          "arabicMeaning": "আলোর স্তম্ভ",
+          "note": "نور (নূর) এর মূল থেকে"
+        },
+        {
+          "bangla": "ইমারত",
+          "arabic": "عِمَارَة",
+          "transliteration": "'imara",
+          "arabicMeaning": "ভবন",
+          "note": ""
+        },
+        {
+          "bangla": "দোকান",
+          "arabic": "دُكَّان",
+          "transliteration": "dukkan",
+          "arabicMeaning": "দোকান",
+          "note": ""
+        },
+        {
+          "bangla": "সদর",
+          "arabic": "صَدْر",
+          "transliteration": "sadr",
+          "arabicMeaning": "বুক, সম্মুখভাগ",
+          "note": "সূরা নাস: فِي صُدُورِ النَّاسِ (মানুষের বুকে)"
+        },
+        {
+          "bangla": "মুলুক",
+          "arabic": "مُلْك",
+          "transliteration": "mulk",
+          "arabicMeaning": "রাজ্য",
+          "note": "দেশ-মুলুক"
+        },
+        {
+          "bangla": "তরফ",
+          "arabic": "طَرَف",
+          "transliteration": "taraf",
+          "arabicMeaning": "দিক, প্রান্ত",
+          "note": "আমার তরফ থেকে"
+        },
+        {
+          "bangla": "ফৌজ",
+          "arabic": "فَوْج",
+          "transliteration": "fawj",
+          "arabicMeaning": "দল, বাহিনী",
+          "note": "সূরা নাসর: أَفْوَاجًا (দলে দলে), একই শব্দ!"
+        },
+        {
+          "bangla": "বন্দুক",
+          "arabic": "بُنْدُقِيَّة",
+          "transliteration": "bunduqiyya",
+          "arabicMeaning": "আগ্নেয়াস্ত্র",
+          "note": "ভেনিস শহরের আরবি নাম আল-বুনদুকিয়া এর সাথে জড়িত"
+        },
+        {
+          "bangla": "হামলা",
+          "arabic": "حَمْلَة",
+          "transliteration": "hamla",
+          "arabicMeaning": "আক্রমণ, অভিযান",
+          "note": "সূরা মাসাদের حَمَّالَة (বহনকারী) একই ح-م-ل মূল"
+        }
+      ]
+    },
+    {
+      "slug": "everyday-things",
+      "title": "রোজকার জিনিস ও মানুষ",
+      "entries": [
+        {
+          "bangla": "খবর",
+          "arabic": "خَبَر",
+          "transliteration": "khabar",
+          "arabicMeaning": "সংবাদ",
+          "note": ""
+        },
+        {
+          "bangla": "দুনিয়া",
+          "arabic": "دُنْيَا",
+          "transliteration": "dunya",
+          "arabicMeaning": "পৃথিবী, ইহকাল",
+          "note": ""
+        },
+        {
+          "bangla": "কলম",
+          "arabic": "قَلَم",
+          "transliteration": "qalam",
+          "arabicMeaning": "লেখনী",
+          "note": "সূরা আল-কলম নামে আস্ত সূরাই আছে"
+        },
+        {
+          "bangla": "কিতাব",
+          "arabic": "كِتَاب",
+          "transliteration": "kitab",
+          "arabicMeaning": "বই",
+          "note": ""
+        },
+        {
+          "bangla": "দফতর",
+          "arabic": "دَفْتَر",
+          "transliteration": "daftar",
+          "arabicMeaning": "খাতা, রেজিস্টার",
+          "note": ""
+        },
+        {
+          "bangla": "খত",
+          "arabic": "خَطّ",
+          "transliteration": "khatt",
+          "arabicMeaning": "রেখা, লেখা",
+          "note": "চিঠি অর্থে"
+        },
+        {
+          "bangla": "হরফ",
+          "arabic": "حَرْف",
+          "transliteration": "harf",
+          "arabicMeaning": "অক্ষর",
+          "note": ""
+        },
+        {
+          "bangla": "তারিখ",
+          "arabic": "تَارِيخ",
+          "transliteration": "tarikh",
+          "arabicMeaning": "ইতিহাস, তারিখ",
+          "note": ""
+        },
+        {
+          "bangla": "ওজন",
+          "arabic": "وَزْن",
+          "transliteration": "wazn",
+          "arabicMeaning": "ভার",
+          "note": ""
+        },
+        {
+          "bangla": "রকম",
+          "arabic": "رَقْم",
+          "transliteration": "raqm",
+          "arabicMeaning": "সংখ্যা, চিহ্ন",
+          "note": "চিহ্ন থেকে ধরন; রকমারি"
+        },
+        {
+          "bangla": "জিনিস",
+          "arabic": "جِنْس",
+          "transliteration": "jins",
+          "arabicMeaning": "প্রকার, জাত",
+          "note": "প্রকার থেকে বস্তু"
+        },
+        {
+          "bangla": "আসবাব",
+          "arabic": "أَسْبَاب",
+          "transliteration": "asbab",
+          "arabicMeaning": "উপায়-উপকরণ",
+          "note": "আসবাবপত্র"
+        },
+        {
+          "bangla": "তৈরি",
+          "arabic": "طَيَّار",
+          "transliteration": "tayyar",
+          "arabicMeaning": "প্রস্তুত",
+          "note": "তৈয়ার থেকে তৈরি"
+        },
+        {
+          "bangla": "সাবান",
+          "arabic": "صَابُون",
+          "transliteration": "sabun",
+          "arabicMeaning": "সাবান",
+          "note": ""
+        },
+        {
+          "bangla": "লেপ",
+          "arabic": "لِحَاف",
+          "transliteration": "lihaf",
+          "arabicMeaning": "কম্বল, আচ্ছাদন",
+          "note": ""
+        },
+        {
+          "bangla": "কুরসি",
+          "arabic": "كُرْسِيّ",
+          "transliteration": "kursi",
+          "arabicMeaning": "চেয়ার, আসন",
+          "note": "আয়াতুল কুরসির সেই কুরসি"
+        },
+        {
+          "bangla": "জাহাজ",
+          "arabic": "جَهَاز",
+          "transliteration": "jahaz",
+          "arabicMeaning": "সরঞ্জাম, যন্ত্রপাতি",
+          "note": "সরঞ্জাম থেকে জলযান"
+        },
+        {
+          "bangla": "সফর",
+          "arabic": "سَفَر",
+          "transliteration": "safar",
+          "arabicMeaning": "ভ্রমণ",
+          "note": "Part 3 এর جواز السفر (পাসপোর্ট)"
+        },
+        {
+          "bangla": "মুসাফির",
+          "arabic": "مُسَافِر",
+          "transliteration": "musafir",
+          "arabicMeaning": "ভ্রমণকারী",
+          "note": ""
+        },
+        {
+          "bangla": "হাওয়া",
+          "arabic": "هَوَاء",
+          "transliteration": "hawa'",
+          "arabicMeaning": "বাতাস",
+          "note": ""
+        },
+        {
+          "bangla": "তুফান",
+          "arabic": "طُوفَان",
+          "transliteration": "tufan",
+          "arabicMeaning": "প্লাবন, ঝড়",
+          "note": "কুরআনে নূহ (আ.) এর প্লাবন অর্থে আছে"
+        },
+        {
+          "bangla": "মৌসুম",
+          "arabic": "مَوْسِم",
+          "transliteration": "mawsim",
+          "arabicMeaning": "ঋতু, নির্দিষ্ট সময়",
+          "note": "ইংরেজি monsoon ও এখান থেকে"
+        },
+        {
+          "bangla": "নূর",
+          "arabic": "نُور",
+          "transliteration": "nur",
+          "arabicMeaning": "আলো",
+          "note": ""
+        },
+        {
+          "bangla": "খালা",
+          "arabic": "خَالَة",
+          "transliteration": "khala",
+          "arabicMeaning": "মায়ের বোন",
+          "note": ""
+        },
+        {
+          "bangla": "আব্বা",
+          "arabic": "أَب",
+          "transliteration": "ab",
+          "arabicMeaning": "বাবা",
+          "note": ""
+        },
+        {
+          "bangla": "আম্মা",
+          "arabic": "أُمّ",
+          "transliteration": "umm",
+          "arabicMeaning": "মা",
+          "note": ""
+        },
+        {
+          "bangla": "সাহেব",
+          "arabic": "صَاحِب",
+          "transliteration": "sahib",
+          "arabicMeaning": "সঙ্গী, মালিক",
+          "note": ""
+        },
+        {
+          "bangla": "জনাব",
+          "arabic": "جَنَاب",
+          "transliteration": "janab",
+          "arabicMeaning": "সম্মানসূচক সম্বোধন",
+          "note": ""
+        },
+        {
+          "bangla": "হুজুর",
+          "arabic": "حُضُور",
+          "transliteration": "hudur",
+          "arabicMeaning": "উপস্থিতি",
+          "note": "হাজির শব্দের ভাই"
+        }
+      ]
+    },
+    {
+      "slug": "feelings-and-qualities",
+      "title": "ভাব, অনুভূতি ও গুণ",
+      "entries": [
+        {
+          "bangla": "খারাপ",
+          "arabic": "خَرَاب",
+          "transliteration": "kharab",
+          "arabicMeaning": "ধ্বংসপ্রাপ্ত",
+          "note": "ভাঙা জিনিস থেকে মন্দ"
+        },
+        {
+          "bangla": "গরিব",
+          "arabic": "غَرِيب",
+          "transliteration": "gharib",
+          "arabicMeaning": "অপরিচিত, প্রবাসী",
+          "note": "অর্থ বদলে দরিদ্র হয়ে গেছে"
+        },
+        {
+          "bangla": "আমির",
+          "arabic": "أَمِير",
+          "transliteration": "amir",
+          "arabicMeaning": "নেতা, শাসক",
+          "note": "বাংলায় ধনী অর্থে"
+        },
+        {
+          "bangla": "ফকির",
+          "arabic": "فَقِير",
+          "transliteration": "faqir",
+          "arabicMeaning": "দরিদ্র",
+          "note": ""
+        },
+        {
+          "bangla": "মিসকিন",
+          "arabic": "مِسْكِين",
+          "transliteration": "miskin",
+          "arabicMeaning": "অভাবী",
+          "note": "সূরা মাউন: طَعَامِ الْمِسْكِينِ"
+        },
+        {
+          "bangla": "এতিম",
+          "arabic": "يَتِيم",
+          "transliteration": "yatim",
+          "arabicMeaning": "পিতৃহীন",
+          "note": "সূরা মাউন: يَدُعُّ الْيَتِيمَ"
+        },
+        {
+          "bangla": "আজব",
+          "arabic": "عَجَب",
+          "transliteration": "'ajab",
+          "arabicMeaning": "বিস্ময়",
+          "note": "আজিব, আজগুবি একই মূল"
+        },
+        {
+          "bangla": "তাজ্জব",
+          "arabic": "تَعَجُّب",
+          "transliteration": "ta'ajjub",
+          "arabicMeaning": "অবাক হওয়া",
+          "note": ""
+        },
+        {
+          "bangla": "হয়রান",
+          "arabic": "حَيْرَان",
+          "transliteration": "hayran",
+          "arabicMeaning": "দিশেহারা",
+          "note": ""
+        },
+        {
+          "bangla": "মুশকিল",
+          "arabic": "مُشْكِل",
+          "transliteration": "mushkil",
+          "arabicMeaning": "সমস্যা",
+          "note": "Part 3 এর la mushkila"
+        },
+        {
+          "bangla": "মজবুত",
+          "arabic": "مَضْبُوط",
+          "transliteration": "madbut",
+          "arabicMeaning": "নিয়ন্ত্রিত, দৃঢ়",
+          "note": "জব্দ শব্দের ভাই"
+        },
+        {
+          "bangla": "জরুরি",
+          "arabic": "ضَرُورِي",
+          "transliteration": "daruri",
+          "arabicMeaning": "অত্যাবশ্যক",
+          "note": ""
+        },
+        {
+          "bangla": "সবর",
+          "arabic": "صَبْر",
+          "transliteration": "sabr",
+          "arabicMeaning": "ধৈর্য",
+          "note": "সূরা আসর: بِالصَّبْرِ"
+        },
+        {
+          "bangla": "শোকর",
+          "arabic": "شُكْر",
+          "transliteration": "shukr",
+          "arabicMeaning": "কৃতজ্ঞতা",
+          "note": "শুকরান এর মূল"
+        },
+        {
+          "bangla": "রহম",
+          "arabic": "رَحْم",
+          "transliteration": "rahm",
+          "arabicMeaning": "দয়া",
+          "note": "রহমান-রহিম একই মূল, প্রতি সূরার শুরুতে পড়ছ"
+        },
+        {
+          "bangla": "ইজ্জত",
+          "arabic": "عِزَّة",
+          "transliteration": "'izza",
+          "arabicMeaning": "সম্মান, মর্যাদা",
+          "note": ""
+        },
+        {
+          "bangla": "নসিব",
+          "arabic": "نَصِيب",
+          "transliteration": "nasib",
+          "arabicMeaning": "ভাগ, অংশ",
+          "note": "ভাগ থেকে ভাগ্য"
+        },
+        {
+          "bangla": "তকদির",
+          "arabic": "تَقْدِير",
+          "transliteration": "taqdir",
+          "arabicMeaning": "নির্ধারণ",
+          "note": "ق-د-ر মূল, সূরা কদরের সাথে এক"
+        },
+        {
+          "bangla": "কিসমত",
+          "arabic": "قِسْمَة",
+          "transliteration": "qisma",
+          "arabicMeaning": "ভাগ",
+          "note": "কিস্তি শব্দের ভাই"
+        },
+        {
+          "bangla": "কুদরত",
+          "arabic": "قُدْرَة",
+          "transliteration": "qudra",
+          "arabicMeaning": "ক্ষমতা",
+          "note": "একই ق-د-ر মূল"
+        },
+        {
+          "bangla": "হিম্মত",
+          "arabic": "هِمَّة",
+          "transliteration": "himma",
+          "arabicMeaning": "সংকল্প, সাহস",
+          "note": ""
+        },
+        {
+          "bangla": "তাকত",
+          "arabic": "طَاقَة",
+          "transliteration": "taqa",
+          "arabicMeaning": "শক্তি",
+          "note": ""
+        },
+        {
+          "bangla": "মেজাজ",
+          "arabic": "مِزَاج",
+          "transliteration": "mizaj",
+          "arabicMeaning": "স্বভাব",
+          "note": ""
+        },
+        {
+          "bangla": "দেমাগ",
+          "arabic": "دِمَاغ",
+          "transliteration": "dimagh",
+          "arabicMeaning": "মস্তিষ্ক",
+          "note": "মগজ থেকে বাংলায় অহংকার"
+        },
+        {
+          "bangla": "তবিয়ত",
+          "arabic": "طَبِيعَة",
+          "transliteration": "tabi'a",
+          "arabicMeaning": "প্রকৃতি",
+          "note": "শরীরের অবস্থা অর্থে"
+        },
+        {
+          "bangla": "নজর",
+          "arabic": "نَظَر",
+          "transliteration": "nazar",
+          "arabicMeaning": "দৃষ্টি",
+          "note": "Part 2 এর اُنْظُرْ (unzur, দেখো)"
+        },
+        {
+          "bangla": "সুরত",
+          "arabic": "صُورَة",
+          "transliteration": "sura",
+          "arabicMeaning": "রূপ, ছবি",
+          "note": ""
+        },
+        {
+          "bangla": "খেয়াল",
+          "arabic": "خَيَال",
+          "transliteration": "khayal",
+          "arabicMeaning": "কল্পনা",
+          "note": ""
+        },
+        {
+          "bangla": "আজাব",
+          "arabic": "عَذَاب",
+          "transliteration": "'adhab",
+          "arabicMeaning": "শাস্তি",
+          "note": ""
+        },
+        {
+          "bangla": "মুসিবত",
+          "arabic": "مُصِيبَة",
+          "transliteration": "musiba",
+          "arabicMeaning": "বিপদ",
+          "note": ""
+        },
+        {
+          "bangla": "বালা",
+          "arabic": "بَلَاء",
+          "transliteration": "bala'",
+          "arabicMeaning": "পরীক্ষা, দুর্যোগ",
+          "note": "বালা-মুসিবত"
+        },
+        {
+          "bangla": "গলদ",
+          "arabic": "غَلَط",
+          "transliteration": "ghalat",
+          "arabicMeaning": "ভুল",
+          "note": ""
+        },
+        {
+          "bangla": "কসুর",
+          "arabic": "قُصُور",
+          "transliteration": "qusur",
+          "arabicMeaning": "ঘাটতি, ত্রুটি",
+          "note": "কসুর মাফ করবেন"
+        },
+        {
+          "bangla": "হাল",
+          "arabic": "حَال",
+          "transliteration": "hal",
+          "arabicMeaning": "অবস্থা",
+          "note": "كيف حالك (কেমন আছ) এর সেই হাল; হালচাল"
+        }
+      ]
+    },
+    {
+      "slug": "speech-and-work",
+      "title": "কথাবার্তা ও কাজকর্ম",
+      "entries": [
+        {
+          "bangla": "মানে",
+          "arabic": "مَعْنَى",
+          "transliteration": "ma'na",
+          "arabicMeaning": "অর্থ",
+          "note": "Part 3 এর ما معنى هذا؟ হুবহু এটাই"
+        },
+        {
+          "bangla": "মালুম",
+          "arabic": "مَعْلُوم",
+          "transliteration": "ma'lum",
+          "arabicMeaning": "জ্ঞাত",
+          "note": "মালুম হচ্ছে"
+        },
+        {
+          "bangla": "মতলব",
+          "arabic": "مَطْلَب",
+          "transliteration": "matlab",
+          "arabicMeaning": "উদ্দেশ্য, চাওয়া",
+          "note": ""
+        },
+        {
+          "bangla": "জবাব",
+          "arabic": "جَوَاب",
+          "transliteration": "jawab",
+          "arabicMeaning": "উত্তর",
+          "note": ""
+        },
+        {
+          "bangla": "সওয়াল",
+          "arabic": "سُؤَال",
+          "transliteration": "su'al",
+          "arabicMeaning": "প্রশ্ন",
+          "note": "সওয়াল-জবাব"
+        },
+        {
+          "bangla": "কিসসা",
+          "arabic": "قِصَّة",
+          "transliteration": "qissa",
+          "arabicMeaning": "গল্প",
+          "note": "কেচ্ছা"
+        },
+        {
+          "bangla": "কায়দা",
+          "arabic": "قَاعِدَة",
+          "transliteration": "qa'ida",
+          "arabicMeaning": "নিয়ম, ভিত্তি",
+          "note": "নূরানি কায়দার সেই কায়দা"
+        },
+        {
+          "bangla": "তরজমা",
+          "arabic": "تَرْجَمَة",
+          "transliteration": "tarjama",
+          "arabicMeaning": "অনুবাদ",
+          "note": ""
+        },
+        {
+          "bangla": "তালিম",
+          "arabic": "تَعْلِيم",
+          "transliteration": "ta'lim",
+          "arabicMeaning": "শিক্ষাদান",
+          "note": ""
+        },
+        {
+          "bangla": "সবক",
+          "arabic": "سَبَق",
+          "transliteration": "sabaq",
+          "arabicMeaning": "পাঠ",
+          "note": ""
+        },
+        {
+          "bangla": "এলেম",
+          "arabic": "عِلْم",
+          "transliteration": "'ilm",
+          "arabicMeaning": "জ্ঞান",
+          "note": ""
+        },
+        {
+          "bangla": "আলেম",
+          "arabic": "عَالِم",
+          "transliteration": "'alim",
+          "arabicMeaning": "জ্ঞানী",
+          "note": ""
+        },
+        {
+          "bangla": "মশহুর",
+          "arabic": "مَشْهُور",
+          "transliteration": "mashhur",
+          "arabicMeaning": "বিখ্যাত",
+          "note": ""
+        },
+        {
+          "bangla": "তারিফ",
+          "arabic": "تَعْرِيف",
+          "transliteration": "ta'rif",
+          "arabicMeaning": "পরিচয় করানো",
+          "note": "পরিচিতি থেকে প্রশংসা"
+        },
+        {
+          "bangla": "বাহাস",
+          "arabic": "بَحْث",
+          "transliteration": "bahth",
+          "arabicMeaning": "গবেষণা, আলোচনা",
+          "note": "তর্ক-বাহাস"
+        },
+        {
+          "bangla": "কসম",
+          "arabic": "قَسَم",
+          "transliteration": "qasam",
+          "arabicMeaning": "শপথ",
+          "note": ""
+        },
+        {
+          "bangla": "ওয়াদা",
+          "arabic": "وَعْد",
+          "transliteration": "wa'd",
+          "arabicMeaning": "প্রতিশ্রুতি",
+          "note": ""
+        },
+        {
+          "bangla": "মাফ",
+          "arabic": "عَفْو",
+          "transliteration": "'afw",
+          "arabicMeaning": "ক্ষমা",
+          "note": "عفوًا ('afwan) এর মূল"
+        },
+        {
+          "bangla": "মকুব",
+          "arabic": "مَوْقُوف",
+          "transliteration": "mawquf",
+          "arabicMeaning": "স্থগিত",
+          "note": ""
+        },
+        {
+          "bangla": "কবুল",
+          "arabic": "قَبُول",
+          "transliteration": "qabul",
+          "arabicMeaning": "গ্রহণ",
+          "note": ""
+        },
+        {
+          "bangla": "রাজি",
+          "arabic": "رَاضِي",
+          "transliteration": "radi",
+          "arabicMeaning": "সন্তুষ্ট",
+          "note": ""
+        },
+        {
+          "bangla": "হক",
+          "arabic": "حَقّ",
+          "transliteration": "haqq",
+          "arabicMeaning": "সত্য, অধিকার",
+          "note": "সূরা আসর: بِالْحَقِّ"
+        },
+        {
+          "bangla": "হকিকত",
+          "arabic": "حَقِيقَة",
+          "transliteration": "haqiqa",
+          "arabicMeaning": "বাস্তবতা",
+          "note": "হক এর ভাই; হালহকিকত"
+        },
+        {
+          "bangla": "বাতিল",
+          "arabic": "بَاطِل",
+          "transliteration": "batil",
+          "arabicMeaning": "অসার, মিথ্যা",
+          "note": "হকের বিপরীত"
+        },
+        {
+          "bangla": "খতম",
+          "arabic": "خَتْم",
+          "transliteration": "khatm",
+          "arabicMeaning": "সিলমোহর, সমাপ্তি",
+          "note": "কুরআন খতম"
+        },
+        {
+          "bangla": "হাসিল",
+          "arabic": "حَاصِل",
+          "transliteration": "hasil",
+          "arabicMeaning": "অর্জিত",
+          "note": "হাসিল করা"
+        },
+        {
+          "bangla": "মোকাবিলা",
+          "arabic": "مُقَابَلَة",
+          "transliteration": "muqabala",
+          "arabicMeaning": "মুখোমুখি হওয়া",
+          "note": ""
+        },
+        {
+          "bangla": "তদবির",
+          "arabic": "تَدْبِير",
+          "transliteration": "tadbir",
+          "arabicMeaning": "পরিকল্পনা",
+          "note": ""
+        },
+        {
+          "bangla": "তদারকি",
+          "arabic": "تَدَارُك",
+          "transliteration": "tadaruk",
+          "arabicMeaning": "সামলে নেওয়া",
+          "note": "দেখভাল অর্থে"
+        },
+        {
+          "bangla": "মেহনত",
+          "arabic": "مِحْنَة",
+          "transliteration": "mihna",
+          "arabicMeaning": "কষ্ট, পরীক্ষা",
+          "note": "পরিশ্রম অর্থে"
+        },
+        {
+          "bangla": "খেদমত",
+          "arabic": "خِدْمَة",
+          "transliteration": "khidma",
+          "arabicMeaning": "সেবা",
+          "note": ""
+        },
+        {
+          "bangla": "ফুরসত",
+          "arabic": "فُرْصَة",
+          "transliteration": "fursa",
+          "arabicMeaning": "সুযোগ",
+          "note": "অবসর অর্থে"
+        },
+        {
+          "bangla": "মওকা",
+          "arabic": "مَوْقِع",
+          "transliteration": "mawqi'",
+          "arabicMeaning": "অবস্থান, উপলক্ষ",
+          "note": "মওকা পাওয়া"
+        },
+        {
+          "bangla": "আয়েশ",
+          "arabic": "عَيْش",
+          "transliteration": "'aysh",
+          "arabicMeaning": "জীবনযাপন",
+          "note": "আরাম অর্থে"
+        },
+        {
+          "bangla": "তফাত",
+          "arabic": "تَفَاوُت",
+          "transliteration": "tafawut",
+          "arabicMeaning": "ব্যবধান",
+          "note": "তফাতে থাকো"
+        },
+        {
+          "bangla": "ফারাক",
+          "arabic": "فَرْق",
+          "transliteration": "farq",
+          "arabicMeaning": "পার্থক্য",
+          "note": ""
+        },
+        {
+          "bangla": "মাফিক",
+          "arabic": "مُوَافِق",
+          "transliteration": "muwafiq",
+          "arabicMeaning": "সামঞ্জস্যপূর্ণ",
+          "note": "মনমাফিক, নিয়মমাফিক"
+        },
+        {
+          "bangla": "মারফত",
+          "arabic": "مَعْرِفَة",
+          "transliteration": "ma'rifa",
+          "arabicMeaning": "জানাশোনা",
+          "note": "পরিচয়ের সূত্রে, তাই \"মাধ্যমে\""
+        },
+        {
+          "bangla": "বদল",
+          "arabic": "بَدَل",
+          "transliteration": "badal",
+          "arabicMeaning": "বিনিময়",
+          "note": ""
+        },
+        {
+          "bangla": "খাস",
+          "arabic": "خَاصّ",
+          "transliteration": "khass",
+          "arabicMeaning": "বিশেষ",
+          "note": "খাস কামরা; বিপরীতে আম (عَامّ, সাধারণ), যেমন আমজনতা"
+        }
+      ]
+    },
+    {
+      "slug": "time",
+      "title": "সময়",
+      "entries": [
+        {
+          "bangla": "মেয়াদ",
+          "arabic": "مِيعَاد",
+          "transliteration": "mi'ad",
+          "arabicMeaning": "নির্ধারিত সময়",
+          "note": "ওয়াদা শব্দের ভাই"
+        },
+        {
+          "bangla": "ওয়াক্ত",
+          "arabic": "وَقْت",
+          "transliteration": "waqt",
+          "arabicMeaning": "সময়",
+          "note": "নামাজের ওয়াক্ত"
+        },
+        {
+          "bangla": "জামানা",
+          "arabic": "زَمَان",
+          "transliteration": "zaman",
+          "arabicMeaning": "যুগ, কাল",
+          "note": ""
+        },
+        {
+          "bangla": "সন",
+          "arabic": "سَنَة",
+          "transliteration": "sana",
+          "arabicMeaning": "বছর",
+          "note": "বাংলা সন; \"সাল\" কিন্তু ফারসি"
+        },
+        {
+          "bangla": "আউয়াল",
+          "arabic": "أَوَّل",
+          "transliteration": "awwal",
+          "arabicMeaning": "প্রথম",
+          "note": "আউয়াল ওয়াক্ত"
+        },
+        {
+          "bangla": "আখের",
+          "arabic": "آخِر",
+          "transliteration": "akhir",
+          "arabicMeaning": "শেষ",
+          "note": "আখেরে; আখেরাত একই মূল"
+        },
+        {
+          "bangla": "হাল",
+          "arabic": "حَال",
+          "transliteration": "hal",
+          "arabicMeaning": "বর্তমান অবস্থা",
+          "note": "হাল আমলে"
+        },
+        {
+          "bangla": "আমল",
+          "arabic": "عَمَل",
+          "transliteration": "'amal",
+          "arabicMeaning": "কাজ",
+          "note": "সূরা আসর: عَمِلُوا الصَّالِحَاتِ"
+        }
+      ]
+    }
+  ],
+  "persianNotArabic": [
+    {
+      "bangla": "নামাজ",
+      "persian": "نماز (নামায)",
+      "note": "আরবি প্রতিশব্দ صلاة (সালাত), সূরা মাউনে যেটা পড়েছ"
+    },
+    {
+      "bangla": "রোজা",
+      "persian": "روزه (রোযে)",
+      "note": "ফারসি রোজ = দিন; আরবি প্রতিশব্দ صوم (সাওম)"
+    },
+    {
+      "bangla": "খোদা",
+      "persian": "خدا (খুদা)",
+      "note": "আরবিতে আল্লাহ, রব"
+    },
+    {
+      "bangla": "ফেরেশতা",
+      "persian": "فرشته (ফেরেশতে)",
+      "note": "আরবি ملك (মালাক); সূরা কদরের الْمَلَائِكَةُ সেটারই বহুবচন"
+    },
+    {
+      "bangla": "বেহেশত",
+      "persian": "بهشت (বেহেশত)",
+      "note": "আরবি جنة (জান্নাত)"
+    },
+    {
+      "bangla": "দোজখ",
+      "persian": "دوزخ (দোযাখ)",
+      "note": "আরবি جهنم (জাহান্নাম)"
+    },
+    {
+      "bangla": "গুনাহ",
+      "persian": "گناه (গোনাহ)",
+      "note": "আরবি ذنب (যাম্ব), إثم (ইসম)"
+    },
+    {
+      "bangla": "পয়গম্বর",
+      "persian": "پیغمبر (পয়গামবার)",
+      "note": "আরবি نبي (নবী), رسول (রাসুল)"
+    },
+    {
+      "bangla": "কাগজ",
+      "persian": "کاغذ (কাগায)",
+      "note": "আরবি ورق (ওয়ারাক); তোমার তালিকার শব্দ"
+    },
+    {
+      "bangla": "খুন",
+      "persian": "خون (খুন)",
+      "note": "ফারসিতে মানে রক্ত; হত্যার আরবি قتل (কতল); তোমার তালিকার শব্দ"
+    },
+    {
+      "bangla": "দরজা",
+      "persian": "دروازه (দরওয়াযে)",
+      "note": "আরবি باب (বাব)"
+    },
+    {
+      "bangla": "রাস্তা",
+      "persian": "راسته",
+      "note": "আরবি طريق (তরিক), শরিয়ত-তরিকতের সেই তরিক"
+    },
+    {
+      "bangla": "বাজার",
+      "persian": "بازار",
+      "note": "আরবি سوق (সুক), Part 3 এ পেয়েছ"
+    },
+    {
+      "bangla": "শহর",
+      "persian": "شهر",
+      "note": "আরবি مدينة (মদিনা)"
+    },
+    {
+      "bangla": "জমি",
+      "persian": "زمین (যামিন)",
+      "note": "আরবি أرض (আরদ)"
+    },
+    {
+      "bangla": "আসমান",
+      "persian": "آسمان",
+      "note": "আরবি سماء (সামা)"
+    },
+    {
+      "bangla": "বাগান",
+      "persian": "باغ (বাগ)",
+      "note": "আরবি حديقة (হাদিকা)"
+    },
+    {
+      "bangla": "দোস্ত",
+      "persian": "دوست",
+      "note": "আরবি صديق (সাদিক)"
+    },
+    {
+      "bangla": "দুশমন",
+      "persian": "دشمن",
+      "note": "আরবি عدو (আদু)"
+    },
+    {
+      "bangla": "মেহমান",
+      "persian": "مهمان",
+      "note": "আরবি ضيف (দাইফ)"
+    },
+    {
+      "bangla": "হাজার",
+      "persian": "هزار (হাযার)",
+      "note": "আরবি ألف (আলফ), সূরা কদরের أَلْفِ شَهْرٍ"
+    },
+    {
+      "bangla": "সুদ",
+      "persian": "سود",
+      "note": "ফারসিতে মুনাফা; আরবি ربا (রিবা)"
+    },
+    {
+      "bangla": "খুশি",
+      "persian": "خوشی",
+      "note": "আরবি فرح (ফারাহ), سعادة (সাআদা)"
+    },
+    {
+      "bangla": "সরকার",
+      "persian": "سرکار",
+      "note": "ফারসি সর (মাথা) + কার (কাজ)"
+    },
+    {
+      "bangla": "আন্দাজ",
+      "persian": "اندازه",
+      "note": "আরবি تخمين (তাখমিন)"
+    },
+    {
+      "bangla": "লস্কর",
+      "persian": "لشکر (লশকর)",
+      "note": "আরবি জيش (জাইশ), عسكر (আসকার)"
+    }
+  ],
+  "mixed": [
+    {
+      "bangla": "জরিমানা",
+      "structure": "আরবি جريمة (জরিমা, অপরাধ) + ফারসি -আনা",
+      "note": "অপরাধের দণ্ড"
+    },
+    {
+      "bangla": "দস্তখত",
+      "structure": "ফারসি দস্ত (হাত) + আরবি খত (লেখা)",
+      "note": "হাতের লেখা, স্বাক্ষর"
+    },
+    {
+      "bangla": "আবহাওয়া",
+      "structure": "ফারসি আব (পানি) + আরবি হাওয়া (বাতাস)",
+      "note": "পানি-বাতাস"
+    },
+    {
+      "bangla": "বেইজ্জত",
+      "structure": "ফারসি বে- (ছাড়া) + আরবি ইজ্জত",
+      "note": "সম্মানহীন"
+    },
+    {
+      "bangla": "নারাজ",
+      "structure": "ফারসি না- + আরবি রাজি",
+      "note": "অসন্তুষ্ট"
+    },
+    {
+      "bangla": "বদমেজাজ",
+      "structure": "ফারসি বদ (মন্দ) + আরবি মেজাজ",
+      "note": "রুক্ষ স্বভাব"
+    },
+    {
+      "bangla": "নামঞ্জুর",
+      "structure": "ফারসি না- + আরবি মঞ্জুর",
+      "note": "অগ্রাহ্য"
+    }
+  ],
+  "english": [
+    {
+      "english": "coffee",
+      "arabic": "قَهْوَة (qahwa)",
+      "meaning": "কফি; Part 3 এর সেই কাহওয়া"
+    },
+    {
+      "english": "sugar",
+      "arabic": "سُكَّر (sukkar)",
+      "meaning": "চিনি"
+    },
+    {
+      "english": "cotton",
+      "arabic": "قُطْن (qutn)",
+      "meaning": "তুলা"
+    },
+    {
+      "english": "magazine",
+      "arabic": "مَخْزَن (makhzan)",
+      "meaning": "গুদাম; অস্ত্রের গুদাম থেকে পত্রিকা"
+    },
+    {
+      "english": "safari",
+      "arabic": "سَفَر (safar)",
+      "meaning": "ভ্রমণ; বাংলা সফরের ভাই"
+    },
+    {
+      "english": "tariff",
+      "arabic": "تَعْرِيفَة (ta'rifa)",
+      "meaning": "মূল্যতালিকা"
+    },
+    {
+      "english": "admiral",
+      "arabic": "أَمِير الْبَحْر (amir al-bahr)",
+      "meaning": "সমুদ্রের আমির"
+    },
+    {
+      "english": "algebra",
+      "arabic": "الْجَبْر (al-jabr)",
+      "meaning": "ভাঙা অংশ জোড়া লাগানো"
+    }
+  ]
+}

@@ -1,0 +1,708 @@
+[
+  {
+    "slug": "restaurant",
+    "number": 1,
+    "banglaTitle": "রেস্টুরেন্টে খাবার অর্ডার",
+    "englishTitle": "Ordering food",
+    "turns": [
+      {
+        "speaker": "ওয়েটার",
+        "arabic": "أَهْلًا وَسَهْلًا، تَفَضَّلْ",
+        "transliteration": "Ahlan wa sahlan, tafaddal",
+        "english": "Welcome, please come in",
+        "bangla": "স্বাগতম, আসুন"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "شُكْرًا. الْقَائِمَة مِنْ فَضْلِكَ",
+        "transliteration": "Shukran. Al-qa-ima min fadlik",
+        "english": "Thanks. The menu, please",
+        "bangla": "ধন্যবাদ। মেনুটা দিন"
+      },
+      {
+        "speaker": "ওয়েটার",
+        "arabic": "تَفَضَّلْ. مَاذَا تُرِيدُ؟",
+        "transliteration": "Tafaddal. Madha turid?",
+        "english": "Here. What do you want?",
+        "bangla": "এই নিন। কী নেবেন?"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "أُرِيدُ دَجَاج مَعَ أَرُزّ",
+        "transliteration": "Uridu dajaj ma'a aruzz",
+        "english": "I want chicken with rice",
+        "bangla": "মুরগি আর ভাত চাই"
+      },
+      {
+        "speaker": "ওয়েটার",
+        "arabic": "وَمَاذَا تَشْرَبُ؟",
+        "transliteration": "Wa madha tashrab?",
+        "english": "And what will you drink?",
+        "bangla": "আর কী পান করবেন?"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "مَاء بَارِد، مِنْ فَضْلِكَ",
+        "transliteration": "Ma' barid, min fadlik",
+        "english": "Cold water, please",
+        "bangla": "ঠান্ডা পানি, দয়া করে"
+      },
+      {
+        "speaker": "ওয়েটার",
+        "arabic": "طَيِّب، خَمْس دَقَائِق",
+        "transliteration": "Tayyib, khams daqa-iq",
+        "english": "Okay, five minutes",
+        "bangla": "আচ্ছা, পাঁচ মিনিট"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "الطَّعَام لَذِيذ جِدًّا!",
+        "transliteration": "At-ta'am ladhidh jiddan!",
+        "english": "The food is very delicious!",
+        "bangla": "খাবারটা খুব মজার!"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "الْحِسَاب مِنْ فَضْلِكَ",
+        "transliteration": "Al-hisab min fadlik",
+        "english": "The bill, please",
+        "bangla": "বিলটা দিন"
+      },
+      {
+        "speaker": "ওয়েটার",
+        "arabic": "خَمْسُونَ. شُكْرًا",
+        "transliteration": "Khamsun. Shukran",
+        "english": "Fifty. Thank you",
+        "bangla": "পঞ্চাশ। ধন্যবাদ"
+      }
+    ],
+    "newWordsNote": "قَائِمَة (qa-ima, menu, মেনু), دَجَاج (dajaj, chicken, মুরগি), أَرُزّ (aruzz, rice, ভাত), لَذِيذ (ladhidh, delicious, মজাদার), حِسَاب (hisab, bill, বিল), دَقِيقَة (daqiqa, minute, মিনিট)"
+  },
+  {
+    "slug": "taxi",
+    "number": 2,
+    "banglaTitle": "ট্যাক্সি নেওয়া",
+    "englishTitle": "Taking a taxi",
+    "turns": [
+      {
+        "speaker": "তুমি",
+        "arabic": "السَّلَامُ عَلَيْكُمْ. أُرِيدُ الذَّهَاب إِلَى الْمَطَار",
+        "transliteration": "As-salamu 'alaykum. Uridudh-dhahab ilal-matar",
+        "english": "Salam. I want to go to the airport",
+        "bangla": "আসসালামু আলাইকুম। এয়ারপোর্টে যাব"
+      },
+      {
+        "speaker": "ড্রাইভার",
+        "arabic": "طَيِّب، تَفَضَّلْ",
+        "transliteration": "Tayyib, tafaddal",
+        "english": "Okay, get in",
+        "bangla": "আচ্ছা, উঠুন"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "كَمِ الْأُجْرَة؟",
+        "transliteration": "Kamil-ujra?",
+        "english": "How much is the fare?",
+        "bangla": "ভাড়া কত?"
+      },
+      {
+        "speaker": "ড্রাইভার",
+        "arabic": "ثَلَاثُونَ",
+        "transliteration": "Thalathun",
+        "english": "Thirty",
+        "bangla": "ত্রিশ"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "كَثِير! عِشْرُونَ؟",
+        "transliteration": "Kathir! 'Ishrun?",
+        "english": "Too much! Twenty?",
+        "bangla": "বেশি! বিশ?"
+      },
+      {
+        "speaker": "ড্রাইভার",
+        "arabic": "طَيِّب، خَمْسَة وَعِشْرُونَ",
+        "transliteration": "Tayyib, khamsa wa 'ishrun",
+        "english": "Okay, twenty-five",
+        "bangla": "আচ্ছা, পঁচিশ"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "طَيِّب. كَمْ دَقِيقَة إِلَى الْمَطَار؟",
+        "transliteration": "Tayyib. Kam daqiqa ilal-matar?",
+        "english": "Okay. How many minutes to the airport?",
+        "bangla": "আচ্ছা। এয়ারপোর্ট কত মিনিট?"
+      },
+      {
+        "speaker": "ড্রাইভার",
+        "arabic": "عِشْرُونَ دَقِيقَة تَقْرِيبًا",
+        "transliteration": "'Ishrun daqiqa taqriban",
+        "english": "About twenty minutes",
+        "bangla": "প্রায় বিশ মিনিট"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "قِفْ هُنَا مِنْ فَضْلِكَ. شُكْرًا",
+        "transliteration": "Qif huna min fadlik. Shukran",
+        "english": "Stop here, please. Thanks",
+        "bangla": "এখানে থামুন। ধন্যবাদ"
+      }
+    ],
+    "newWordsNote": "مَطَار (matar, airport, বিমানবন্দর), أُجْرَة (ujra, fare, ভাড়া), ذَهَاب (dhahab, going, যাওয়া), تَقْرِيبًا (taqriban, approximately, প্রায়), قِفْ (qif, stop!, থামুন)"
+  },
+  {
+    "slug": "directions",
+    "number": 3,
+    "banglaTitle": "রাস্তা জিজ্ঞেস করা",
+    "englishTitle": "Asking for directions",
+    "turns": [
+      {
+        "speaker": "তুমি",
+        "arabic": "عَفْوًا، أَيْنَ الْمَسْجِد؟",
+        "transliteration": "'Afwan, aynal-masjid?",
+        "english": "Excuse me, where is the mosque?",
+        "bangla": "মাফ করবেন, মসজিদ কোথায়?"
+      },
+      {
+        "speaker": "পথচারী",
+        "arabic": "اِذْهَبْ إِلَى الْأَمَام، ثُمَّ يَمِين",
+        "transliteration": "Idhhab ilal-amam, thumma yamin",
+        "english": "Go straight, then right",
+        "bangla": "সোজা যান, তারপর ডানে"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "هَلْ هُوَ بَعِيد؟",
+        "transliteration": "Hal huwa ba'id?",
+        "english": "Is it far?",
+        "bangla": "দূরে কি?"
+      },
+      {
+        "speaker": "পথচারী",
+        "arabic": "لَا، قَرِيب. خَمْس دَقَائِق",
+        "transliteration": "La, qarib. Khams daqa-iq",
+        "english": "No, near. Five minutes",
+        "bangla": "না, কাছেই। পাঁচ মিনিট"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "عَلَى الْيَمِين أَوْ عَلَى الْيَسَار؟",
+        "transliteration": "'Alal-yamin aw 'alal-yasar?",
+        "english": "On the right or on the left?",
+        "bangla": "ডানে না বামে?"
+      },
+      {
+        "speaker": "পথচারী",
+        "arabic": "عَلَى الْيَسَار، بِجَانِبِ السُّوق",
+        "transliteration": "'Alal-yasar, bijanibis-suq",
+        "english": "On the left, beside the market",
+        "bangla": "বামে, বাজারের পাশে"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "شُكْرًا جَزِيلًا!",
+        "transliteration": "Shukran jazilan!",
+        "english": "Thank you very much!",
+        "bangla": "অনেক ধন্যবাদ!"
+      },
+      {
+        "speaker": "পথচারী",
+        "arabic": "عَفْوًا",
+        "transliteration": "'Afwan",
+        "english": "You're welcome",
+        "bangla": "স্বাগত"
+      }
+    ],
+    "newWordsNote": "أَمَام (amam, straight/front, সোজা/সামনে), يَمِين (yamin, right, ডান), يَسَار (yasar, left, বাম), ثُمَّ (thumma, then, তারপর), بَعِيد (ba'id, far, দূরে), قَرِيب (qarib, near, কাছে), بِجَانِب (bijanib, beside, পাশে), جَزِيلًا (jazilan, a lot, অনেক)"
+  },
+  {
+    "slug": "hotel",
+    "number": 4,
+    "banglaTitle": "হোটেলে চেক-ইন",
+    "englishTitle": "Hotel check-in",
+    "turns": [
+      {
+        "speaker": "তুমি",
+        "arabic": "السَّلَامُ عَلَيْكُمْ. عِنْدِي حَجْز",
+        "transliteration": "As-salamu 'alaykum. 'Indi hajz",
+        "english": "Salam. I have a reservation",
+        "bangla": "আসসালামু আলাইকুম। আমার বুকিং আছে"
+      },
+      {
+        "speaker": "রিসেপশন",
+        "arabic": "أَهْلًا. مَا اسْمُكَ؟",
+        "transliteration": "Ahlan. Masmuk?",
+        "english": "Welcome. Your name?",
+        "bangla": "স্বাগতম। নাম?"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "اِسْمِي يَمُون",
+        "transliteration": "Ismi Yemon",
+        "english": "My name is Yemon",
+        "bangla": "আমার নাম ইয়েমন"
+      },
+      {
+        "speaker": "রিসেপশন",
+        "arabic": "نَعَمْ، غُرْفَة لِثَلَاث لَيَالٍ",
+        "transliteration": "Na'am, ghurfa lithalath layal",
+        "english": "Yes, a room for three nights",
+        "bangla": "হ্যাঁ, তিন রাতের রুম"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "كَمِ السِّعْر؟",
+        "transliteration": "Kamis-si'r?",
+        "english": "How much is the price?",
+        "bangla": "দাম কত?"
+      },
+      {
+        "speaker": "রিসেপশন",
+        "arabic": "مِئَة لِكُلِّ لَيْلَة",
+        "transliteration": "Mi-a likulli layla",
+        "english": "A hundred per night",
+        "bangla": "প্রতি রাত একশ"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "هَلِ الْفَطُور مَعَ الْغُرْفَة؟",
+        "transliteration": "Halil-fatur ma'al-ghurfa?",
+        "english": "Is breakfast included with the room?",
+        "bangla": "রুমের সাথে নাশতা আছে?"
+      },
+      {
+        "speaker": "রিসেপশন",
+        "arabic": "نَعَمْ. تَفَضَّلِ الْمِفْتَاح، غُرْفَة رَقْم خَمْسَة",
+        "transliteration": "Na'am. Tafaddalil-miftah, ghurfa raqm khamsa",
+        "english": "Yes. Here is the key, room number five",
+        "bangla": "হ্যাঁ। চাবি নিন, রুম নম্বর পাঁচ"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "شُكْرًا",
+        "transliteration": "Shukran",
+        "english": "Thanks",
+        "bangla": "ধন্যবাদ"
+      }
+    ],
+    "newWordsNote": "حَجْز (hajz, booking, বুকিং), غُرْفَة (ghurfa, room, রুম), سِعْر (si'r, price, দাম), فَطُور (fatur, breakfast, নাশতা), مِفْتَاح (miftah, key, চাবি), رَقْم (raqm, number, নম্বর)"
+  },
+  {
+    "slug": "immigration",
+    "number": 5,
+    "banglaTitle": "এয়ারপোর্টে ইমিগ্রেশন",
+    "englishTitle": "Passport control",
+    "turns": [
+      {
+        "speaker": "অফিসার",
+        "arabic": "جَوَاز السَّفَر مِنْ فَضْلِكَ",
+        "transliteration": "Jawazus-safar min fadlik",
+        "english": "Passport, please",
+        "bangla": "পাসপোর্ট দিন"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "تَفَضَّلْ",
+        "transliteration": "Tafaddal",
+        "english": "Here you are",
+        "bangla": "এই নিন"
+      },
+      {
+        "speaker": "অফিসার",
+        "arabic": "مِنْ أَيْنَ أَنْتَ؟",
+        "transliteration": "Min ayna anta?",
+        "english": "Where are you from?",
+        "bangla": "কোন দেশের?"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "أَنَا مِنْ بَنْغْلَادِيش",
+        "transliteration": "Ana min Bangladesh",
+        "english": "I am from Bangladesh",
+        "bangla": "আমি বাংলাদেশের"
+      },
+      {
+        "speaker": "অফিসার",
+        "arabic": "لِمَاذَا أَنْتَ هُنَا؟",
+        "transliteration": "Limadha anta huna?",
+        "english": "Why are you here?",
+        "bangla": "এখানে কেন এসেছেন?"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "أَنَا هُنَا لِلْعَمَل",
+        "transliteration": "Ana huna lil-'amal",
+        "english": "I am here for work",
+        "bangla": "কাজের জন্য এসেছি"
+      },
+      {
+        "speaker": "অফিসার",
+        "arabic": "كَمْ يَوْمًا؟",
+        "transliteration": "Kam yawman?",
+        "english": "How many days?",
+        "bangla": "কত দিন?"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "عَشَرَة أَيَّام",
+        "transliteration": "'Asharat ayyam",
+        "english": "Ten days",
+        "bangla": "দশ দিন"
+      },
+      {
+        "speaker": "অফিসার",
+        "arabic": "طَيِّب، أَهْلًا بِكَ",
+        "transliteration": "Tayyib, ahlan bik",
+        "english": "Okay, welcome",
+        "bangla": "আচ্ছা, স্বাগতম"
+      }
+    ],
+    "newWordsNote": "جَوَاز السَّفَر (jawazus-safar, passport, পাসপোর্ট), سَفَر (safar, travel, ভ্রমণ), أَيَّام (ayyam, days, দিনগুলো), أَهْلًا بِكَ (ahlan bik, welcome to you, আপনাকে স্বাগতম)"
+  },
+  {
+    "slug": "market",
+    "number": 6,
+    "banglaTitle": "বাজারে দরদাম",
+    "englishTitle": "Bargaining at the market",
+    "turns": [
+      {
+        "speaker": "তুমি",
+        "arabic": "كَمْ هَذَا الْقَمِيص؟",
+        "transliteration": "Kam hadhal-qamis?",
+        "english": "How much is this shirt?",
+        "bangla": "এই শার্টটা কত?"
+      },
+      {
+        "speaker": "বিক্রেতা",
+        "arabic": "خَمْسُونَ",
+        "transliteration": "Khamsun",
+        "english": "Fifty",
+        "bangla": "পঞ্চাশ"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "غَالِي جِدًّا!",
+        "transliteration": "Ghali jiddan!",
+        "english": "Very expensive!",
+        "bangla": "অনেক দাম!"
+      },
+      {
+        "speaker": "বিক্রেতা",
+        "arabic": "هَذَا جَيِّد وَجَدِيد",
+        "transliteration": "Hadha jayyid wa jadid",
+        "english": "This is good and new",
+        "bangla": "এটা ভালো আর নতুন"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "أُعْطِيكَ ثَلَاثِينَ",
+        "transliteration": "U'tika thalathin",
+        "english": "I will give you thirty",
+        "bangla": "ত্রিশ দেব"
+      },
+      {
+        "speaker": "বিক্রেতা",
+        "arabic": "لَا، أَرْبَعُونَ. آخِر سِعْر",
+        "transliteration": "La, arba'un. Akhir si'r",
+        "english": "No, forty. Final price",
+        "bangla": "না, চল্লিশ। শেষ দাম"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "طَيِّب، أَرْبَعُونَ",
+        "transliteration": "Tayyib, arba'un",
+        "english": "Okay, forty",
+        "bangla": "আচ্ছা, চল্লিশ"
+      },
+      {
+        "speaker": "বিক্রেতা",
+        "arabic": "تَفَضَّلْ. شُكْرًا",
+        "transliteration": "Tafaddal. Shukran",
+        "english": "Here you go. Thanks",
+        "bangla": "এই নিন। ধন্যবাদ"
+      }
+    ],
+    "newWordsNote": "قَمِيص (qamis, shirt, শার্ট), غَالِي (ghali, expensive, দামি), رَخِيص (rakhis, cheap, সস্তা), أُعْطِيكَ (u'tika, I give you, তোমাকে দিই), آخِر (akhir, last/final, শেষ)"
+  },
+  {
+    "slug": "pharmacy",
+    "number": 7,
+    "banglaTitle": "ফার্মেসিতে",
+    "englishTitle": "At the pharmacy",
+    "turns": [
+      {
+        "speaker": "তুমি",
+        "arabic": "عِنْدِي صُدَاع",
+        "transliteration": "'Indi suda'",
+        "english": "I have a headache",
+        "bangla": "আমার মাথাব্যথা"
+      },
+      {
+        "speaker": "ফার্মাসিস্ট",
+        "arabic": "مُنْذُ مَتَى؟",
+        "transliteration": "Mundhu mata?",
+        "english": "Since when?",
+        "bangla": "কখন থেকে?"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "مُنْذُ الصَّبَاح",
+        "transliteration": "Mundhus-sabah",
+        "english": "Since morning",
+        "bangla": "সকাল থেকে"
+      },
+      {
+        "speaker": "ফার্মাসিস্ট",
+        "arabic": "هَلْ عِنْدَكَ حَرَارَة؟",
+        "transliteration": "Hal 'indaka harara?",
+        "english": "Do you have a fever?",
+        "bangla": "জ্বর আছে?"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "لَا، فَقَط صُدَاع",
+        "transliteration": "La, faqat suda'",
+        "english": "No, only a headache",
+        "bangla": "না, শুধু মাথাব্যথা"
+      },
+      {
+        "speaker": "ফার্মাসিস্ট",
+        "arabic": "خُذْ هَذَا الدَّوَاء، حَبَّة بَعْدَ الطَّعَام",
+        "transliteration": "Khudh hadhad-dawa', habba ba'dat-ta'am",
+        "english": "Take this medicine, one pill after food",
+        "bangla": "এই ওষুধ নিন, খাবারের পরে একটা"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "كَمْ مَرَّة فِي الْيَوْم؟",
+        "transliteration": "Kam marra fil-yawm?",
+        "english": "How many times a day?",
+        "bangla": "দিনে কতবার?"
+      },
+      {
+        "speaker": "ফার্মাসিস্ট",
+        "arabic": "مَرَّتَيْن",
+        "transliteration": "Marratayn",
+        "english": "Twice",
+        "bangla": "দুইবার"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "شُكْرًا جَزِيلًا",
+        "transliteration": "Shukran jazilan",
+        "english": "Thanks a lot",
+        "bangla": "অনেক ধন্যবাদ"
+      }
+    ],
+    "newWordsNote": "صُدَاع (suda', headache, মাথাব্যথা), حَرَارَة (harara, fever, জ্বর), دَوَاء (dawa', medicine, ওষুধ), خُذْ (khudh, take!, নিন), بَعْدَ (ba'da, after, পরে), مَرَّة (marra, time/occurrence, বার), فَقَط (faqat, only, শুধু), مُنْذُ (mundhu, since, থেকে)"
+  },
+  {
+    "slug": "mosque",
+    "number": 8,
+    "banglaTitle": "মসজিদে নামাযের সময়",
+    "englishTitle": "Prayer time at the mosque",
+    "turns": [
+      {
+        "speaker": "তুমি",
+        "arabic": "عَفْوًا، مَتَى صَلَاةُ الْمَغْرِب؟",
+        "transliteration": "'Afwan, mata salatul-maghrib?",
+        "english": "Excuse me, when is Maghrib prayer?",
+        "bangla": "মাফ করবেন, মাগরিবের নামায কখন?"
+      },
+      {
+        "speaker": "মুসল্লি",
+        "arabic": "بَعْدَ نِصْف سَاعَة",
+        "transliteration": "Ba'da nisf sa'a",
+        "english": "After half an hour",
+        "bangla": "আধা ঘণ্টা পরে"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "أَيْنَ مَكَان الْوُضُوء؟",
+        "transliteration": "Ayna makanul-wudu'?",
+        "english": "Where is the wudu area?",
+        "bangla": "ওযুর জায়গা কোথায়?"
+      },
+      {
+        "speaker": "মুসল্লি",
+        "arabic": "هُنَاكَ، عَلَى الْيَسَار",
+        "transliteration": "Hunaka, 'alal-yasar",
+        "english": "There, on the left",
+        "bangla": "ওখানে, বাম দিকে"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "شُكْرًا. هَذَا مَسْجِد جَمِيل",
+        "transliteration": "Shukran. Hadha masjid jamil",
+        "english": "Thanks. This is a beautiful mosque",
+        "bangla": "ধন্যবাদ। মসজিদটা সুন্দর"
+      },
+      {
+        "speaker": "মুসল্লি",
+        "arabic": "نَعَمْ، وَهُوَ قَدِيم جِدًّا",
+        "transliteration": "Na'am, wa huwa qadim jiddan",
+        "english": "Yes, and it is very old",
+        "bangla": "হ্যাঁ, অনেক পুরনোও"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "الْحَمْدُ لِلَّهِ",
+        "transliteration": "Alhamdulillah",
+        "english": "Alhamdulillah",
+        "bangla": "আলহামদুলিল্লাহ"
+      },
+      {
+        "speaker": "মুসল্লি",
+        "arabic": "أَهْلًا بِكَ",
+        "transliteration": "Ahlan bik",
+        "english": "You are welcome here",
+        "bangla": "স্বাগতম"
+      }
+    ],
+    "newWordsNote": "صَلَاة ★ (salah, prayer, নামায; সূরা মাউনে صَلَاتِهِمْ পড়েছ), مَغْرِب (maghrib, sunset/Maghrib, মাগরিব), نِصْف (nisf, half, অর্ধেক), سَاعَة (sa'a, hour/clock, ঘণ্টা/ঘড়ি), مَكَان (makan, place, জায়গা), وُضُوء (wudu', ablution, ওযু)"
+  },
+  {
+    "slug": "phone-plans",
+    "number": 9,
+    "banglaTitle": "বন্ধুর সাথে প্ল্যান",
+    "englishTitle": "Making plans on the phone",
+    "turns": [
+      {
+        "speaker": "তুমি",
+        "arabic": "أَلُو، السَّلَامُ عَلَيْكُمْ",
+        "transliteration": "Alu, as-salamu 'alaykum",
+        "english": "Hello, salam",
+        "bangla": "হ্যালো, আসসালামু আলাইকুম"
+      },
+      {
+        "speaker": "বন্ধু",
+        "arabic": "وَعَلَيْكُمُ السَّلَام، كَيْفَ حَالُكَ؟",
+        "transliteration": "Wa 'alaykumus-salam, kayfa haluk?",
+        "english": "Salam, how are you?",
+        "bangla": "ওয়ালাইকুম সালাম, কেমন আছ?"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "بِخَيْر. هَلْ عِنْدَكَ وَقْت غَدًا؟",
+        "transliteration": "Bikhayr. Hal 'indaka waqt ghadan?",
+        "english": "Fine. Do you have time tomorrow?",
+        "bangla": "ভালো। কাল সময় আছে?"
+      },
+      {
+        "speaker": "বন্ধু",
+        "arabic": "نَعَمْ، بَعْدَ الْعَصْر",
+        "transliteration": "Na'am, ba'dal-'asr",
+        "english": "Yes, after Asr",
+        "bangla": "হ্যাঁ, আসরের পরে"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "طَيِّب. نَشْرَبُ قَهْوَة فِي السُّوق؟",
+        "transliteration": "Tayyib. Nashrabu qahwa fis-suq?",
+        "english": "Okay. Shall we drink coffee at the market?",
+        "bangla": "আচ্ছা। বাজারে কফি খাই?"
+      },
+      {
+        "speaker": "বন্ধু",
+        "arabic": "فِكْرَة جَيِّدَة! أَيْنَ نَلْتَقِي؟",
+        "transliteration": "Fikra jayyida! Ayna naltaqi?",
+        "english": "Good idea! Where do we meet?",
+        "bangla": "ভালো বুদ্ধি! কোথায় দেখা হবে?"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "أَمَامَ الْمَسْجِد الْكَبِير، السَّاعَة الْخَامِسَة",
+        "transliteration": "Amamal-masjidil-kabir, as-sa'atul-khamisa",
+        "english": "In front of the big mosque, at five o'clock",
+        "bangla": "বড় মসজিদের সামনে, পাঁচটায়"
+      },
+      {
+        "speaker": "বন্ধু",
+        "arabic": "طَيِّب، إِنْ شَاءَ اللهُ. مَعَ السَّلَامَة",
+        "transliteration": "Tayyib, insha'Allah. Ma'as-salama",
+        "english": "Okay, insha'Allah. Bye",
+        "bangla": "আচ্ছা, ইনশাআল্লাহ। বিদায়"
+      }
+    ],
+    "newWordsNote": "عَصْر ★ (’asr, late afternoon/Asr, আসর; সূরা আসরের সেই শব্দ), فِكْرَة (fikra, idea, বুদ্ধি/আইডিয়া), نَلْتَقِي (naltaqi, we meet, আমরা দেখা করি), السَّاعَة الْخَامِسَة (as-sa'atul-khamisa, five o'clock, পাঁচটা)"
+  },
+  {
+    "slug": "lost-phone",
+    "number": 10,
+    "banglaTitle": "ফোন হারিয়ে গেছে",
+    "englishTitle": "Lost phone, asking for help",
+    "turns": [
+      {
+        "speaker": "তুমি",
+        "arabic": "سَاعِدْنِي مِنْ فَضْلِكَ!",
+        "transliteration": "Sa'idni min fadlik!",
+        "english": "Help me, please!",
+        "bangla": "দয়া করে সাহায্য করুন!"
+      },
+      {
+        "speaker": "লোক",
+        "arabic": "مَاذَا حَدَثَ؟",
+        "transliteration": "Madha hadath?",
+        "english": "What happened?",
+        "bangla": "কী হয়েছে?"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "هَاتِفِي ضَاعَ",
+        "transliteration": "Hatifi da'a",
+        "english": "My phone is lost",
+        "bangla": "আমার ফোন হারিয়ে গেছে"
+      },
+      {
+        "speaker": "লোক",
+        "arabic": "أَيْنَ كُنْتَ؟",
+        "transliteration": "Ayna kunta?",
+        "english": "Where were you?",
+        "bangla": "কোথায় ছিলেন?"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "كُنْتُ فِي السُّوق",
+        "transliteration": "Kuntu fis-suq",
+        "english": "I was in the market",
+        "bangla": "বাজারে ছিলাম"
+      },
+      {
+        "speaker": "লোক",
+        "arabic": "مَا لَوْن الْهَاتِف؟",
+        "transliteration": "Ma lawnul-hatif?",
+        "english": "What color is the phone?",
+        "bangla": "ফোনের রং কী?"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "أَسْوَد، وَهُوَ جَدِيد",
+        "transliteration": "Aswad, wa huwa jadid",
+        "english": "Black, and it is new",
+        "bangla": "কালো, আর নতুন"
+      },
+      {
+        "speaker": "লোক",
+        "arabic": "اُنْظُرْ! هَلْ هَذَا هَاتِفُكَ؟",
+        "transliteration": "Unzur! Hal hadha hatifuk?",
+        "english": "Look! Is this your phone?",
+        "bangla": "দেখুন! এটা কি আপনার ফোন?"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "نَعَمْ! هَذَا هَاتِفِي! شُكْرًا جَزِيلًا!",
+        "transliteration": "Na'am! Hadha hatifi! Shukran jazilan!",
+        "english": "Yes! That is my phone! Thank you so much!",
+        "bangla": "হ্যাঁ! এটাই আমার ফোন! অনেক ধন্যবাদ!"
+      },
+      {
+        "speaker": "লোক",
+        "arabic": "الْحَمْدُ لِلَّهِ، لَا مُشْكِلَة",
+        "transliteration": "Alhamdulillah, la mushkila",
+        "english": "Alhamdulillah, no problem",
+        "bangla": "আলহামদুলিল্লাহ, সমস্যা নেই"
+      }
+    ],
+    "newWordsNote": "سَاعِدْنِي (sa'idni, help me!, আমাকে সাহায্য করুন), حَدَثَ (hadatha, happened, ঘটেছে), ضَاعَ (da'a, got lost, হারিয়ে গেছে), كُنْتُ / كُنْتَ (kuntu/kunta, I was / you were, আমি ছিলাম / তুমি ছিলে), لَوْن (lawn, color, রং), أَسْوَد (aswad, black, কালো)"
+  }
+]
