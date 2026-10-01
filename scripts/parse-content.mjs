@@ -17,7 +17,9 @@ const OUT_DIR = path.join(ROOT, 'content');
 
 fs.mkdirSync(OUT_DIR, { recursive: true });
 
-const raw = fs.readFileSync(SOURCE, 'utf8');
+// Normalize line endings: Windows checkouts (git autocrlf) yield CRLF, which
+// breaks the line-anchored regexes below.
+const raw = fs.readFileSync(SOURCE, 'utf8').replace(/\r\n?/g, '\n');
 
 // ---------- Utilities ----------
 
@@ -619,6 +621,15 @@ function dedupeAppearances(list) {
 for (const w of words) {
   const rootAppearance = (w.appearances || []).find((a) => a.source === 'root');
   if (rootAppearance) w.root = rootAppearance.root;
+}
+
+// Refuse to clobber committed content with empty output if parsing failed.
+if (!words.length || !surahs.length) {
+  console.error(
+    `Parse produced no content (words: ${words.length}, surahs: ${surahs.length}); ` +
+      'leaving content/ untouched. Check the format of arabic-complete-guide.md.'
+  );
+  process.exit(1);
 }
 
 const write = (name, data) =>
