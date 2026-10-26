@@ -16,14 +16,17 @@
     "db:seed": "node prisma/seed.mjs",
     "db:seed-content": "node prisma/seed-content.mjs",
     "db:reset-trace": "node scripts/reset-trace-games.mjs",
-    "db:studio": "prisma studio"
+    "db:studio": "prisma studio",
+    "admin:create": "node scripts/create-admin.mjs"
   },
   "prisma": {
     "seed": "node prisma/seed.mjs"
   },
   "dependencies": {
     "@prisma/client": "^6.2.0",
+    "bcryptjs": "3.0.3",
     "next": "16.2.10",
+    "next-auth": "4.24.15",
     "react": "19.2.7",
     "react-dom": "19.2.7"
   },

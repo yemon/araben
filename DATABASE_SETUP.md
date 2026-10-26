@@ -118,6 +118,54 @@ arabic-complete-guide.md ──parse──▶ content/*.json ──db:seed-conte
 - `npm run dev` and `npm run build` neither parse nor seed. Seed the
   production database deliberately, then build or let pages revalidate.
 
+## Admin Panel
+
+`/admin` manages scenarios, surahs, the Hidden in Bangla words and lists, and
+the trace game. Alphabet, grammar, basics and roots aren't edited there; they
+still come from the guide.
+
+### Set up sign-in
+
+1. Put `NEXTAUTH_URL` and `NEXTAUTH_SECRET` in `.env` (see `.env.example`).
+2. Create an admin. You'll be asked for a password (10 characters or more):
+
+   ```bash
+   npm run admin:create -- you@example.com --name "Your Name"
+   ```
+
+   Run it again with the same email to reset the password.
+3. Sign in at `/admin/login`.
+
+### How it's protected
+
+- `src/proxy.ts` sends anyone without a valid session to the sign-in page,
+  answers admin API calls with 401, and refuses admin writes sent from
+  another site.
+- Every admin page and API route checks the session again on the server
+  (`src/lib/admin/session.ts`).
+- Passwords are bcrypt hashes. Sessions are signed, httpOnly cookies that last
+  8 hours. After 5 wrong passwords an email is locked out for 15 minutes.
+
+### Saving content
+
+- Saving a scenario, surah or hidden-word category also updates the word
+  index, the way the parser would: words are matched by their exact Arabic
+  and transliteration, new ones are created, and words that no longer appear
+  anywhere are removed. An existing word's meaning is never changed by a save.
+- The public pages show a change straight away.
+- Every change is recorded in `content_edits` and listed on the dashboard.
+
+### The admin and the guide
+
+Once content is edited in the admin, the database is ahead of
+`arabic-complete-guide.md`. `npm run content:sync` would undo those edits, so
+it refuses and lists them. Add `--force` only if you mean to throw them away
+and reload everything from the guide:
+
+```bash
+npm run db:seed-content -- --force
+```
+
 ## Database Schema
 
 The trace game uses 3 tables:
@@ -146,6 +194,13 @@ The trace game uses 3 tables:
 | `roots`, `root_family_members` | `roots.json` |
 | `content_syncs` | one row per seed, recording which `manifest.json` it loaded |
 
+### Admin
+
+| Table | Holds |
+| --- | --- |
+| `admin_users` | who may sign in (email, bcrypt password hash) |
+| `content_edits` | every change made in the admin panel |
+
 ## Useful Commands
 
 ```bash
@@ -169,6 +224,9 @@ npm run content:sync
 
 # Re-seed the learning content from content/*.json as they are
 npm run db:seed-content
+
+# Create an admin, or reset an admin's password
+npm run admin:create -- you@example.com
 ```
 
 ## Troubleshooting
@@ -195,7 +253,5 @@ ALTER DATABASE araben CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 ## Next Steps
 
-Once the database is set up:
-1. The trace game API routes will be able to query words
-2. You can add more Arabic words through Prisma Studio or the admin interface
-3. All trace game data is now managed through the database instead of JSON files
+Once the database is set up and an admin exists, sign in at `/admin` to manage
+scenarios, surahs, the Hidden in Bangla words and the trace game.

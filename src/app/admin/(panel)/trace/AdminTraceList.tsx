@@ -42,14 +42,14 @@ export default function AdminTraceList({ games }: { games: TraceGame[] }) {
   const published = games.filter((g) => g.status === 'published').length;
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-8">
+    <div className="mx-auto max-w-3xl">
       <div className="flex flex-wrap items-center justify-between gap-4">
         <div className="flex items-center gap-3">
           <Link
-            href="/practice/trace"
+            href="/admin/"
             className="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-border bg-surface text-muted transition-colors hover:border-accent hover:text-accent"
-            aria-label="Back to the trace game"
-            title="Back to the trace game"
+            aria-label="Back to the dashboard"
+            title="Back to the dashboard"
           >
             <Icon name="arrowLeft" />
           </Link>

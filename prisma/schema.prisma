@@ -363,3 +363,33 @@ model ContentSync {
 
   @@map("content_syncs")
 }
+
+// ---------- Admin ----------
+
+// Who may sign in to /admin. Passwords are bcrypt hashes; create or reset
+// one with npm run admin:create.
+model AdminUser {
+  id           Int       @id @default(autoincrement())
+  email        String    @unique
+  name         String?
+  passwordHash String
+  createdAt    DateTime  @default(now())
+  lastLoginAt  DateTime?
+
+  @@map("admin_users")
+}
+
+// Every change made in the admin panel. The dashboard lists the latest, and
+// the content seed refuses to overwrite edits made since it last ran.
+model ContentEdit {
+  id         Int      @id @default(autoincrement())
+  section    String   // scenarios | surahs | hidden | trace
+  action     String   // create | update | delete
+  ref        String   // slug or id of the changed row
+  summary    String
+  adminEmail String
+  createdAt  DateTime @default(now())
+
+  @@index([createdAt])
+  @@map("content_edits")
+}

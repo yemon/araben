@@ -30,17 +30,28 @@ interface ContentSnapshot {
 
 // The whole content set is small (about a thousand words), so it is loaded
 // in one go and shared by every page rendered in the next CACHE_MS. A
-// re-seed shows up once that runs out.
+// re-seed shows up once that runs out; an admin save clears it at once.
 const CACHE_MS = process.env.NODE_ENV === 'development' ? 2_000 : 60_000;
-let cached: { at: number; snapshot: Promise<ContentSnapshot> } | null = null;
+
+// Kept on globalThis, not in a module variable: Next.js bundles pages and
+// API routes separately, each with its own copy of this module, so an admin
+// save clearing a module variable would leave the pages' copy stale.
+type CacheEntry = { at: number; snapshot: Promise<ContentSnapshot> };
+const store = globalThis as unknown as { arabenContentCache?: CacheEntry | null };
+
+/** Forget the cached snapshot; the next read loads fresh from the database. */
+export function invalidateContentCache() {
+  store.arabenContentCache = null;
+}
 
 function snapshot(): Promise<ContentSnapshot> {
+  const cached = store.arabenContentCache;
   if (cached && Date.now() - cached.at < CACHE_MS) return cached.snapshot;
-  const entry = { at: Date.now(), snapshot: loadSnapshot() };
-  cached = entry;
+  const entry: CacheEntry = { at: Date.now(), snapshot: loadSnapshot() };
+  store.arabenContentCache = entry;
   // A failed load isn't cached: the next call tries again.
   entry.snapshot.catch(() => {
-    if (cached === entry) cached = null;
+    if (store.arabenContentCache === entry) store.arabenContentCache = null;
   });
   return entry.snapshot;
 }

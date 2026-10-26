@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 // Admin screens are tools, not content: keep them out of search results.
 export const metadata: Metadata = {
-  title: 'Admin',
+  title: { default: 'araben admin', template: '%s · araben admin' },
   robots: { index: false, follow: false },
 };
 

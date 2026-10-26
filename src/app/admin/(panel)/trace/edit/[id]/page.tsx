@@ -4,6 +4,8 @@ import WordTraceBuilder from '../../WordTraceBuilder';
 
 export const dynamic = 'force-dynamic';
 
+export const metadata = { title: 'Edit trace word' };
+
 export default async function EditWordTracePage({
   params,
 }: {

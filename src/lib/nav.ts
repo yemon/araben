@@ -9,8 +9,9 @@ export const primaryNav = [
   { href: '/search/', label: 'Search', hint: 'Find any word' },
 ];
 
-// Routes that take over the whole screen — a game in play — and so render
-// without the site Nav and Footer. The trace player is /practice/trace/<slug>;
-// the word list above it keeps the site chrome.
+// Routes that take over the whole screen — a game in play, or the admin panel
+// with its own sidebar — and so render without the site Nav and Footer. The
+// trace player is /practice/trace/<slug>; the word list above it keeps the
+// site chrome.
 export const isFullscreenRoute = (pathname: string | null): boolean =>
-  !!pathname && /^\/practice\/trace\/[^/]+\/?$/.test(pathname);
+  !!pathname && (/^\/practice\/trace\/[^/]+\/?$/.test(pathname) || /^\/admin(\/|$)/.test(pathname));

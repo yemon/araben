@@ -4,6 +4,7 @@
  *
  *   npm run db:seed-content               validate, write, verify
  *   npm run db:seed-content -- --dry-run  validate only; writes nothing
+ *   npm run db:seed-content -- --force    overwrite edits made in the admin
  *
  * Safe to re-run, and built to fail safe:
  * - Only the content tables are touched. The trace game tables (game_types,
@@ -19,6 +20,8 @@
  * - Rows are matched by slug, so a re-seed keeps the ids of rows that are
  *   still there. Lists (verses, turns, appearances…) are replaced, and rows
  *   no longer in the JSON are removed.
+ * - Content edited in the admin panel since the last seed (content_edits)
+ *   would be overwritten, so the seed refuses unless given --force.
  */
 
 import "dotenv/config";
@@ -32,6 +35,7 @@ const CONTENT_DIR = path.resolve(
   "../content",
 );
 const DRY_RUN = process.argv.includes("--dry-run");
+const FORCE = process.argv.includes("--force");
 
 // Prisma's MySQL String is VARCHAR(191) (characters); @db.Text holds 65,535
 // bytes.
@@ -601,8 +605,33 @@ async function main() {
     throw e;
   }
 
+  // Edits made in the admin since the last seed live only in the database;
+  // reloading the JSON would silently undo them. (Trace edits are safe: the
+  // seed never touches the trace tables.)
+  const lastSync = await prisma.contentSync.findFirst({ orderBy: { syncedAt: "desc" } });
+  const edits = await prisma.contentEdit.findMany({
+    where: { section: { not: "trace" }, ...(lastSync ? { createdAt: { gt: lastSync.syncedAt } } : {}) },
+    orderBy: { createdAt: "desc" },
+    take: 5,
+  });
+  const listEdits = (log) => {
+    for (const e of edits) log(`   - ${e.createdAt.toISOString().slice(0, 16).replace("T", " ")}  ${e.summary} (${e.adminEmail})`);
+  };
+
   if (DRY_RUN) {
     console.log("✓ Content files are valid (dry run — nothing was written).");
+    if (edits.length && !FORCE) {
+      console.log("⚠ A real seed would refuse: content was edited in the admin panel since it was last loaded:");
+      listEdits(console.log);
+    }
+    return;
+  }
+
+  if (edits.length && !FORCE) {
+    console.error("❌ Content was edited in the admin panel since it was last loaded from the guide; nothing was written.");
+    listEdits(console.error);
+    console.error("   Seeding would replace those edits with arabic-complete-guide.md. To do that anyway, add --force.");
+    process.exitCode = 1;
     return;
   }
 

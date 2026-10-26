@@ -5,6 +5,8 @@ import AdminTraceList from './AdminTraceList';
 // the builder shows up as soon as it lands back here.
 export const dynamic = 'force-dynamic';
 
+export const metadata = { title: 'Trace words' };
+
 export default async function AdminTracePage() {
   const games = await getAllGames();
   return <AdminTraceList games={games} />;
