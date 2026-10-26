@@ -4,13 +4,17 @@ import { getAllScenarios, getScenario } from '@/lib/content';
 import { pageMetadata, siteConfig } from '@/lib/seo';
 import { ScenarioClient } from './ScenarioClient';
 
-export function generateStaticParams() {
-  return getAllScenarios().map((s) => ({ slug: s.slug }));
+// Re-read the content from the database at most every 5 minutes; a slug
+// added since the build is rendered on first visit.
+export const revalidate = 300;
+
+export async function generateStaticParams() {
+  return (await getAllScenarios()).map((s) => ({ slug: s.slug }));
 }
 
 export async function generateMetadata(props: { params: Promise<{ slug: string }> }) {
   const params = await props.params;
-  const s = getScenario(params.slug);
+  const s = await getScenario(params.slug);
   if (!s) return pageMetadata({ title: 'Scenario', description: '', path: '/scenarios/' });
   return pageMetadata({
     title: `${s.englishTitle} — Arabic dialogue`,
@@ -22,9 +26,9 @@ export async function generateMetadata(props: { params: Promise<{ slug: string }
 
 export default async function ScenarioPage(props: { params: Promise<{ slug: string }> }) {
   const params = await props.params;
-  const s = getScenario(params.slug);
+  const s = await getScenario(params.slug);
   if (!s) notFound();
-  const all = getAllScenarios();
+  const all = await getAllScenarios();
   const idx = all.findIndex((x) => x.slug === s.slug);
   const prev = idx > 0 ? { slug: all[idx - 1].slug, title: all[idx - 1].englishTitle } : null;
   const next =

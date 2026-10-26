@@ -74,6 +74,50 @@ This populates the database with:
 - Game type (word-trace)
 - 20 sample Arabic words for the trace game
 
+### 7. Seed the Learning Content
+
+```bash
+npm run db:seed-content -- --dry-run   # check the content files; writes nothing
+npm run db:seed-content
+```
+
+This copies everything in `content/*.json` (words, surahs, basics, scenarios,
+hidden words, roots) into the content tables. It only touches those tables —
+never the trace game ones — and it is safe to run again:
+
+- It checks every file first (unknown fields, broken links between files,
+  duplicate slugs, text too long for its column) and writes nothing if
+  anything is wrong.
+- It writes in one transaction, then rebuilds every JSON file from the
+  database and compares. Any difference rolls the whole seed back.
+- Rows are matched by slug, so re-seeding keeps their ids. Rows no longer in
+  the files are removed.
+
+`arabic-complete-guide.md` stays the source of truth. After editing it, run
+`npm run content:sync` — it re-parses the guide into `content/*.json` and
+seeds the database. Nothing else needs it: `npm run dev` and `npm run build`
+read the database as it is.
+
+## How the Site Reads Content
+
+```
+arabic-complete-guide.md ──parse──▶ content/*.json ──db:seed-content──▶ MySQL ──▶ pages
+                         └───────────── npm run content:sync ─────────────┘
+```
+
+- Every page gets its content through `src/lib/content.ts` (`getAllWords()`,
+  `getSurah(slug)`, …). It loads the whole content set from the database in
+  one go and returns it in the same shapes the JSON files have, so pages and
+  components don't know where it came from.
+- Pages are still rendered ahead of time by `next build`, so **the build needs
+  the database** (with the content seeded) to be reachable.
+- Content pages re-read the database at most every 5 minutes
+  (`export const revalidate = 300`). After re-seeding a running site, changes
+  appear within about 5 minutes without a rebuild, and a word, surah or
+  scenario added since the build gets its page on first visit.
+- `npm run dev` and `npm run build` neither parse nor seed. Seed the
+  production database deliberately, then build or let pages revalidate.
+
 ## Database Schema
 
 The trace game uses 3 tables:
@@ -89,6 +133,18 @@ The trace game uses 3 tables:
 ### `game_slides`
 - Stores the actual word data as JSON
 - Format: `{ word: "سلام", language: "ar" }`
+
+### Learning content
+
+| Table | From |
+| --- | --- |
+| `words`, `word_appearances` | `words.json` |
+| `surahs`, `surah_verses` | `surahs.json` |
+| `basics_categories`, `basics_category_words`, `basics_dialogues`, `basics_dialogue_turns` | `basics.json` |
+| `scenarios`, `scenario_turns` | `scenarios.json` |
+| `hidden_categories`, `hidden_entries`, `hidden_persian_words`, `hidden_mixed_words`, `hidden_english_words` | `hidden.json` |
+| `roots`, `root_family_members` | `roots.json` |
+| `content_syncs` | one row per seed, recording which `manifest.json` it loaded |
 
 ## Useful Commands
 
@@ -107,6 +163,12 @@ npm run db:generate
 
 # Re-seed the database
 npm run db:seed
+
+# After editing arabic-complete-guide.md: re-parse it and re-seed the content
+npm run content:sync
+
+# Re-seed the learning content from content/*.json as they are
+npm run db:seed-content
 ```
 
 ## Troubleshooting

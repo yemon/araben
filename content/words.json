@@ -6450,7 +6450,7 @@
     ]
   },
   {
-    "slug": "al-hutamah",
+    "slug": "al-hutamah-al-humazah",
     "arabic": "الْحُطَمَةُ",
     "transliteration": "al-hutamah",
     "english": "the Crusher",
@@ -12715,7 +12715,7 @@
     "root": "r-h-m"
   },
   {
-    "slug": "rahim",
+    "slug": "rahim-root-r-h-m",
     "arabic": "رَحِم",
     "transliteration": "RaHiM",
     "english": "মাতৃগর্ভ",
@@ -13720,7 +13720,7 @@
     "root": "s-d-q"
   },
   {
-    "slug": "sadaqa",
+    "slug": "sadaqa-root-s-d-q",
     "arabic": "صَدَقَة",
     "transliteration": "SaDaQa",
     "english": "দান",

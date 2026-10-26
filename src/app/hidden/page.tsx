@@ -9,6 +9,9 @@ export const metadata = pageMetadata({
   path: '/hidden/',
 });
 
-export default function HiddenPage() {
-  return <HiddenClient hidden={getHidden()} />;
+// Re-read the content from the database at most every 5 minutes.
+export const revalidate = 300;
+
+export default async function HiddenPage() {
+  return <HiddenClient hidden={await getHidden()} />;
 }

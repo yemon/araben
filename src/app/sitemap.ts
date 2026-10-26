@@ -12,9 +12,19 @@ import { GRAMMAR_PARTS } from '@/lib/grammar';
 import { siteConfig } from '@/lib/seo';
 
 export const dynamic = 'force-static';
+// Re-read the content from the database at most every 5 minutes.
+export const revalidate = 300;
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = siteConfig.url;
+  const [words, surahs, scenarios, roots, basics, hidden] = await Promise.all([
+    getAllWords(),
+    getAllSurahs(),
+    getAllScenarios(),
+    getAllRoots(),
+    getBasics(),
+    getHidden(),
+  ]);
   const now = new Date().toISOString();
 
   const staticRoutes = [
@@ -44,42 +54,42 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  const wordRoutes = getAllWords().map((w) => ({
+  const wordRoutes = words.map((w) => ({
     url: `${base}/word/${w.slug}/`,
     lastModified: now,
     changeFrequency: 'yearly' as const,
     priority: 0.5,
   }));
 
-  const surahRoutes = getAllSurahs().map((s) => ({
+  const surahRoutes = surahs.map((s) => ({
     url: `${base}/surahs/${s.slug}/`,
     lastModified: now,
     changeFrequency: 'yearly' as const,
     priority: 0.7,
   }));
 
-  const scenarioRoutes = getAllScenarios().map((s) => ({
+  const scenarioRoutes = scenarios.map((s) => ({
     url: `${base}/scenarios/${s.slug}/`,
     lastModified: now,
     changeFrequency: 'yearly' as const,
     priority: 0.7,
   }));
 
-  const rootRoutes = getAllRoots().map((r) => ({
+  const rootRoutes = roots.map((r) => ({
     url: `${base}/roots/${r.slug}/`,
     lastModified: now,
     changeFrequency: 'yearly' as const,
     priority: 0.6,
   }));
 
-  const basicsRoutes = getBasics().categories.map((c) => ({
+  const basicsRoutes = basics.categories.map((c) => ({
     url: `${base}/basics/${c.slug}/`,
     lastModified: now,
     changeFrequency: 'yearly' as const,
     priority: 0.7,
   }));
 
-  const hiddenRoutes = getHidden().categories.map((c) => ({
+  const hiddenRoutes = hidden.categories.map((c) => ({
     url: `${base}/hidden/${c.slug}/`,
     lastModified: now,
     changeFrequency: 'yearly' as const,

@@ -9,6 +9,9 @@ export const metadata = pageMetadata({
   path: '/roots/',
 });
 
-export default function RootsPage() {
-  return <RootsClient roots={getAllRoots()} />;
+// Re-read the content from the database at most every 5 minutes.
+export const revalidate = 300;
+
+export default async function RootsPage() {
+  return <RootsClient roots={await getAllRoots()} />;
 }

@@ -9,8 +9,11 @@ export const metadata = pageMetadata({
   path: '/search/',
 });
 
-export default function SearchPage() {
-  const words = getAllWords().map((w) => ({
+// Re-read the content from the database at most every 5 minutes.
+export const revalidate = 300;
+
+export default async function SearchPage() {
+  const words = (await getAllWords()).map((w) => ({
     slug: w.slug,
     arabic: w.arabic,
     transliteration: w.transliteration,

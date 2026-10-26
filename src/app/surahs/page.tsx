@@ -9,6 +9,9 @@ export const metadata = pageMetadata({
   path: '/surahs/',
 });
 
-export default function SurahsPage() {
-  return <SurahsClient surahs={getAllSurahs()} />;
+// Re-read the content from the database at most every 5 minutes.
+export const revalidate = 300;
+
+export default async function SurahsPage() {
+  return <SurahsClient surahs={await getAllSurahs()} />;
 }

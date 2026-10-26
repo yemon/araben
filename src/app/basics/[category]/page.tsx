@@ -9,13 +9,17 @@ import {
 import { pageMetadata, siteConfig } from '@/lib/seo';
 import { CategoryClient } from './CategoryClient';
 
-export function generateStaticParams() {
-  return getBasics().categories.map((c) => ({ category: c.slug }));
+// Re-read the content from the database at most every 5 minutes; a slug
+// added since the build is rendered on first visit.
+export const revalidate = 300;
+
+export async function generateStaticParams() {
+  return (await getBasics()).categories.map((c) => ({ category: c.slug }));
 }
 
 export async function generateMetadata(props: { params: Promise<{ category: string }> }) {
   const params = await props.params;
-  const cat = getBasicsCategory(params.category);
+  const cat = await getBasicsCategory(params.category);
   if (!cat) return pageMetadata({ title: 'Basics', description: '', path: '/basics/' });
   return pageMetadata({
     title: `${cat.title} — Arabic basics`,
@@ -27,13 +31,12 @@ export async function generateMetadata(props: { params: Promise<{ category: stri
 
 export default async function CategoryPage(props: { params: Promise<{ category: string }> }) {
   const params = await props.params;
-  const cat = getBasicsCategory(params.category);
+  const cat = await getBasicsCategory(params.category);
   if (!cat) notFound();
 
-  const words = cat.wordSlugs
-    .map((s) => getWord(s))
-    .filter(Boolean)
-    .map((w) => ({ ...(w as NonNullable<typeof w>), audioSrc: audioUrl((w as any).slug) }));
+  const words = (await Promise.all(cat.wordSlugs.map((s) => getWord(s))))
+    .filter((w) => w !== undefined)
+    .map((w) => ({ ...w, audioSrc: audioUrl(w.slug) }));
 
   const ld = {
     '@context': 'https://schema.org',

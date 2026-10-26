@@ -4,13 +4,17 @@ import { getAllRoots, getRoot } from '@/lib/content';
 import { pageMetadata, siteConfig } from '@/lib/seo';
 import { RootClient } from './RootClient';
 
-export function generateStaticParams() {
-  return getAllRoots().map((r) => ({ root: r.slug }));
+// Re-read the content from the database at most every 5 minutes; a slug
+// added since the build is rendered on first visit.
+export const revalidate = 300;
+
+export async function generateStaticParams() {
+  return (await getAllRoots()).map((r) => ({ root: r.slug }));
 }
 
 export async function generateMetadata(props: { params: Promise<{ root: string }> }) {
   const params = await props.params;
-  const r = getRoot(params.root);
+  const r = await getRoot(params.root);
   if (!r) return pageMetadata({ title: 'Root', description: '', path: '/roots/' });
   return pageMetadata({
     title: `Root ${r.latin} — ${r.meaning}`,
@@ -22,7 +26,7 @@ export async function generateMetadata(props: { params: Promise<{ root: string }
 
 export default async function RootPage(props: { params: Promise<{ root: string }> }) {
   const params = await props.params;
-  const r = getRoot(params.root);
+  const r = await getRoot(params.root);
   if (!r) notFound();
 
   const ld = {

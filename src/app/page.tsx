@@ -15,12 +15,17 @@ export const metadata = pageMetadata({
   path: '/',
 });
 
-export default function Home() {
-  const words = getAllWords();
-  const surahs = getAllSurahs();
-  const scenarios = getAllScenarios();
-  const roots = getAllRoots();
-  const basics = getBasics();
+// Re-read the content from the database at most every 5 minutes.
+export const revalidate = 300;
+
+export default async function Home() {
+  const [words, surahs, scenarios, roots, basics] = await Promise.all([
+    getAllWords(),
+    getAllSurahs(),
+    getAllScenarios(),
+    getAllRoots(),
+    getBasics(),
+  ]);
 
   const stats = {
     words: words.length,

@@ -108,15 +108,15 @@ function findTables(body) {
   return tables;
 }
 
-// Slug collision registry
+// Slug collision registry. upsertWord has already merged true duplicates,
+// so any slug already registered belongs to a different word — even in the
+// same context — and must not be handed out again.
 const slugRegistry = new Map();
 function makeUniqueSlug(base, context = "") {
   const clean = base || "word";
   let candidate = clean;
   let i = 2;
   while (slugRegistry.has(candidate)) {
-    const existing = slugRegistry.get(candidate);
-    if (existing.context === context) return candidate;
     candidate = context ? `${clean}-${context}` : `${clean}-${i}`;
     if (context && slugRegistry.has(candidate)) {
       candidate = `${clean}-${i}`;

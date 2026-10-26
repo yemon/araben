@@ -10,13 +10,17 @@ import { pageMetadata, siteConfig } from '@/lib/seo';
 import { WordClient } from './WordClient';
 import type { Appearance } from '@/types/content';
 
-export function generateStaticParams() {
-  return getAllWords().map((w) => ({ slug: w.slug }));
+// Re-read the content from the database at most every 5 minutes; a slug
+// added since the build is rendered on first visit.
+export const revalidate = 300;
+
+export async function generateStaticParams() {
+  return (await getAllWords()).map((w) => ({ slug: w.slug }));
 }
 
 export async function generateMetadata(props: { params: Promise<{ slug: string }> }) {
   const params = await props.params;
-  const w = getWord(params.slug);
+  const w = await getWord(params.slug);
   if (!w) return pageMetadata({ title: 'Word', description: '', path: '/word/' });
   const desc = `${w.arabic} (${w.transliteration}) — Arabic word meaning "${w.english}"${
     w.bangla ? `, বাংলা: ${w.bangla}` : ''
@@ -52,9 +56,9 @@ function appearanceLabel(a: Appearance): { label: string; href: string } {
 
 export default async function WordPage(props: { params: Promise<{ slug: string }> }) {
   const params = await props.params;
-  const w = getWord(params.slug);
+  const w = await getWord(params.slug);
   if (!w) notFound();
-  const related = getRelatedWords(w, 8);
+  const related = await getRelatedWords(w, 8);
   const audio = audioUrl(w.slug);
   const appearances = w.appearances.map(appearanceLabel);
 

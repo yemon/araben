@@ -4,13 +4,17 @@ import { getAllSurahs, getSurah } from '@/lib/content';
 import { pageMetadata, siteConfig } from '@/lib/seo';
 import { SurahClient } from './SurahClient';
 
-export function generateStaticParams() {
-  return getAllSurahs().map((s) => ({ slug: s.slug }));
+// Re-read the content from the database at most every 5 minutes; a slug
+// added since the build is rendered on first visit.
+export const revalidate = 300;
+
+export async function generateStaticParams() {
+  return (await getAllSurahs()).map((s) => ({ slug: s.slug }));
 }
 
 export async function generateMetadata(props: { params: Promise<{ slug: string }> }) {
   const params = await props.params;
-  const s = getSurah(params.slug);
+  const s = await getSurah(params.slug);
   if (!s) return pageMetadata({ title: 'Surah', description: '', path: '/surahs/' });
   return pageMetadata({
     title: `Surah ${s.englishName} — word by word`,
@@ -22,7 +26,7 @@ export async function generateMetadata(props: { params: Promise<{ slug: string }
 
 export default async function SurahPage(props: { params: Promise<{ slug: string }> }) {
   const params = await props.params;
-  const s = getSurah(params.slug);
+  const s = await getSurah(params.slug);
   if (!s) notFound();
 
   const ld = {

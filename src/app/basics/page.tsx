@@ -9,6 +9,9 @@ export const metadata = pageMetadata({
   path: '/basics/',
 });
 
-export default function BasicsPage() {
-  return <BasicsClient basics={getBasics()} />;
+// Re-read the content from the database at most every 5 minutes.
+export const revalidate = 300;
+
+export default async function BasicsPage() {
+  return <BasicsClient basics={await getBasics()} />;
 }

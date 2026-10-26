@@ -1,5 +1,8 @@
-// Araben - Arabic trace game database schema
-// Only includes trace game related tables (Arabic only)
+// Araben database schema
+//
+// - Trace game: game_types, games, game_slides (seeded by prisma/seed.mjs)
+// - Learning content: everything below "Learning content", mirroring
+//   content/*.json (seeded by prisma/seed-content.mjs)
 
 generator client {
   provider = "prisma-client-js"
@@ -62,4 +65,301 @@ model GameSlide {
   @@unique([gameId, slideNumber])
   @@index([gameId])
   @@map("game_slides")
+}
+
+// ---------- Learning content ----------
+//
+// A mirror of content/*.json, which scripts/parse-content.mjs generates from
+// arabic-complete-guide.md. The guide stays the source of truth: edit it,
+// re-parse, then run npm run db:seed-content to bring these tables in line.
+//
+// Every list keeps a position so the JSON's order can be rebuilt exactly.
+// Empty strings are stored as empty strings, not NULL. No Arabic column is
+// unique: the database collation ignores some differences in Arabic text.
+
+// One entry per distinct (arabic, transliteration) — words.json.
+model Word {
+  id              Int     @id @default(autoincrement())
+  slug            String  @unique
+  position        Int
+  arabic          String
+  transliteration String
+  english         String  @db.Text
+  bangla          String  @db.Text
+
+  // Set when the word belongs to a root's family (words.json root).
+  rootId          Int?
+  root            Root?   @relation(fields: [rootId], references: [id])
+
+  appearances     WordAppearance[]
+  verses          SurahVerse[]
+  basicsLinks     BasicsCategoryWord[]
+
+  @@index([rootId])
+  @@map("words")
+}
+
+// Where a word appears (words.json appearances). source says which
+// reference applies:
+//   surah    → surahId + verse      basics → basicsCategoryId
+//   scenario → scenarioId           hidden → hiddenCategoryId + banglaWord
+//   root     → rootId + pattern
+model WordAppearance {
+  id               Int             @id @default(autoincrement())
+  wordId           Int
+  word             Word            @relation(fields: [wordId], references: [id], onDelete: Cascade)
+  position         Int
+  source           String
+
+  surahId          Int?
+  surah            Surah?          @relation(fields: [surahId], references: [id])
+  verse            Int?
+  basicsCategoryId Int?
+  basicsCategory   BasicsCategory? @relation(fields: [basicsCategoryId], references: [id])
+  scenarioId       Int?
+  scenario         Scenario?       @relation(fields: [scenarioId], references: [id])
+  hiddenCategoryId Int?
+  hiddenCategory   HiddenCategory? @relation(fields: [hiddenCategoryId], references: [id])
+  banglaWord       String?
+  rootId           Int?
+  root             Root?           @relation(fields: [rootId], references: [id])
+  pattern          String?
+
+  @@unique([wordId, position])
+  @@index([source])
+  @@index([surahId])
+  @@index([basicsCategoryId])
+  @@index([scenarioId])
+  @@index([hiddenCategoryId])
+  @@index([rootId])
+  @@map("word_appearances")
+}
+
+// surahs.json
+model Surah {
+  id           Int     @id @default(autoincrement())
+  slug         String  @unique
+  position     Int
+  banglaName   String
+  arabicName   String
+  englishName  String
+  mushafNumber Int     @unique
+
+  verses       SurahVerse[]
+  appearances  WordAppearance[]
+
+  @@map("surahs")
+}
+
+// One word of a surah, word by word (surahs.json verses).
+model SurahVerse {
+  id              Int    @id @default(autoincrement())
+  surahId         Int
+  surah           Surah  @relation(fields: [surahId], references: [id], onDelete: Cascade)
+  position        Int
+  ayah            Int
+  wordId          Int
+  word            Word   @relation(fields: [wordId], references: [id])
+  arabic          String
+  transliteration String
+  english         String @db.Text
+  bangla          String @db.Text
+
+  @@unique([surahId, position])
+  @@index([wordId])
+  @@map("surah_verses")
+}
+
+// basics.json categories
+model BasicsCategory {
+  id          Int    @id @default(autoincrement())
+  slug        String @unique
+  position    Int
+  title       String
+
+  words       BasicsCategoryWord[]
+  appearances WordAppearance[]
+
+  @@map("basics_categories")
+}
+
+// A basics category's word list (basics.json wordSlugs), in order.
+model BasicsCategoryWord {
+  id         Int            @id @default(autoincrement())
+  categoryId Int
+  category   BasicsCategory @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  position   Int
+  wordId     Int
+  word       Word           @relation(fields: [wordId], references: [id])
+
+  @@unique([categoryId, position])
+  @@unique([categoryId, wordId])
+  @@index([wordId])
+  @@map("basics_category_words")
+}
+
+// basics.json dialogues
+model BasicsDialogue {
+  id       Int    @id @default(autoincrement())
+  slug     String @unique
+  position Int
+  title    String
+
+  turns    BasicsDialogueTurn[]
+
+  @@map("basics_dialogues")
+}
+
+model BasicsDialogueTurn {
+  id              Int            @id @default(autoincrement())
+  dialogueId      Int
+  dialogue        BasicsDialogue @relation(fields: [dialogueId], references: [id], onDelete: Cascade)
+  position        Int
+  speaker         String
+  arabic          String
+  transliteration String
+  english         String         @db.Text
+  bangla          String         @db.Text
+
+  @@unique([dialogueId, position])
+  @@map("basics_dialogue_turns")
+}
+
+// scenarios.json. number is indexed rather than unique so scenarios can be
+// renumbered without a seed tripping over a transient clash.
+model Scenario {
+  id           Int    @id @default(autoincrement())
+  slug         String @unique
+  position     Int
+  number       Int
+  banglaTitle  String
+  englishTitle String
+  newWordsNote String @db.Text
+
+  turns        ScenarioTurn[]
+  appearances  WordAppearance[]
+
+  @@index([number])
+  @@map("scenarios")
+}
+
+model ScenarioTurn {
+  id              Int      @id @default(autoincrement())
+  scenarioId      Int
+  scenario        Scenario @relation(fields: [scenarioId], references: [id], onDelete: Cascade)
+  position        Int
+  speaker         String
+  arabic          String
+  transliteration String
+  english         String   @db.Text
+  bangla          String   @db.Text
+
+  @@unique([scenarioId, position])
+  @@map("scenario_turns")
+}
+
+// hidden.json categories: Arabic words hidden in everyday Bangla.
+model HiddenCategory {
+  id          Int    @id @default(autoincrement())
+  slug        String @unique
+  position    Int
+  title       String
+
+  entries     HiddenEntry[]
+  appearances WordAppearance[]
+
+  @@map("hidden_categories")
+}
+
+model HiddenEntry {
+  id              Int            @id @default(autoincrement())
+  categoryId      Int
+  category        HiddenCategory @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  position        Int
+  bangla          String
+  arabic          String
+  transliteration String
+  arabicMeaning   String         @db.Text
+  note            String         @db.Text
+
+  @@unique([categoryId, position])
+  @@map("hidden_entries")
+}
+
+// hidden.json persianNotArabic: Bangla words that are Persian, not Arabic.
+model HiddenPersianWord {
+  id       Int    @id @default(autoincrement())
+  position Int    @unique
+  bangla   String
+  persian  String
+  note     String @db.Text
+
+  @@map("hidden_persian_words")
+}
+
+// hidden.json mixed: Bangla words built from Arabic and other parts.
+model HiddenMixedWord {
+  id        Int    @id @default(autoincrement())
+  position  Int    @unique
+  bangla    String
+  structure String @db.Text
+  note      String @db.Text
+
+  @@map("hidden_mixed_words")
+}
+
+// hidden.json english: English words that came from Arabic.
+model HiddenEnglishWord {
+  id       Int    @id @default(autoincrement())
+  position Int    @unique
+  english  String
+  arabic   String
+  meaning  String @db.Text
+
+  @@map("hidden_english_words")
+}
+
+// roots.json. A fully written-up root has a sortOrder (roots.json order)
+// and a family; one listed only at a glance has familyGlance instead.
+model Root {
+  id           Int     @id @default(autoincrement())
+  slug         String  @unique
+  position     Int
+  arabic       String
+  latin        String
+  meaning      String
+  sortOrder    Int?
+  familyGlance String? @db.Text
+
+  family       RootFamilyMember[]
+  words        Word[]
+  appearances  WordAppearance[]
+
+  @@map("roots")
+}
+
+model RootFamilyMember {
+  id              Int    @id @default(autoincrement())
+  rootId          Int
+  root            Root   @relation(fields: [rootId], references: [id], onDelete: Cascade)
+  position        Int
+  arabic          String
+  transliteration String
+  pattern         String
+  meaning         String @db.Text
+  note            String @db.Text
+
+  @@unique([rootId, position])
+  @@map("root_family_members")
+}
+
+// One row per content seed: which generated content (manifest.json) the
+// tables now hold, so a stale database is easy to spot.
+model ContentSync {
+  id          Int      @id @default(autoincrement())
+  generatedAt DateTime
+  counts      Json
+  syncedAt    DateTime @default(now())
+
+  @@map("content_syncs")
 }

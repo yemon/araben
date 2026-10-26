@@ -5,10 +5,13 @@ import { ScenariosClient } from './ScenariosClient';
 export const metadata = pageMetadata({
   title: 'Real-life scenarios',
   description:
-    'Ten Arabic dialogues for real situations — restaurant, taxi, directions, hotel, immigration, market, pharmacy, mosque, calls, and lost items. Each one uses vocabulary you already know.',
+    'Twelve Arabic dialogues for real situations — restaurant, taxi, directions, hotel, immigration, market, pharmacy, mosque, calls, lost items, café and grocery shop. Each one uses vocabulary you already know.',
   path: '/scenarios/',
 });
 
-export default function ScenariosPage() {
-  return <ScenariosClient scenarios={getAllScenarios()} />;
+// Re-read the content from the database at most every 5 minutes.
+export const revalidate = 300;
+
+export default async function ScenariosPage() {
+  return <ScenariosClient scenarios={await getAllScenarios()} />;
 }
