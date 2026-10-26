@@ -1,7 +1,9 @@
 'use client';
 
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { useState } from 'react';
+import { isFullscreenRoute } from '@/lib/nav';
 import { ThemeToggle } from './ThemeToggle';
 import { LangSwitcher } from './LangSwitcher';
 import { useT } from '@/lib/i18n/t';
@@ -29,7 +31,9 @@ function LogoMark({ className = '' }: { className?: string }) {
 
 export function Nav() {
   const [open, setOpen] = useState(false);
+  const [practiceOpen, setPracticeOpen] = useState(false);
   const t = useT();
+  const pathname = usePathname();
 
   const links = [
     { href: '/alphabet/', label: t(dict.nav.alphabet), hint: t(dict.navHint.alphabet) },
@@ -41,6 +45,12 @@ export function Nav() {
     { href: '/hidden/', label: t(dict.nav.hidden), hint: t(dict.navHint.hidden) },
     { href: '/search/', label: t(dict.nav.search), hint: t(dict.navHint.search) },
   ];
+
+  const practiceLinks = [
+    { href: '/practice/trace/', label: t(dict.nav.traceGame), hint: t(dict.navHint.traceGame) },
+  ];
+
+  if (isFullscreenRoute(pathname)) return null;
 
   return (
     <header
@@ -68,6 +78,44 @@ export function Nav() {
               {n.label}
             </Link>
           ))}
+          
+          {/* Practice Dropdown */}
+          <div className="relative">
+            <button
+              className="px-3 py-1.5 rounded-lg text-sm hover:bg-surface transition-colors text-fg flex items-center gap-1"
+              onClick={() => setPracticeOpen(!practiceOpen)}
+              onBlur={(e) => {
+                // Close dropdown when clicking outside
+                if (!e.currentTarget.contains(e.relatedTarget as Node)) {
+                  setTimeout(() => setPracticeOpen(false), 150);
+                }
+              }}
+            >
+              {t(dict.nav.practice)}
+              <svg
+                className={`w-4 h-4 transition-transform ${practiceOpen ? 'rotate-180' : ''}`}
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            {practiceOpen && (
+              <div className="absolute top-full left-0 mt-1 bg-surface border border-border rounded-lg shadow-lg py-1 min-w-[180px]">
+                {practiceLinks.map((link) => (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    className="block px-4 py-2 text-sm hover:bg-bg transition-colors no-underline text-fg"
+                    onClick={() => setPracticeOpen(false)}
+                  >
+                    {link.label}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
         </nav>
 
         <div className="ml-auto flex items-center gap-2">
@@ -126,6 +174,25 @@ export function Nav() {
                 </Link>
               </li>
             ))}
+            {/* Practice section in mobile */}
+            <li>
+              <div className="py-3">
+                <div className="font-medium text-fg mb-2">{t(dict.nav.practice)}</div>
+                <div className="pl-3 space-y-2">
+                  {practiceLinks.map((link) => (
+                    <Link
+                      key={link.href}
+                      href={link.href}
+                      className="flex items-center justify-between py-2 no-underline text-fg text-sm"
+                      onClick={() => setOpen(false)}
+                    >
+                      <span>{link.label}</span>
+                      <span className="text-xs text-muted">{link.hint}</span>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </li>
             <li className="pt-3 pb-2 md:hidden">
               <LangSwitcher />
             </li>

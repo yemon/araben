@@ -8737,12 +8737,20 @@
     "slug": "shukran-hotel",
     "arabic": "شُكْرًا",
     "transliteration": "Shukran",
-    "english": "Thanks",
+    "english": "Thanks; Thank you",
     "bangla": "ধন্যবাদ",
     "appearances": [
       {
         "source": "scenario",
         "scenario": "hotel"
+      },
+      {
+        "source": "scenario",
+        "scenario": "cafe"
+      },
+      {
+        "source": "scenario",
+        "scenario": "grocery-shop"
       }
     ]
   },
@@ -8769,6 +8777,10 @@
       {
         "source": "scenario",
         "scenario": "immigration"
+      },
+      {
+        "source": "scenario",
+        "scenario": "grocery-shop"
       }
     ]
   },
@@ -9419,6 +9431,231 @@
       {
         "source": "scenario",
         "scenario": "lost-phone"
+      }
+    ]
+  },
+  {
+    "slug": "ahlan-tafaddal",
+    "arabic": "أَهْلًا، تَفَضَّلْ",
+    "transliteration": "Ahlan, tafaddal",
+    "english": "Hello, welcome",
+    "bangla": "হ্যালো, স্বাগতম",
+    "appearances": [
+      {
+        "source": "scenario",
+        "scenario": "cafe"
+      }
+    ]
+  },
+  {
+    "slug": "uridu-shayan-min-fadlik",
+    "arabic": "أُرِيدُ شَايًا، مِنْ فَضْلِكَ",
+    "transliteration": "Uridu shayan, min fadlik",
+    "english": "I'd like tea, please",
+    "bangla": "আমি চা চাই, দয়া করে",
+    "appearances": [
+      {
+        "source": "scenario",
+        "scenario": "cafe"
+      }
+    ]
+  },
+  {
+    "slug": "hasanan-bis-sukkari-am-bidunihi",
+    "arabic": "حَسَنًا، بِالسُّكَّرِ أَمْ بِدُونِهِ؟",
+    "transliteration": "Hasanan, bis-sukkari am bidunihi?",
+    "english": "Okay, with sugar or without?",
+    "bangla": "আচ্ছা, চিনি দিয়ে নাকি চিনি ছাড়া?",
+    "appearances": [
+      {
+        "source": "scenario",
+        "scenario": "cafe"
+      }
+    ]
+  },
+  {
+    "slug": "bis-sukkari-min-fadlik",
+    "arabic": "بِالسُّكَّرِ، مِنْ فَضْلِكَ",
+    "transliteration": "Bis-sukkari, min fadlik",
+    "english": "With sugar, please",
+    "bangla": "চিনি দিয়ে, দয়া করে",
+    "appearances": [
+      {
+        "source": "scenario",
+        "scenario": "cafe"
+      }
+    ]
+  },
+  {
+    "slug": "hadir-sa-uhdiruhu-lak",
+    "arabic": "حَاضِرٌ، سَأُحْضِرُهُ لَكَ",
+    "transliteration": "Hadir, sa-uhdiruhu lak",
+    "english": "Certainly, I'll bring it to you",
+    "bangla": "অবশ্যই, আমি আপনার জন্য নিয়ে আসছি",
+    "appearances": [
+      {
+        "source": "scenario",
+        "scenario": "cafe"
+      }
+    ]
+  },
+  {
+    "slug": "tafaddal-ash-shayu",
+    "arabic": "تَفَضَّلْ، الشَّايُ",
+    "transliteration": "Tafaddal, ash-shayu",
+    "english": "Here you are, the tea",
+    "bangla": "এই নিন, চা",
+    "appearances": [
+      {
+        "source": "scenario",
+        "scenario": "cafe"
+      }
+    ]
+  },
+  {
+    "slug": "kam-al-hisab",
+    "arabic": "كَمِ الْحِسَابُ؟",
+    "transliteration": "Kam al-hisab?",
+    "english": "How much is the bill?; How much is the total?",
+    "bangla": "বিল কত?; মোট কত?",
+    "appearances": [
+      {
+        "source": "scenario",
+        "scenario": "cafe"
+      },
+      {
+        "source": "scenario",
+        "scenario": "grocery-shop"
+      }
+    ]
+  },
+  {
+    "slug": "asharatu-riyalat",
+    "arabic": "عَشَرَةُ رِيَالَاتٍ",
+    "transliteration": "Asharatu riyalat",
+    "english": "Ten riyals",
+    "bangla": "দশ রিয়াল",
+    "appearances": [
+      {
+        "source": "scenario",
+        "scenario": "cafe"
+      }
+    ]
+  },
+  {
+    "slug": "shukran-maa-as-salama",
+    "arabic": "شُكْرًا، مَعَ السَّلَامَةِ",
+    "transliteration": "Shukran, ma'a as-salama",
+    "english": "Thank you, goodbye",
+    "bangla": "ধন্যবাদ, বিদায়",
+    "appearances": [
+      {
+        "source": "scenario",
+        "scenario": "cafe"
+      }
+    ]
+  },
+  {
+    "slug": "maa-as-salama",
+    "arabic": "مَعَ السَّلَامَةِ",
+    "transliteration": "Ma'a as-salama",
+    "english": "Goodbye",
+    "bangla": "বিদায়",
+    "appearances": [
+      {
+        "source": "scenario",
+        "scenario": "cafe"
+      }
+    ]
+  },
+  {
+    "slug": "as-salamu-alaykum-grocery-shop",
+    "arabic": "السَّلَامُ عَلَيْكُمْ",
+    "transliteration": "As-salamu alaykum",
+    "english": "Peace be upon you",
+    "bangla": "আপনার ওপর শান্তি বর্ষিত হোক",
+    "appearances": [
+      {
+        "source": "scenario",
+        "scenario": "grocery-shop"
+      }
+    ]
+  },
+  {
+    "slug": "wa-alaykumu-as-salam-tafaddal",
+    "arabic": "وَعَلَيْكُمُ السَّلَامُ، تَفَضَّلْ",
+    "transliteration": "Wa alaykumu as-salam, tafaddal",
+    "english": "And peace be upon you. Welcome",
+    "bangla": "আপনার ওপরও শান্তি বর্ষিত হোক। আসুন",
+    "appearances": [
+      {
+        "source": "scenario",
+        "scenario": "grocery-shop"
+      }
+    ]
+  },
+  {
+    "slug": "uridu-kilu-min-at-tuffah-min-fadlik",
+    "arabic": "أُرِيدُ كِيلُو مِنَ التُّفَّاحِ، مِنْ فَضْلِكَ",
+    "transliteration": "Uridu kilu min at-tuffah, min fadlik",
+    "english": "I'd like a kilo of apples, please",
+    "bangla": "এক কেজি আপেল চাই, দয়া করে",
+    "appearances": [
+      {
+        "source": "scenario",
+        "scenario": "grocery-shop"
+      }
+    ]
+  },
+  {
+    "slug": "hadir-hal-turidu-shayan-akhar",
+    "arabic": "حَاضِرٌ. هَلْ تُرِيدُ شَيْئًا آخَرَ؟",
+    "transliteration": "Hadir. Hal turidu shayan akhar?",
+    "english": "Certainly. Would you like anything else?",
+    "bangla": "অবশ্যই। আর কিছু লাগবে?",
+    "appearances": [
+      {
+        "source": "scenario",
+        "scenario": "grocery-shop"
+      }
+    ]
+  },
+  {
+    "slug": "naam-uridu-khubzan-aydan",
+    "arabic": "نَعَمْ، أُرِيدُ خُبْزًا أَيْضًا",
+    "transliteration": "Na'am, uridu khubzan aydan",
+    "english": "Yes, I'd like bread too",
+    "bangla": "হ্যাঁ, রুটিও চাই",
+    "appearances": [
+      {
+        "source": "scenario",
+        "scenario": "grocery-shop"
+      }
+    ]
+  },
+  {
+    "slug": "ishrun-riyalan",
+    "arabic": "عِشْرُونَ رِيَالًا",
+    "transliteration": "Ishrun riyalan",
+    "english": "Twenty riyals",
+    "bangla": "বিশ রিয়াল",
+    "appearances": [
+      {
+        "source": "scenario",
+        "scenario": "grocery-shop"
+      }
+    ]
+  },
+  {
+    "slug": "afwan-grocery-shop",
+    "arabic": "عَفْوًا",
+    "transliteration": "Afwan",
+    "english": "You're welcome",
+    "bangla": "স্বাগতম",
+    "appearances": [
+      {
+        "source": "scenario",
+        "scenario": "grocery-shop"
       }
     ]
   },

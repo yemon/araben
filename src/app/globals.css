@@ -499,6 +499,40 @@ html[lang='bn'] .read-body {
   }
 }
 
+/* Trace game: the surface breathes for a moment when the word is completed.
+   Scaling gently is enough — big scales bleed past the paper's rounded
+   edge, because the canvas is clipped by an ancestor. */
+@keyframes writing-game-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.06);
+    opacity: 0.85;
+  }
+}
+
+.writing-game-pulse {
+  animation: writing-game-pulse 1.2s ease-in-out infinite;
+  transform-origin: center;
+}
+
+/* Trace game: the finished overlay fades in over the paper. */
+@keyframes trace-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.trace-fade-in {
+  animation: trace-fade-in 0.5s ease-out;
+}
+
 @media (prefers-reduced-motion: reduce) {
   * {
     animation-duration: 0.001ms !important;

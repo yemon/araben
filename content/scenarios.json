@@ -704,5 +704,170 @@
       }
     ],
     "newWordsNote": "سَاعِدْنِي (sa'idni, help me!, আমাকে সাহায্য করুন), حَدَثَ (hadatha, happened, ঘটেছে), ضَاعَ (da'a, got lost, হারিয়ে গেছে), كُنْتُ / كُنْتَ (kuntu/kunta, I was / you were, আমি ছিলাম / তুমি ছিলে), لَوْن (lawn, color, রং), أَسْوَد (aswad, black, কালো)"
+  },
+  {
+    "slug": "cafe",
+    "number": 11,
+    "banglaTitle": "ক্যাফেতে চা অর্ডার",
+    "englishTitle": "Ordering tea at a café",
+    "turns": [
+      {
+        "speaker": "ওয়েটার",
+        "arabic": "أَهْلًا، تَفَضَّلْ",
+        "transliteration": "Ahlan, tafaddal",
+        "english": "Hello, welcome",
+        "bangla": "হ্যালো, স্বাগতম"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "أُرِيدُ شَايًا، مِنْ فَضْلِكَ",
+        "transliteration": "Uridu shayan, min fadlik",
+        "english": "I'd like tea, please",
+        "bangla": "আমি চা চাই, দয়া করে"
+      },
+      {
+        "speaker": "ওয়েটার",
+        "arabic": "حَسَنًا، بِالسُّكَّرِ أَمْ بِدُونِهِ؟",
+        "transliteration": "Hasanan, bis-sukkari am bidunihi?",
+        "english": "Okay, with sugar or without?",
+        "bangla": "আচ্ছা, চিনি দিয়ে নাকি চিনি ছাড়া?"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "بِالسُّكَّرِ، مِنْ فَضْلِكَ",
+        "transliteration": "Bis-sukkari, min fadlik",
+        "english": "With sugar, please",
+        "bangla": "চিনি দিয়ে, দয়া করে"
+      },
+      {
+        "speaker": "ওয়েটার",
+        "arabic": "حَاضِرٌ، سَأُحْضِرُهُ لَكَ",
+        "transliteration": "Hadir, sa-uhdiruhu lak",
+        "english": "Certainly, I'll bring it to you",
+        "bangla": "অবশ্যই, আমি আপনার জন্য নিয়ে আসছি"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "شُكْرًا",
+        "transliteration": "Shukran",
+        "english": "Thank you",
+        "bangla": "ধন্যবাদ"
+      },
+      {
+        "speaker": "ওয়েটার",
+        "arabic": "تَفَضَّلْ، الشَّايُ",
+        "transliteration": "Tafaddal, ash-shayu",
+        "english": "Here you are, the tea",
+        "bangla": "এই নিন, চা"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "كَمِ الْحِسَابُ؟",
+        "transliteration": "Kam al-hisab?",
+        "english": "How much is the bill?",
+        "bangla": "বিল কত?"
+      },
+      {
+        "speaker": "ওয়েটার",
+        "arabic": "عَشَرَةُ رِيَالَاتٍ",
+        "transliteration": "Asharatu riyalat",
+        "english": "Ten riyals",
+        "bangla": "দশ রিয়াল"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "شُكْرًا، مَعَ السَّلَامَةِ",
+        "transliteration": "Shukran, ma'a as-salama",
+        "english": "Thank you, goodbye",
+        "bangla": "ধন্যবাদ, বিদায়"
+      },
+      {
+        "speaker": "ওয়েটার",
+        "arabic": "مَعَ السَّلَامَةِ",
+        "transliteration": "Ma'a as-salama",
+        "english": "Goodbye",
+        "bangla": "বিদায়"
+      }
+    ],
+    "newWordsNote": "شَاي (shay, tea, চা), سُكَّر (sukkar, sugar, চিনি), بِدُون (bidun, without, ছাড়া), حَاضِر (hadir, certainly, অবশ্যই), حِسَاب (hisab, bill, বিল), رِيَال (riyal, riyal, রিয়াল)"
+  },
+  {
+    "slug": "grocery-shop",
+    "number": 12,
+    "banglaTitle": "দোকান থেকে ফল ও রুটি কেনা",
+    "englishTitle": "Buying fruit and bread",
+    "turns": [
+      {
+        "speaker": "তুমি",
+        "arabic": "السَّلَامُ عَلَيْكُمْ",
+        "transliteration": "As-salamu alaykum",
+        "english": "Peace be upon you",
+        "bangla": "আপনার ওপর শান্তি বর্ষিত হোক"
+      },
+      {
+        "speaker": "দোকানদার",
+        "arabic": "وَعَلَيْكُمُ السَّلَامُ، تَفَضَّلْ",
+        "transliteration": "Wa alaykumu as-salam, tafaddal",
+        "english": "And peace be upon you. Welcome",
+        "bangla": "আপনার ওপরও শান্তি বর্ষিত হোক। আসুন"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "أُرِيدُ كِيلُو مِنَ التُّفَّاحِ، مِنْ فَضْلِكَ",
+        "transliteration": "Uridu kilu min at-tuffah, min fadlik",
+        "english": "I'd like a kilo of apples, please",
+        "bangla": "এক কেজি আপেল চাই, দয়া করে"
+      },
+      {
+        "speaker": "দোকানদার",
+        "arabic": "حَاضِرٌ. هَلْ تُرِيدُ شَيْئًا آخَرَ؟",
+        "transliteration": "Hadir. Hal turidu shayan akhar?",
+        "english": "Certainly. Would you like anything else?",
+        "bangla": "অবশ্যই। আর কিছু লাগবে?"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "نَعَمْ، أُرِيدُ خُبْزًا أَيْضًا",
+        "transliteration": "Na'am, uridu khubzan aydan",
+        "english": "Yes, I'd like bread too",
+        "bangla": "হ্যাঁ, রুটিও চাই"
+      },
+      {
+        "speaker": "দোকানদার",
+        "arabic": "تَفَضَّلْ",
+        "transliteration": "Tafaddal",
+        "english": "Here you are",
+        "bangla": "এই নিন"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "كَمِ الْحِسَابُ؟",
+        "transliteration": "Kam al-hisab?",
+        "english": "How much is the total?",
+        "bangla": "মোট কত?"
+      },
+      {
+        "speaker": "দোকানদার",
+        "arabic": "عِشْرُونَ رِيَالًا",
+        "transliteration": "Ishrun riyalan",
+        "english": "Twenty riyals",
+        "bangla": "বিশ রিয়াল"
+      },
+      {
+        "speaker": "তুমি",
+        "arabic": "شُكْرًا",
+        "transliteration": "Shukran",
+        "english": "Thank you",
+        "bangla": "ধন্যবাদ"
+      },
+      {
+        "speaker": "দোকানদার",
+        "arabic": "عَفْوًا",
+        "transliteration": "Afwan",
+        "english": "You're welcome",
+        "bangla": "স্বাগতম"
+      }
+    ],
+    "newWordsNote": "تُفَّاح (tuffah, apples, আপেল), كِيلُو (kilu, kilogram, কেজি), خُبْز (khubz, bread, রুটি), شَيْء (shay, thing, জিনিস), آخَر (akhar, other, অন্য), حِسَاب (hisab, bill/total, বিল/মোট), عَفْوًا (afwan, you're welcome, স্বাগতম)"
   }
 ]

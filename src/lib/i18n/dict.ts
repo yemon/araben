@@ -29,6 +29,8 @@ export const dict = {
     roots: { bn: 'মূল', en: 'Roots' },
     hidden: { bn: 'বাংলায় লুকানো আরবি', en: 'Hidden in Bangla' },
     search: { bn: 'খোঁজো', en: 'Search' },
+    practice: { bn: 'অনুশীলন', en: 'Practice' },
+    traceGame: { bn: 'ট্রেস গেইম', en: 'Trace Game' },
     about: { bn: 'পরিচিতি', en: 'About' },
     home: { bn: 'হোম', en: 'Home' },
     menu: { bn: 'মেনু', en: 'Menu' },
@@ -38,11 +40,13 @@ export const dict = {
     alphabet: { bn: '২৮ অক্ষর ও হারাকাত', en: '28 letters & harakāt' },
     grammar: { bn: 'বাক্য গঠনের ম্যাপ', en: 'A map of sentence-building' },
     basics: { bn: 'শব্দ ও প্যাটার্ন', en: 'Words & patterns' },
-    scenarios: { bn: '১০টি বাস্তব কথোপকথন', en: '10 real-life dialogues' },
+    scenarios: { bn: '১২টি বাস্তব কথোপকথন', en: '12 real-life dialogues' },
     surahs: { bn: 'শব্দে শব্দে অর্থ', en: 'Word by word' },
     roots: { bn: 'শব্দ-পরিবার', en: 'Word families' },
     hidden: { bn: 'তুমি এমনিতেই যেসব চেন', en: 'Arabic you already know' },
     search: { bn: 'যেকোনো শব্দ', en: 'Find any word' },
+    practice: { bn: 'হাতে-কলমে শেখো', en: 'Interactive learning' },
+    traceGame: { bn: 'আরবি শব্দ লেখো', en: 'Trace Arabic words' },
   },
 
   hero: {
@@ -102,8 +106,8 @@ export const dict = {
     },
     scenariosTitle: { bn: 'বাস্তব দৃশ্য', en: 'Scenarios' },
     scenariosDesc: {
-      bn: '১০টি বাস্তব কথোপকথন — রেস্টুরেন্ট, ট্যাক্সি, হোটেল, বাজার, মসজিদ…',
-      en: '10 real-life dialogues — restaurant, taxi, hotel, market, mosque…',
+      bn: '১২টি বাস্তব কথোপকথন — রেস্টুরেন্ট, ট্যাক্সি, হোটেল, বাজার, মসজিদ…',
+      en: '12 real-life dialogues — restaurant, taxi, hotel, market, mosque…',
     },
     scenariosCount: {
       bn: (n: number) => `${n}টি কথোপকথন`,

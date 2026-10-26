@@ -1,12 +1,17 @@
 'use client';
 
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { useT } from '@/lib/i18n/t';
+import { isFullscreenRoute } from '@/lib/nav';
 import { dict } from '@/lib/i18n/dict';
 
 export function Footer() {
   const t = useT();
   const y = new Date().getFullYear();
+  const pathname = usePathname();
+
+  if (isFullscreenRoute(pathname)) return null;
 
   return (
     <footer className="mt-24 border-t border-border/60">

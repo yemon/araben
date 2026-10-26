@@ -1,0 +1,65 @@
+// Araben - Arabic trace game database schema
+// Only includes trace game related tables (Arabic only)
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+// Game type table - for trace game only (simplified from kids-hub)
+model GameType {
+  id          Int      @id @default(autoincrement())
+  code        String   @unique // 'word-trace'
+  name        String
+  description String?  @db.Text
+
+  games       Game[]
+
+  @@map("game_types")
+}
+
+// Main game table - stores Arabic trace words
+model Game {
+  id          Int      @id @default(autoincrement())
+  slug        String   @unique
+  title       String   // Arabic word title
+  description String?  @db.Text
+
+  gameTypeId  Int
+  gameType    GameType @relation(fields: [gameTypeId], references: [id])
+
+  status      String   @default("draft") // 'draft' | 'published'
+  difficulty  String?  // 'easy' | 'medium' | 'hard'
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  slides      GameSlide[]
+
+  @@index([gameTypeId])
+  @@index([status])
+  @@index([slug])
+  @@map("games")
+}
+
+// Game slide - stores the actual Arabic word data
+// For trace game: { word: "سلام", language: "ar" }
+model GameSlide {
+  id          Int      @id @default(autoincrement())
+  gameId      Int
+  slideNumber Int
+  data        Json     // Contains: { word: string, language: "ar" }
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  game        Game     @relation(fields: [gameId], references: [id], onDelete: Cascade)
+
+  @@unique([gameId, slideNumber])
+  @@index([gameId])
+  @@map("game_slides")
+}
