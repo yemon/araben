@@ -155,6 +155,24 @@ still come from the guide.
 - The public pages show a change straight away.
 - Every change is recorded in `content_edits` and listed on the dashboard.
 
+### Scenario videos
+
+A scenario can have any number of videos illustrating its dialogue. They
+are shown above the dialogue on its page; with more than one, buttons switch
+between them.
+
+- Upload them at the bottom of a scenario's edit page (`/admin/scenarios/edit/<id>`).
+  MP4, WebM or Ogg, up to 500 MB each. Give each a title — it labels its
+  switch button — and put them in order there.
+- Files are stored in `uploads/scenario-videos/` in the project folder, under
+  generated names; `scenario_videos` holds their order, title and original
+  file name. They are served at `/media/scenario-videos/<file>`.
+- **The videos are not in git** (only the empty folder is). Back up
+  `uploads/` along with the database, and give the server a persistent disk
+  — on a host whose disk is wiped on each deploy, the videos would be lost.
+- Deleting a video, or its scenario, deletes the file too. The content seed
+  leaves videos alone.
+
 ### The admin and the guide
 
 Once content is edited in the admin, the database is ahead of
@@ -200,6 +218,7 @@ The trace game uses 3 tables:
 | --- | --- |
 | `admin_users` | who may sign in (email, bcrypt password hash) |
 | `content_edits` | every change made in the admin panel |
+| `scenario_videos` | each scenario's videos (files in `uploads/scenario-videos/`) |
 
 ## Useful Commands
 

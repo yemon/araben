@@ -52,7 +52,19 @@ export function ScenarioForm({ id, initial }: { id?: number; initial?: ScenarioF
     <form onSubmit={submit}>
       <PageHeader
         title={id ? 'Edit scenario' : 'New scenario'}
-        description="A dialogue for a real situation. Saving also updates the words it uses."
+        description={
+          <>
+            A dialogue for a real situation. Saving also updates the words it uses.
+            {id && (
+              <>
+                {' '}
+                <a href="#videos-heading" className="font-semibold text-accent">
+                  Videos ↓
+                </a>
+              </>
+            )}
+          </>
+        }
         back={{ href: LIST, label: 'Back to scenarios' }}
         actions={
           <>
@@ -138,6 +150,12 @@ export function ScenarioForm({ id, initial }: { id?: number; initial?: ScenarioF
           itemLabel="turn"
         />
       </section>
+
+      {!id && (
+        <p className="mt-6 rounded-2xl border-2 border-dashed border-border p-5 text-center text-sm text-muted">
+          Save the scenario first — then open it again to add videos.
+        </p>
+      )}
     </form>
   );
 }

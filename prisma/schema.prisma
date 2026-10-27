@@ -238,9 +238,29 @@ model Scenario {
 
   turns        ScenarioTurn[]
   appearances  WordAppearance[]
+  videos       ScenarioVideo[]
 
   @@index([number])
   @@map("scenarios")
+}
+
+// A video illustrating a scenario's dialogue, uploaded in the admin. The
+// file lives in uploads/scenario-videos/ (see src/lib/media.ts) under
+// fileName; the guide and the content seed know nothing about videos.
+model ScenarioVideo {
+  id           Int      @id @default(autoincrement())
+  scenarioId   Int
+  scenario     Scenario @relation(fields: [scenarioId], references: [id], onDelete: Cascade)
+  position     Int
+  title        String   @default("")
+  fileName     String   @unique
+  originalName String
+  mimeType     String
+  sizeBytes    BigInt
+  createdAt    DateTime @default(now())
+
+  @@index([scenarioId])
+  @@map("scenario_videos")
 }
 
 model ScenarioTurn {

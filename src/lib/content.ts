@@ -4,6 +4,7 @@
 import 'server-only';
 import fs from 'node:fs';
 import path from 'node:path';
+import { videoUrl } from '@/lib/media';
 import { prisma } from '@/lib/prisma';
 import type {
   Appearance,
@@ -104,7 +105,13 @@ async function loadSnapshot(): Promise<ContentSnapshot> {
       include: { words: { ...byPosition, include: { word: { select: { slug: true } } } } },
     }),
     prisma.basicsDialogue.findMany({ ...byPosition, include: { turns: byPosition } }),
-    prisma.scenario.findMany({ ...byPosition, include: { turns: byPosition } }),
+    prisma.scenario.findMany({
+      ...byPosition,
+      include: {
+        turns: byPosition,
+        videos: { ...byPosition, select: { fileName: true, title: true, mimeType: true } },
+      },
+    }),
     prisma.hiddenCategory.findMany({ ...byPosition, include: { entries: byPosition } }),
     prisma.hiddenPersianWord.findMany(byPosition),
     prisma.hiddenMixedWord.findMany(byPosition),
@@ -162,6 +169,9 @@ async function loadSnapshot(): Promise<ContentSnapshot> {
       englishTitle: s.englishTitle,
       turns: s.turns.map(turn),
       newWordsNote: s.newWordsNote,
+      ...(s.videos.length
+        ? { videos: s.videos.map((v) => ({ url: videoUrl(v.fileName), title: v.title, mimeType: v.mimeType })) }
+        : {}),
     })),
     basics: {
       categories: basicsRows.map((b) => ({

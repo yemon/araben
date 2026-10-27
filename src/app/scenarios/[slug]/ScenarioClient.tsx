@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { PageIntro } from '@/components/PageIntro';
 import { ChatDialogue } from '@/components/ChatDialogue';
+import { ScenarioVideos } from '@/components/ScenarioVideos';
 import type { Scenario } from '@/types/content';
 import { useT } from '@/lib/i18n/t';
 import { dict } from '@/lib/i18n/dict';
@@ -29,6 +30,8 @@ export function ScenarioClient({
         title={scenario.englishTitle}
         banglaSubtitle={scenario.banglaTitle}
       />
+
+      {scenario.videos?.length ? <ScenarioVideos videos={scenario.videos} /> : null}
 
       <ChatDialogue turns={scenario.turns} />
 

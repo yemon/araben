@@ -246,6 +246,8 @@ export const dict = {
     familyHeading: { bn: 'পরিবার', en: 'Family' },
     atGlance: { bn: 'সংক্ষেপে', en: 'At a glance' },
     newWords: { bn: 'নতুন শব্দ', en: 'New words' },
+    watchDialogue: { bn: 'কথোপকথনটি দেখো', en: 'Watch the conversation' },
+    videoPart: { bn: 'ভিডিও', en: 'Video' },
     whereAppears: { bn: 'কোথায় পাবে', en: "Where you'll meet it" },
     relatedWords: { bn: 'সংশ্লিষ্ট শব্দ', en: 'Related words' },
     rootLabel: { bn: 'মূল', en: 'Root' },

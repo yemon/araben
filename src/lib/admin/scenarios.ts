@@ -3,6 +3,7 @@
  * Saving re-links the dialogue's words (see words.ts) and logs the change.
  */
 import 'server-only';
+import { deleteVideoFiles } from '@/lib/media';
 import { prisma } from '@/lib/prisma';
 import { logEdit } from './audit';
 import type { AdminSession } from './session';
@@ -63,7 +64,7 @@ export function listScenarios() {
       number: true,
       englishTitle: true,
       banglaTitle: true,
-      _count: { select: { turns: true } },
+      _count: { select: { turns: true, videos: true } },
     },
   });
 }
@@ -137,7 +138,10 @@ export async function saveScenario(admin: AdminSession, id: number | null, data:
 }
 
 export async function deleteScenario(admin: AdminSession, id: number): Promise<boolean> {
-  const s = await prisma.scenario.findUnique({ where: { id }, select: { slug: true, number: true, englishTitle: true } });
+  const s = await prisma.scenario.findUnique({
+    where: { id },
+    select: { slug: true, number: true, englishTitle: true, videos: { select: { fileName: true } } },
+  });
   if (!s) return false;
   await prisma.$transaction(async (tx) => {
     // Appearances point at the scenario, so they go before it does.
@@ -146,5 +150,7 @@ export async function deleteScenario(admin: AdminSession, id: number): Promise<b
     await removeOrphanWords(tx, touched);
     await logEdit(tx, admin, 'scenarios', 'delete', s.slug, `Deleted scenario ${s.number}: ${s.englishTitle}`);
   }, TX);
+  // The video rows went with the scenario; their files go once that's committed.
+  await deleteVideoFiles(s.videos.map((v) => v.fileName));
   return true;
 }

@@ -9,7 +9,7 @@ import type { Prisma } from '@prisma/client';
 import { invalidateContentCache } from '@/lib/content';
 import type { AdminSession } from './session';
 
-export type EditSection = 'scenarios' | 'surahs' | 'hidden' | 'trace';
+export type EditSection = 'scenarios' | 'surahs' | 'hidden' | 'trace' | 'videos';
 export type EditAction = 'create' | 'update' | 'delete';
 
 export async function logEdit(

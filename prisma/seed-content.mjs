@@ -606,11 +606,11 @@ async function main() {
   }
 
   // Edits made in the admin since the last seed live only in the database;
-  // reloading the JSON would silently undo them. (Trace edits are safe: the
-  // seed never touches the trace tables.)
+  // reloading the JSON would silently undo them. (Trace and video edits are
+  // safe: the seed never touches those tables.)
   const lastSync = await prisma.contentSync.findFirst({ orderBy: { syncedAt: "desc" } });
   const edits = await prisma.contentEdit.findMany({
-    where: { section: { not: "trace" }, ...(lastSync ? { createdAt: { gt: lastSync.syncedAt } } : {}) },
+    where: { section: { notIn: ["trace", "videos"] }, ...(lastSync ? { createdAt: { gt: lastSync.syncedAt } } : {}) },
     orderBy: { createdAt: "desc" },
     take: 5,
   });

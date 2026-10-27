@@ -10,6 +10,7 @@ const SECTION_ICON: Record<string, IconName> = {
   surahs: 'book',
   hidden: 'languages',
   trace: 'penLine',
+  videos: 'video',
 };
 
 const ACTION_TONE: Record<string, string> = {
@@ -70,7 +71,7 @@ async function loadStats() {
     prisma.game.count({ where: { ...traceWhere, status: { not: 'published' } } }),
     prisma.contentEdit.findMany({ orderBy: { createdAt: 'desc' }, take: 8 }),
     prisma.contentEdit.count({
-      where: { section: { not: 'trace' }, ...(lastSync ? { createdAt: { gt: lastSync.syncedAt } } : {}) },
+      where: { section: { notIn: ['trace', 'videos'] }, ...(lastSync ? { createdAt: { gt: lastSync.syncedAt } } : {}) },
     }),
   ]);
   return { scenarios, turns, surahs, verses, hiddenCategories, hiddenEntries, sideRows, words, published, drafts, recent, lastSync, editsSinceSync };

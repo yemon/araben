@@ -41,6 +41,12 @@ export interface DialogueTurn {
   bangla: string;
 }
 
+export interface ScenarioVideo {
+  url: string;
+  title: string;
+  mimeType: string;
+}
+
 export interface Scenario {
   slug: string;
   number: number;
@@ -48,6 +54,8 @@ export interface Scenario {
   englishTitle: string;
   turns: DialogueTurn[];
   newWordsNote: string;
+  // Uploaded in the admin; the guide has none. Absent when there are none.
+  videos?: ScenarioVideo[];
 }
 
 export interface BasicCategory {

@@ -11,3 +11,9 @@ public/audio/
 
 # TypeScript incremental build cache
 *.tsbuildinfo
+
+# Uploaded media (scenario videos…). Kept out of git: back the folder up
+# separately. The empty folders themselves are tracked.
+/uploads/**
+!/uploads/**/
+!/uploads/**/.gitkeep

@@ -35,6 +35,11 @@ export default async function AdminScenariosPage() {
                 <p className="bn truncate text-sm text-muted">{s.banglaTitle}</p>
               </div>
               <span className="chip">{s._count.turns} turns</span>
+              {s._count.videos > 0 && (
+                <span className="chip chip-accent">
+                  <Icon name="video" size={12} strokeWidth={2} /> {s._count.videos}
+                </span>
+              )}
               <Link href={`/scenarios/${s.slug}/`} target="_blank" className="chip no-underline hover:text-accent">
                 /{s.slug} <Icon name="external" size={12} strokeWidth={2} />
               </Link>
