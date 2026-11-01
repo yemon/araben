@@ -4,14 +4,16 @@ import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import type { TraceGame } from '@/lib/trace/wordTraceDataManager';
+import { StatusToggle } from '@/components/admin/StatusToggle';
 import { arabicTraceFont } from '@/lib/fonts';
 import { Icon } from './icons';
 
 /**
  * Admin list of Arabic trace games, carried over from kids-hub's
  * AdminTraceList without its language tabs (araben traces Arabic only).
- * The rows arrive from the server component that renders this; deletes and
- * the draft/published badge are the only reasons it is a client component.
+ * The rows arrive from the server component that renders this; deletes are
+ * the reason it is a client component, and each row's draft/published
+ * switch is the shared StatusToggle.
  */
 export default function AdminTraceList({ games }: { games: TraceGame[] }) {
   const router = useRouter();
@@ -81,33 +83,32 @@ export default function AdminTraceList({ games }: { games: TraceGame[] }) {
       ) : (
         <ul className="mt-6 space-y-3">
           {games.map((game) => (
-            <li key={game.id} className="card flex flex-wrap items-center gap-3 p-4">
+            // Like the other admin lists: on phones the status sits under
+            // the title and the actions stack; wider screens use one row.
+            <li
+              key={game.id}
+              className="card grid grid-cols-[auto_minmax(0,1fr)_auto] gap-x-3 gap-y-2.5 p-4 sm:grid-cols-[auto_minmax(0,1fr)_auto_auto] sm:items-center sm:gap-x-4"
+            >
               <span
                 dir="rtl"
                 lang="ar"
-                className={`rounded-xl bg-surface-2 px-4 py-1 text-3xl font-semibold text-fg ${arabicTraceFont.className}`}
+                className={`row-span-2 self-start rounded-xl bg-surface-2 px-3 py-1 text-2xl font-semibold text-fg sm:row-span-1 sm:self-auto sm:px-4 sm:text-3xl ${arabicTraceFont.className}`}
               >
                 {game.word || '—'}
               </span>
 
-              <div className="min-w-0 flex-1">
+              <div className="min-w-0">
                 <p className="truncate font-semibold text-fg">{game.title}</p>
                 <p className="truncate text-sm text-muted">
                   {game.description || 'No description'}
                 </p>
               </div>
 
-              <span
-                className={`rounded-full px-3 py-1 text-xs font-bold ${
-                  game.status === 'published'
-                    ? 'bg-emerald-100 text-emerald-700'
-                    : 'bg-amber-100 text-amber-700'
-                }`}
-              >
-                {game.status}
-              </span>
+              <div className="col-start-2 row-start-2 sm:col-start-3 sm:row-start-1">
+                <StatusToggle url={`/api/admin/trace/${game.id}`} method="PUT" name={game.title} status={game.status} />
+              </div>
 
-              <div className="flex gap-2">
+              <div className="col-start-3 row-span-2 row-start-1 flex flex-col gap-2 sm:col-start-4 sm:row-span-1 sm:flex-row">
                 <Link
                   href={`/admin/trace/edit/${game.id}`}
                   className="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-border text-muted transition-colors hover:border-accent hover:text-accent"

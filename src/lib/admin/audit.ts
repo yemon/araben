@@ -25,6 +25,9 @@ export async function logEdit(
   });
 }
 
+/** How a status change reads in the log: "Published scenario 3: …". */
+export const statusVerb = (status: string) => (status === 'published' ? 'Published' : 'Unpublished');
+
 /**
  * After a content change commits: drop the loader's cached snapshot and mark
  * every page stale, so the public site shows the change on its next request.

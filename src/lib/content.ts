@@ -59,6 +59,11 @@ function snapshot(): Promise<ContentSnapshot> {
 
 const byPosition = { orderBy: { position: 'asc' as const } };
 
+// Drafts stay in the admin: scenarios, surahs and hidden-word categories
+// reach the site only once published, and so do a word's links to them.
+const published = { status: 'published' };
+const isDraft = (row: { status: string } | null) => row !== null && row.status !== 'published';
+
 const turn = (t: DialogueTurn): DialogueTurn => ({
   speaker: t.speaker,
   arabic: t.arabic,
@@ -87,10 +92,10 @@ async function loadSnapshot(): Promise<ContentSnapshot> {
         appearances: {
           ...byPosition,
           include: {
-            surah: { select: { slug: true, banglaName: true } },
+            surah: { select: { slug: true, banglaName: true, status: true } },
             basicsCategory: { select: { slug: true } },
-            scenario: { select: { slug: true } },
-            hiddenCategory: { select: { slug: true } },
+            scenario: { select: { slug: true, status: true } },
+            hiddenCategory: { select: { slug: true, status: true } },
             root: { select: { slug: true } },
           },
         },
@@ -98,6 +103,7 @@ async function loadSnapshot(): Promise<ContentSnapshot> {
     }),
     prisma.surah.findMany({
       ...byPosition,
+      where: published,
       include: { verses: { ...byPosition, include: { word: { select: { slug: true } } } } },
     }),
     prisma.basicsCategory.findMany({
@@ -107,12 +113,13 @@ async function loadSnapshot(): Promise<ContentSnapshot> {
     prisma.basicsDialogue.findMany({ ...byPosition, include: { turns: byPosition } }),
     prisma.scenario.findMany({
       ...byPosition,
+      where: published,
       include: {
         turns: byPosition,
         videos: { ...byPosition, select: { fileName: true, title: true, mimeType: true } },
       },
     }),
-    prisma.hiddenCategory.findMany({ ...byPosition, include: { entries: byPosition } }),
+    prisma.hiddenCategory.findMany({ ...byPosition, where: published, include: { entries: byPosition } }),
     prisma.hiddenPersianWord.findMany(byPosition),
     prisma.hiddenMixedWord.findMany(byPosition),
     prisma.hiddenEnglishWord.findMany(byPosition),
@@ -125,22 +132,24 @@ async function loadSnapshot(): Promise<ContentSnapshot> {
     transliteration: w.transliteration,
     english: w.english,
     bangla: w.bangla,
-    appearances: w.appearances.map((a): Appearance => {
-      switch (a.source) {
-        case 'surah':
-          return { source: 'surah', surah: a.surah!.slug, surahName: a.surah!.banglaName, verse: a.verse };
-        case 'basics':
-          return { source: 'basics', category: a.basicsCategory!.slug };
-        case 'scenario':
-          return { source: 'scenario', scenario: a.scenario!.slug };
-        case 'hidden':
-          return { source: 'hidden', category: a.hiddenCategory!.slug, banglaWord: a.banglaWord ?? '' };
-        case 'root':
-          return { source: 'root', root: a.root!.slug, pattern: a.pattern ?? '' };
-        default:
-          throw new Error(`Word "${w.slug}" has an appearance with unknown source "${a.source}"`);
-      }
-    }),
+    appearances: w.appearances
+      .filter((a) => !isDraft(a.surah) && !isDraft(a.scenario) && !isDraft(a.hiddenCategory))
+      .map((a): Appearance => {
+        switch (a.source) {
+          case 'surah':
+            return { source: 'surah', surah: a.surah!.slug, surahName: a.surah!.banglaName, verse: a.verse };
+          case 'basics':
+            return { source: 'basics', category: a.basicsCategory!.slug };
+          case 'scenario':
+            return { source: 'scenario', scenario: a.scenario!.slug };
+          case 'hidden':
+            return { source: 'hidden', category: a.hiddenCategory!.slug, banglaWord: a.banglaWord ?? '' };
+          case 'root':
+            return { source: 'root', root: a.root!.slug, pattern: a.pattern ?? '' };
+          default:
+            throw new Error(`Word "${w.slug}" has an appearance with unknown source "${a.source}"`);
+        }
+      }),
     ...(w.root ? { root: w.root.slug } : {}),
   }));
 

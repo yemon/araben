@@ -5,6 +5,7 @@ import {
   listSurahs,
   readSurahInput,
   saveSurah,
+  setSurahStatus,
   type SurahInput,
 } from '@/lib/admin/surahs';
 
@@ -15,4 +16,5 @@ export const surahCrud: SectionCrud<SurahInput> = {
   read: readSurahInput,
   save: saveSurah,
   remove: deleteSurah,
+  setStatus: setSurahStatus,
 };

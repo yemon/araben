@@ -5,7 +5,8 @@
  */
 import 'server-only';
 import { prisma } from '@/lib/prisma';
-import { logEdit } from './audit';
+import type { PublishStatus } from '@/lib/publishStatus';
+import { logEdit, statusVerb } from './audit';
 import type { AdminSession } from './session';
 import { Check } from './validate';
 import { relinkWords, removeOrphanWords } from './words';
@@ -68,9 +69,21 @@ export function listSurahs() {
       arabicName: true,
       englishName: true,
       mushafNumber: true,
+      status: true,
       _count: { select: { verses: true } },
     },
   });
+}
+
+/** Publish a surah or take it back to draft. False if there is none. */
+export async function setSurahStatus(admin: AdminSession, id: number, status: PublishStatus): Promise<boolean> {
+  const s = await prisma.surah.findUnique({ where: { id }, select: { slug: true, mushafNumber: true, englishName: true } });
+  if (!s) return false;
+  await prisma.$transaction(async (tx) => {
+    await tx.surah.update({ where: { id }, data: { status } });
+    await logEdit(tx, admin, 'surahs', 'update', s.slug, `${statusVerb(status)} surah ${s.mushafNumber}: ${s.englishName}`);
+  });
+  return true;
 }
 
 export async function getSurahInput(id: number): Promise<(SurahInput & { id: number }) | null> {

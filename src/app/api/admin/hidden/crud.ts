@@ -5,6 +5,7 @@ import {
   listHiddenCategories,
   readHiddenCategoryInput,
   saveHiddenCategory,
+  setHiddenCategoryStatus,
   type HiddenCategoryInput,
 } from '@/lib/admin/hidden';
 
@@ -15,4 +16,5 @@ export const hiddenCategoryCrud: SectionCrud<HiddenCategoryInput> = {
   read: readHiddenCategoryInput,
   save: saveHiddenCategory,
   remove: deleteHiddenCategory,
+  setStatus: setHiddenCategoryStatus,
 };

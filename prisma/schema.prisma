@@ -144,6 +144,9 @@ model Surah {
   arabicName   String
   englishName  String
   mushafNumber Int     @unique
+  // 'draft' | 'published'. Only published ones reach the site; the default
+  // keeps seeded content live (the content seed never writes this column).
+  status       String  @default("published")
 
   verses       SurahVerse[]
   appearances  WordAppearance[]
@@ -235,6 +238,7 @@ model Scenario {
   banglaTitle  String
   englishTitle String
   newWordsNote String @db.Text
+  status       String @default("published") // 'draft' | 'published', as on Surah
 
   turns        ScenarioTurn[]
   appearances  WordAppearance[]
@@ -288,6 +292,7 @@ model HiddenCategory {
   slug        String @unique
   position    Int
   title       String
+  status      String @default("published") // 'draft' | 'published', as on Surah
 
   entries     HiddenEntry[]
   appearances WordAppearance[]

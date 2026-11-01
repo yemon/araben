@@ -3,12 +3,14 @@
  *
  *   /api/admin/<section>        GET list · POST create
  *   /api/admin/<section>/<id>   GET one  · PUT update · DELETE
+ *                               PATCH { status } — publish or move to draft
  *
  * Every handler checks the admin session itself (the proxy is only a first
  * filter), and a successful write refreshes the public pages.
  */
 import 'server-only';
 import { NextResponse } from 'next/server';
+import { isPublishStatus, type PublishStatus } from '@/lib/publishStatus';
 import { publishContentChange } from './audit';
 import { requireAdminApi, type AdminSession } from './session';
 import { badRequest, isId, notFound, readJson } from './validate';
@@ -21,6 +23,7 @@ export interface SectionCrud<Input> {
   read: (body: Record<string, unknown>) => { data: Input } | { error: string };
   save: (admin: AdminSession, id: number | null, data: Input) => Promise<SaveResult>;
   remove: (admin: AdminSession, id: number) => Promise<boolean>;
+  setStatus: (admin: AdminSession, id: number, status: PublishStatus) => Promise<boolean>;
 }
 
 type Ctx = { params: Promise<{ id: string }> };
@@ -86,6 +89,21 @@ export function itemHandlers<Input>(crud: SectionCrud<Input>) {
         return saved(await crud.save(admin, Number(id), input.data));
       } catch (e) {
         return failed(crud.label, 'save', e);
+      }
+    },
+    async PATCH(request: Request, { params }: Ctx) {
+      const admin = await requireAdminApi();
+      if (admin instanceof NextResponse) return admin;
+      const { id } = await params;
+      if (!isId(id)) return notFound(`${crud.label} not found`);
+      const { status } = await readJson(request);
+      if (!isPublishStatus(status)) return badRequest('Status must be draft or published');
+      try {
+        if (!(await crud.setStatus(admin, Number(id), status))) return notFound(`${crud.label} not found`);
+        publishContentChange();
+        return NextResponse.json({ success: true, data: { status } });
+      } catch (e) {
+        return failed(crud.label, 'change the status of', e);
       }
     },
     async DELETE(_request: Request, { params }: Ctx) {

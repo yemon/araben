@@ -1,6 +1,6 @@
+import { isPublishStatus } from '@/lib/publishStatus';
 import { sanitiseWord } from '@/lib/trace/traceLanguages';
 
-const STATUSES = ['draft', 'published'];
 const DIFFICULTIES = ['easy', 'medium', 'hard'];
 
 interface GameInput {
@@ -34,7 +34,7 @@ export function readGameInput(
     data.description = String(body.description ?? '');
   }
   if (body?.status !== undefined) {
-    if (!STATUSES.includes(body.status)) return { error: 'Unknown status' };
+    if (!isPublishStatus(body.status)) return { error: 'Unknown status' };
     data.status = body.status;
   }
   if (body?.difficulty !== undefined) {

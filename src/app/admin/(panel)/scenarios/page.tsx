@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { DeleteButton } from '@/components/admin/DeleteButton';
 import { Icon } from '@/components/admin/icons';
+import { StatusToggle } from '@/components/admin/StatusToggle';
 import { EditLink, EmptyState, PageHeader } from '@/components/admin/ui';
 import { listScenarios } from '@/lib/admin/scenarios';
 
@@ -36,7 +37,7 @@ export default async function AdminScenariosPage() {
                 {s.number}
               </span>
               <div className="min-w-0">
-                <p className="line-clamp-2 font-semibold leading-snug text-fg sm:truncate">{s.englishTitle}</p>
+                <p className="line-clamp-2 font-semibold leading-snug text-fg" title={s.englishTitle}>{s.englishTitle}</p>
                 <p className="bn mt-0.5 line-clamp-1 text-sm text-muted sm:truncate">{s.banglaTitle}</p>
               </div>
               <div className="col-start-2 row-start-2 flex min-w-0 flex-wrap items-center gap-1.5 sm:col-start-3 sm:row-start-1 sm:gap-2">
@@ -55,6 +56,7 @@ export default async function AdminScenariosPage() {
                   <span className="truncate">/{s.slug}</span>
                   <Icon name="external" size={12} strokeWidth={2} />
                 </Link>
+                <StatusToggle url={`/api/admin/scenarios/${s.id}`} name={s.englishTitle} status={s.status} />
               </div>
               <div className="col-start-3 row-span-2 row-start-1 flex flex-col gap-2 sm:col-start-4 sm:row-span-1 sm:flex-row">
                 <EditLink href={`/admin/scenarios/edit/${s.id}/`} label={`Edit ${s.englishTitle}`} />

@@ -5,7 +5,8 @@
  */
 import 'server-only';
 import { prisma } from '@/lib/prisma';
-import { logEdit } from './audit';
+import type { PublishStatus } from '@/lib/publishStatus';
+import { logEdit, statusVerb } from './audit';
 import type { AdminSession } from './session';
 import { Check } from './validate';
 import { relinkWords, removeOrphanWords } from './words';
@@ -53,8 +54,19 @@ export function readHiddenCategoryInput(body: Record<string, unknown>): { data: 
 export function listHiddenCategories() {
   return prisma.hiddenCategory.findMany({
     orderBy: { position: 'asc' },
-    select: { id: true, slug: true, title: true, _count: { select: { entries: true } } },
+    select: { id: true, slug: true, title: true, status: true, _count: { select: { entries: true } } },
   });
+}
+
+/** Publish a category or take it back to draft. False if there is none. */
+export async function setHiddenCategoryStatus(admin: AdminSession, id: number, status: PublishStatus): Promise<boolean> {
+  const h = await prisma.hiddenCategory.findUnique({ where: { id }, select: { slug: true, title: true } });
+  if (!h) return false;
+  await prisma.$transaction(async (tx) => {
+    await tx.hiddenCategory.update({ where: { id }, data: { status } });
+    await logEdit(tx, admin, 'hidden', 'update', h.slug, `${statusVerb(status)} hidden-word category: ${h.title}`);
+  });
+  return true;
 }
 
 export async function getHiddenCategoryInput(id: number): Promise<(HiddenCategoryInput & { id: number }) | null> {

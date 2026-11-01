@@ -5,6 +5,7 @@ import {
   listScenarios,
   readScenarioInput,
   saveScenario,
+  setScenarioStatus,
   type ScenarioInput,
 } from '@/lib/admin/scenarios';
 
@@ -15,4 +16,5 @@ export const scenarioCrud: SectionCrud<ScenarioInput> = {
   read: readScenarioInput,
   save: saveScenario,
   remove: deleteScenario,
+  setStatus: setScenarioStatus,
 };

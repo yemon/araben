@@ -5,8 +5,9 @@
 import 'server-only';
 import { deleteVideoFiles } from '@/lib/media';
 import { prisma } from '@/lib/prisma';
+import type { PublishStatus } from '@/lib/publishStatus';
 import { formatTimecode, parseTimecode } from '@/lib/timecode';
-import { logEdit } from './audit';
+import { logEdit, statusVerb } from './audit';
 import type { AdminSession } from './session';
 import { Check } from './validate';
 import { relinkWords, removeOrphanWords } from './words';
@@ -87,9 +88,21 @@ export function listScenarios() {
       number: true,
       englishTitle: true,
       banglaTitle: true,
+      status: true,
       _count: { select: { turns: true, videos: true } },
     },
   });
+}
+
+/** Publish a scenario or take it back to draft. False if there is none. */
+export async function setScenarioStatus(admin: AdminSession, id: number, status: PublishStatus): Promise<boolean> {
+  const s = await prisma.scenario.findUnique({ where: { id }, select: { slug: true, number: true, englishTitle: true } });
+  if (!s) return false;
+  await prisma.$transaction(async (tx) => {
+    await tx.scenario.update({ where: { id }, data: { status } });
+    await logEdit(tx, admin, 'scenarios', 'update', s.slug, `${statusVerb(status)} scenario ${s.number}: ${s.englishTitle}`);
+  });
+  return true;
 }
 
 export async function getScenarioInput(id: number): Promise<(ScenarioInput & { id: number }) | null> {

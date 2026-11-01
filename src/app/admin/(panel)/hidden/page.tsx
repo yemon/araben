@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { DeleteButton } from '@/components/admin/DeleteButton';
 import { Icon } from '@/components/admin/icons';
+import { StatusToggle } from '@/components/admin/StatusToggle';
 import { EditLink, EmptyState, PageHeader } from '@/components/admin/ui';
 import { HIDDEN_LISTS, getHiddenList, listHiddenCategories, type HiddenListKey } from '@/lib/admin/hidden';
 
@@ -29,13 +30,21 @@ export default async function AdminHiddenPage() {
       ) : (
         <ul className="mt-3 space-y-3">
           {categories.map((c) => (
-            <li key={c.id} className="card flex flex-wrap items-center gap-4 p-4">
-              <div className="min-w-0 flex-1">
+            // Phones: title, then words and status underneath, actions
+            // stacked on the right. Wider screens: everything on one row.
+            <li
+              key={c.id}
+              className="card grid grid-cols-[minmax(0,1fr)_auto] gap-x-3 gap-y-2.5 p-4 sm:grid-cols-[minmax(0,1fr)_auto_auto] sm:items-center sm:gap-x-4"
+            >
+              <div className="min-w-0">
                 <p className="bn truncate font-semibold text-fg">{c.title}</p>
                 <p className="font-translit truncate text-xs text-muted">/hidden/{c.slug}</p>
               </div>
-              <span className="chip">{c._count.entries} words</span>
-              <div className="flex gap-2">
+              <div className="col-start-1 row-start-2 flex flex-wrap items-center gap-2 sm:col-start-2 sm:row-start-1">
+                <span className="chip">{c._count.entries} words</span>
+                <StatusToggle url={`/api/admin/hidden/${c.id}`} name={c.title} status={c.status} />
+              </div>
+              <div className="col-start-2 row-span-2 row-start-1 flex flex-col gap-2 sm:col-start-3 sm:row-span-1 sm:flex-row">
                 <EditLink href={`/admin/hidden/edit/${c.id}/`} label={`Edit ${c.title}`} />
                 <DeleteButton url={`/api/admin/hidden/${c.id}`} name={c.title} />
               </div>
