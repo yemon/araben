@@ -167,7 +167,7 @@ async function loadSnapshot(): Promise<ContentSnapshot> {
       number: s.number,
       banglaTitle: s.banglaTitle,
       englishTitle: s.englishTitle,
-      turns: s.turns.map(turn),
+      turns: s.turns.map((t) => ({ ...turn(t), ...(t.startMs === null ? {} : { startSec: t.startMs / 1000 }) })),
       newWordsNote: s.newWordsNote,
       ...(s.videos.length
         ? { videos: s.videos.map((v) => ({ url: videoUrl(v.fileName), title: v.title, mimeType: v.mimeType })) }

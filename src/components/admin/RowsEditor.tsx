@@ -12,11 +12,15 @@ import { arabicInputClass, inputClass } from './ui';
 export interface RowColumn<K extends string> {
   key: K;
   label: string;
-  kind?: 'text' | 'arabic' | 'long' | 'number';
+  kind?: 'text' | 'arabic' | 'long' | 'number' | 'time';
   required?: boolean;
   placeholder?: string;
   // Grid span out of 12 on wide screens.
   span?: number;
+  // 'time' only: fill the field from a player ("Now"), and play from the
+  // time in the field (▶). Either may be left out.
+  capture?: () => string | null;
+  preview?: (value: string) => void;
 }
 
 const SPAN: Record<number, string> = {
@@ -25,7 +29,9 @@ const SPAN: Record<number, string> = {
   4: 'sm:col-span-4',
   5: 'sm:col-span-5',
   6: 'sm:col-span-6',
+  7: 'sm:col-span-7',
   8: 'sm:col-span-8',
+  9: 'sm:col-span-9',
   12: 'sm:col-span-12',
 };
 
@@ -95,7 +101,44 @@ export function RowsEditor<K extends string>({
                       {col.label}
                       {col.required && ' *'}
                     </label>
-                    {col.kind === 'long' ? (
+                    {col.kind === 'time' ? (
+                      <div className="flex gap-1">
+                        <input
+                          id={id}
+                          type="text"
+                          inputMode="decimal"
+                          value={value}
+                          placeholder={col.placeholder ?? '0:00'}
+                          onChange={(e) => update(i, col.key, e.target.value)}
+                          className={`${inputClass} min-w-0 px-3 py-2 font-translit text-sm`}
+                        />
+                        {col.capture && (
+                          <button
+                            type="button"
+                            onClick={() => {
+                              const now = col.capture!();
+                              if (now !== null) update(i, col.key, now);
+                            }}
+                            className="shrink-0 rounded-lg border border-border px-2 text-xs font-bold text-muted transition-colors hover:border-accent hover:text-accent"
+                            title="Use the player's current time"
+                          >
+                            Now
+                          </button>
+                        )}
+                        {col.preview && (
+                          <button
+                            type="button"
+                            onClick={() => col.preview!(value)}
+                            disabled={!value.trim()}
+                            className="shrink-0 rounded-lg border border-border px-2 text-xs text-muted transition-colors hover:border-accent hover:text-accent disabled:opacity-40"
+                            title="Play the video from this time"
+                            aria-label={`Play ${itemLabel} ${i + 1} from ${value || 'its start'}`}
+                          >
+                            ▶
+                          </button>
+                        )}
+                      </div>
+                    ) : col.kind === 'long' ? (
                       <textarea
                         id={id}
                         value={value}

@@ -273,6 +273,10 @@ model ScenarioTurn {
   transliteration String
   english         String   @db.Text
   bangla          String   @db.Text
+  // Where this line starts in the scenario's first video, in milliseconds;
+  // it runs until the next timed line starts. Set in the admin; the guide
+  // has no timings, so a forced content seed clears them.
+  startMs         Int?
 
   @@unique([scenarioId, position])
   @@map("scenario_turns")

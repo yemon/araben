@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { useRef, useState } from 'react';
 import { PageIntro } from '@/components/PageIntro';
 import { ChatDialogue } from '@/components/ChatDialogue';
 import { ScenarioVideos } from '@/components/ScenarioVideos';
@@ -18,6 +19,11 @@ export function ScenarioClient({
   next: { slug: string; title: string } | null;
 }) {
   const t = useT();
+  // The line the synced video is on, highlighted in the transcript.
+  const [activeTurn, setActiveTurn] = useState<number | null>(null);
+  const playFrom = useRef<((turn: number) => void) | null>(null);
+  const timed = Boolean(scenario.videos?.length) && scenario.turns.some((turn) => turn.startSec !== undefined);
+
   return (
     <div className="mx-auto max-w-4xl px-4 py-10">
       <PageIntro
@@ -31,9 +37,15 @@ export function ScenarioClient({
         banglaSubtitle={scenario.banglaTitle}
       />
 
-      {scenario.videos?.length ? <ScenarioVideos videos={scenario.videos} /> : null}
+      {scenario.videos?.length ? (
+        <ScenarioVideos videos={scenario.videos} turns={scenario.turns} onActiveTurn={setActiveTurn} seekRef={playFrom} />
+      ) : null}
 
-      <ChatDialogue turns={scenario.turns} />
+      <ChatDialogue
+        turns={scenario.turns}
+        activeIndex={activeTurn}
+        onPlayFrom={timed ? (i) => playFrom.current?.(i) : undefined}
+      />
 
       {scenario.newWordsNote && (
         <section className="mt-8 card p-6">

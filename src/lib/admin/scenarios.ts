@@ -5,6 +5,7 @@
 import 'server-only';
 import { deleteVideoFiles } from '@/lib/media';
 import { prisma } from '@/lib/prisma';
+import { formatTimecode, parseTimecode } from '@/lib/timecode';
 import { logEdit } from './audit';
 import type { AdminSession } from './session';
 import { Check } from './validate';
@@ -16,6 +17,8 @@ export interface TurnInput {
   transliteration: string;
   english: string;
   bangla: string;
+  // Start in the scenario's first video, or null when the line isn't timed.
+  startMs: number | null;
 }
 
 export interface ScenarioInput {
@@ -48,11 +51,31 @@ export function readScenarioInput(body: Record<string, unknown>): { data: Scenar
         transliteration: c.text(t.transliteration, `Turn ${row}: transliteration`, { required: true }),
         english: c.text(t.english, `Turn ${row}: English`),
         bangla: c.text(t.bangla, `Turn ${row}: Bangla`),
+        startMs: readStart(c, t.startTime, row),
       }),
       { min: 1, max: 100 },
     ),
   };
+  // A line runs until the next timed line starts, so times must rise down
+  // the dialogue (untimed lines in between are skipped).
+  let last: { ms: number; row: number } | null = null;
+  data.turns.forEach((t, i) => {
+    if (t.startMs === null) return;
+    if (last && t.startMs <= last.ms) {
+      c.fail(`Turn ${i + 1} starts at ${formatTimecode(t.startMs)}, which isn't after turn ${last.row} (${formatTimecode(last.ms)})`);
+    }
+    last = { ms: t.startMs, row: i + 1 };
+  });
   return c.error ? { error: c.error } : { data };
+}
+
+function readStart(c: Check, value: unknown, row: number): number | null {
+  const ms = parseTimecode(typeof value === 'string' ? value : value == null ? '' : String(value));
+  if (Number.isNaN(ms)) {
+    c.fail(`Turn ${row}: write the start time like 0:12 or 0:12.5`);
+    return null;
+  }
+  return ms;
 }
 
 export function listScenarios() {
@@ -82,12 +105,13 @@ export async function getScenarioInput(id: number): Promise<(ScenarioInput & { i
     englishTitle: s.englishTitle,
     banglaTitle: s.banglaTitle,
     newWordsNote: s.newWordsNote,
-    turns: s.turns.map(({ speaker, arabic, transliteration, english, bangla }) => ({
+    turns: s.turns.map(({ speaker, arabic, transliteration, english, bangla, startMs }) => ({
       speaker,
       arabic,
       transliteration,
       english,
       bangla,
+      startMs,
     })),
   };
 }

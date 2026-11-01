@@ -248,6 +248,16 @@ export const dict = {
     newWords: { bn: 'নতুন শব্দ', en: 'New words' },
     watchDialogue: { bn: 'কথোপকথনটি দেখো', en: 'Watch the conversation' },
     videoPart: { bn: 'ভিডিও', en: 'Video' },
+    pauseEachLine: { bn: 'প্রতি লাইনের পর থামো', en: 'Pause after each line' },
+    syncHint: {
+      bn: 'প্লে চাপো — প্রতিটি লাইন বলার সময় এখানে দেখা যাবে, অনুবাদসহ।',
+      en: "Press play — each line appears here as it's spoken, with its translations.",
+    },
+    nextLine: { bn: 'পরের লাইন', en: 'Next line' },
+    lineOf: {
+      bn: (n: number, total: number) => `লাইন ${n} / ${total}`,
+      en: (n: number, total: number) => `Line ${n} of ${total}`,
+    },
     whereAppears: { bn: 'কোথায় পাবে', en: "Where you'll meet it" },
     relatedWords: { bn: 'সংশ্লিষ্ট শব্দ', en: 'Related words' },
     rootLabel: { bn: 'মূল', en: 'Root' },

@@ -136,6 +136,8 @@ export function ScenarioVideoManager({ scenarioId, initial }: { scenarioId: numb
     try {
       await call(`/api/admin/scenarios/${scenarioId}/videos/`, 'PUT', { ids: next.map((v) => v.id) });
       setVideos(next);
+      // The first video is the one the dialogue's start times follow.
+      router.refresh();
     } catch (e) {
       setError((e as Error).message);
     }
@@ -169,7 +171,8 @@ export function ScenarioVideoManager({ scenarioId, initial }: { scenarioId: numb
         <span className="text-xs font-bold text-muted tabular-nums">{videos.length} videos</span>
       </div>
       <p className="mb-4 text-sm text-muted">
-        Shown above the dialogue, in this order. Each change here is saved straight away.
+        Shown above the dialogue, in this order. Each change here is saved straight away. The first video is the one the
+        dialogue&apos;s start times follow — moving another video to the top means re-timing the lines.
       </p>
       <ErrorBanner error={error} />
 

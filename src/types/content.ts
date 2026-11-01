@@ -39,6 +39,8 @@ export interface DialogueTurn {
   transliteration: string;
   english: string;
   bangla: string;
+  // Scenarios only: where the line starts in the scenario's first video.
+  startSec?: number;
 }
 
 export interface ScenarioVideo {
