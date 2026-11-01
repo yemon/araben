@@ -60,7 +60,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   };
 
   return (
-    <html lang="bn" className={fontVariables} suppressHydrationWarning>
+    // data-scroll-behavior: Next.js turns the smooth scrolling off while it
+    // changes page, so a new page jumps straight to its place.
+    <html lang="bn" className={fontVariables} suppressHydrationWarning data-scroll-behavior="smooth">
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
         <script dangerouslySetInnerHTML={{ __html: langInitScript }} />

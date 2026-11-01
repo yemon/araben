@@ -26,24 +26,37 @@ export default async function AdminScenariosPage() {
       ) : (
         <ul className="mt-6 space-y-3">
           {scenarios.map((s) => (
-            <li key={s.id} className="card flex flex-wrap items-center gap-4 p-4">
-              <span className="stat-num inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-accent-soft text-xl text-accent">
+            // Phones: number · title with its badges underneath · actions
+            // stacked on the right. Wider screens: everything on one row.
+            <li
+              key={s.id}
+              className="card grid grid-cols-[auto_minmax(0,1fr)_auto] gap-x-3 gap-y-2.5 p-4 sm:grid-cols-[auto_minmax(0,1fr)_auto_auto] sm:items-center sm:gap-x-4"
+            >
+              <span className="stat-num row-span-2 inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-accent-soft text-lg text-accent sm:row-span-1 sm:h-12 sm:w-12 sm:text-xl">
                 {s.number}
               </span>
-              <div className="min-w-0 flex-1">
-                <p className="truncate font-semibold text-fg">{s.englishTitle}</p>
-                <p className="bn truncate text-sm text-muted">{s.banglaTitle}</p>
+              <div className="min-w-0">
+                <p className="line-clamp-2 font-semibold leading-snug text-fg sm:truncate">{s.englishTitle}</p>
+                <p className="bn mt-0.5 line-clamp-1 text-sm text-muted sm:truncate">{s.banglaTitle}</p>
               </div>
-              <span className="chip">{s._count.turns} turns</span>
-              {s._count.videos > 0 && (
-                <span className="chip chip-accent">
-                  <Icon name="video" size={12} strokeWidth={2} /> {s._count.videos}
-                </span>
-              )}
-              <Link href={`/scenarios/${s.slug}/`} target="_blank" className="chip no-underline hover:text-accent">
-                /{s.slug} <Icon name="external" size={12} strokeWidth={2} />
-              </Link>
-              <div className="flex gap-2">
+              <div className="col-start-2 row-start-2 flex min-w-0 flex-wrap items-center gap-1.5 sm:col-start-3 sm:row-start-1 sm:gap-2">
+                <span className="chip">{s._count.turns} turns</span>
+                {s._count.videos > 0 && (
+                  <span className="chip chip-accent" title={`${s._count.videos} video${s._count.videos === 1 ? '' : 's'}`}>
+                    <Icon name="video" size={12} strokeWidth={2} /> {s._count.videos}
+                  </span>
+                )}
+                <Link
+                  href={`/scenarios/${s.slug}/`}
+                  target="_blank"
+                  className="chip min-w-0 max-w-full no-underline hover:text-accent"
+                  title={`Open /scenarios/${s.slug}/ on the site`}
+                >
+                  <span className="truncate">/{s.slug}</span>
+                  <Icon name="external" size={12} strokeWidth={2} />
+                </Link>
+              </div>
+              <div className="col-start-3 row-span-2 row-start-1 flex flex-col gap-2 sm:col-start-4 sm:row-span-1 sm:flex-row">
                 <EditLink href={`/admin/scenarios/edit/${s.id}/`} label={`Edit ${s.englishTitle}`} />
                 <DeleteButton url={`/api/admin/scenarios/${s.id}`} name={s.englishTitle} />
               </div>

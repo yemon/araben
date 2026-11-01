@@ -15,6 +15,10 @@ interface Props {
   lead?: string;
   meta?: DictLeaf | string;
   banglaSubtitle?: string;
+  // A tighter heading for pages where the content below (a video) should
+  // be on screen without scrolling: eyebrow beside the title, smaller type,
+  // less space around it.
+  compact?: boolean;
 }
 
 function isDictLeaf(x: any): x is DictLeaf {
@@ -30,6 +34,7 @@ export function PageIntro({
   lead,
   meta,
   banglaSubtitle,
+  compact = false,
 }: Props) {
   const t = useT();
 
@@ -37,6 +42,31 @@ export function PageIntro({
   const resolvedLead = leadKey ? t(leadKey) : lead;
   const resolvedEyebrow = isDictLeaf(eyebrow) ? t(eyebrow) : (eyebrow as string | undefined);
   const resolvedMeta = isDictLeaf(meta) ? t(meta) : (meta as string | undefined);
+
+  if (compact) {
+    return (
+      <div className="mb-5">
+        <Breadcrumbs items={crumbs} className="mb-3" />
+        <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5">
+          {resolvedEyebrow && (
+            <span className="chip chip-accent shrink-0 uppercase tracking-wider text-[10px]">{resolvedEyebrow}</span>
+          )}
+          {resolvedTitle && (
+            <h1 className="display text-[1.75rem] md:text-[2.375rem]">
+              <span className="underline-flourish">{resolvedTitle}</span>
+            </h1>
+          )}
+        </div>
+        {banglaSubtitle && (
+          <p className="bn mt-1.5 text-base text-muted" lang="bn">
+            {banglaSubtitle}
+          </p>
+        )}
+        {resolvedMeta && <p className="mt-2 text-xs uppercase tracking-wider text-muted">{resolvedMeta}</p>}
+        {resolvedLead && <p className="read-body mt-3">{resolvedLead}</p>}
+      </div>
+    );
+  }
 
   return (
     <div className="mb-10">

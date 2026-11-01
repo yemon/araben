@@ -249,20 +249,18 @@ export const dict = {
     watchDialogue: { bn: 'কথোপকথনটি দেখো', en: 'Watch the conversation' },
     videoPart: { bn: 'ভিডিও', en: 'Video' },
     pauseEachLine: { bn: 'প্রতি লাইনের পর থামো', en: 'Pause after each line' },
+    nowPlaying: { bn: 'এখন চলছে', en: 'Now playing' },
+    allLines: { bn: 'সব লাইন', en: 'All lines' },
     syncHint: {
       bn: 'প্লে চাপো — প্রতিটি লাইন বলার সময় এখানে দেখা যাবে, অনুবাদসহ।',
       en: "Press play — each line appears here as it's spoken, with its translations.",
     },
     nextLine: { bn: 'পরের লাইন', en: 'Next line' },
-    lineOf: {
-      bn: (n: number, total: number) => `লাইন ${n} / ${total}`,
-      en: (n: number, total: number) => `Line ${n} of ${total}`,
-    },
+    prevLine: { bn: 'আগের লাইন', en: 'Previous line' },
     whereAppears: { bn: 'কোথায় পাবে', en: "Where you'll meet it" },
     relatedWords: { bn: 'সংশ্লিষ্ট শব্দ', en: 'Related words' },
     rootLabel: { bn: 'মূল', en: 'Root' },
     versePrefix: { bn: 'আয়াত', en: 'Verse' },
-    scenarioPrefix: { bn: 'দৃশ্য', en: 'Scenario' },
     mushafPrefix: { bn: 'মুসহাফ নং', en: 'Mushaf #' },
     wordsCount: {
       bn: (n: number) => `${n}টি শব্দ`,

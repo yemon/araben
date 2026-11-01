@@ -11,7 +11,7 @@ export interface Crumb {
   labelKey?: keyof typeof dict.nav | keyof typeof dict.breadcrumbs;
 }
 
-export function Breadcrumbs({ items }: { items: Crumb[] }) {
+export function Breadcrumbs({ items, className = 'mb-6' }: { items: Crumb[]; className?: string }) {
   const t = useT();
 
   function resolve(c: Crumb) {
@@ -26,7 +26,7 @@ export function Breadcrumbs({ items }: { items: Crumb[] }) {
   }
 
   return (
-    <nav aria-label="Breadcrumb" className="text-sm text-muted mb-6">
+    <nav aria-label="Breadcrumb" className={`text-sm text-muted ${className}`}>
       <ol
         className="flex flex-wrap items-center gap-1.5"
         itemScope
